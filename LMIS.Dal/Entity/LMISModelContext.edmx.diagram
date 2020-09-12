@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d6c3048a711d4afd8d5cd0c5fdb4f5e2" Name="Diagram1" ZoomLevel="125" SnapToGrid="false" DisplayType="false">
+        <EntityTypeShape EntityType="LMISEntities.C__MigrationHistory" Width="1.5" PointX="10.75" PointY="4.7500000000000009" />
+        <EntityTypeShape EntityType="LMISEntities.Action" Width="1.5000000000000002" PointX="0.7500005000000004" PointY="42.701531901041676" />
+        <EntityTypeShape EntityType="LMISEntities.AdminWorkingStatu" Width="1.5" PointX="5.25" PointY="39.451572591145833" />
+        <EntityTypeShape EntityType="LMISEntities.AspNetRole" Width="1.5" PointX="0.75" PointY="39.240237955729178" />
+        <EntityTypeShape EntityType="LMISEntities.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="92.022057617187528" />
+        <EntityTypeShape EntityType="LMISEntities.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="36.913587565104173" />
+        <EntityTypeShape EntityType="LMISEntities.AspNetUser" Width="1.5" PointX="3" PointY="40.912866536458345" />
+        <EntityTypeShape EntityType="LMISEntities.CareerMapAlternative" Width="1.5" PointX="20" PointY="14.991319824218749" />
+        <EntityTypeShape EntityType="LMISEntities.CareerMapGuidance" Width="1.5" PointX="17.75" PointY="15.087470540364581" />
+        <EntityTypeShape EntityType="LMISEntities.ChatLog" Width="1.5" PointX="10.75" PointY="17.75" />
+        <EntityTypeShape EntityType="LMISEntities.ChatSetting" Width="1.5" PointX="0.75" PointY="18.75" />
+        <EntityTypeShape EntityType="LMISEntities.ConceptDef" Width="1.5" PointX="2.75" PointY="18.75" />
+        <EntityTypeShape EntityType="LMISEntities.ConceptOfNonFormalTraining" Width="1.5" PointX="4.75" PointY="18.75" />
+        <EntityTypeShape EntityType="LMISEntities.ConfigCenter" Width="1.5" PointX="17.75" PointY="19.75" />
+        <EntityTypeShape EntityType="LMISEntities.CourseSkillDetail" Width="1.5" PointX="19.75" PointY="19.75" />
+        <EntityTypeShape EntityType="LMISEntities.DimTheme" Width="1.5" PointX="12.75" PointY="10.088883951822915" />
+        <EntityTypeShape EntityType="LMISEntities.EmployeerTemplate" Width="1.5" PointX="17.75" PointY="9.99131982421875" />
+        <EntityTypeShape EntityType="LMISEntities.EmployeerTemplatesDetail" Width="1.5" PointX="20" PointY="10.760525553385417" />
+        <EntityTypeShape EntityType="LMISEntities.EmployerGuidancekit" Width="1.5" PointX="17.75" PointY="4.9913198242187509" />
+        <EntityTypeShape EntityType="LMISEntities.EmployerGuidancekitDetail" Width="1.5" PointX="20" PointY="5.6643748372395848" />
+        <EntityTypeShape EntityType="LMISEntities.EmployersTrainingProvider" Width="1.5" PointX="21.75" PointY="19.75" />
+        <EntityTypeShape EntityType="LMISEntities.Event" Width="1.5" PointX="10.500000499999999" PointY="41.874373697916674" />
+        <EntityTypeShape EntityType="LMISEntities.EventsDetail" Width="1.5" PointX="12.750000499999999" PointY="43.508935872395838" />
+        <EntityTypeShape EntityType="LMISEntities.FactStatisticalData" Width="1.5" PointX="22.75" PointY="0.75" />
+        <EntityTypeShape EntityType="LMISEntities.FAQ" Width="1.5" PointX="15.75" PointY="22.75" />
+        <EntityTypeShape EntityType="LMISEntities.Feedback" Width="1.5" PointX="17.75" PointY="22.75" />
+        <EntityTypeShape EntityType="LMISEntities.GeneralCode" Width="1.5" PointX="5.75" PointY="5.0393951822916669" />
+        <EntityTypeShape EntityType="LMISEntities.HelpfulLink" Width="1.5" PointX="0.75" PointY="23.75" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualCertificationDetail" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="51.70081087239582" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualCertificationDetails_Det" Width="1.5" PointX="9.7500004999999987" PointY="52.662318033854156" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualDetail" Width="1.5" PointX="5.2500005" PointY="44.566756510416681" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualDetailsDet" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="70.890918294270847" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualEducationlevel" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="31.587526367187493" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualEducationlevelDet" Width="1.5" PointX="9.7500004999999987" PointY="32.356732096354165" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualExperienceDetail" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="61.007412434895841" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualExperienceDetails_Det" Width="1.5" PointX="9.7500004999999987" PointY="62.353522460937512" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualOtherSkill" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="73.813506184895857" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualSkillsDetail" Width="1.5" PointX="12.500001" PointY="51.20131868489581" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualSkillsDetails_Delete" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="56.161810221354173" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualTrainingDetail" Width="1.4999999999999991" PointX="7.5000004999999987" PointY="66.429918945312508" />
+        <EntityTypeShape EntityType="LMISEntities.IndividualTrainingDetails_Det" Width="1.5" PointX="9.7500004999999987" PointY="67.295275390625" />
+        <EntityTypeShape EntityType="LMISEntities.InformalSectorMethodDefinition" Width="1.5" PointX="23.75" PointY="16.75" />
+        <EntityTypeShape EntityType="LMISEntities.InformalSectorMethodLiterature" Width="1.5" PointX="23.75" PointY="21.75" />
+        <EntityTypeShape EntityType="LMISEntities.JobApplied" Width="1.5" PointX="7.5000009999999993" PointY="46.97052441406251" />
+        <EntityTypeShape EntityType="LMISEntities.JobAppliedAdditionalDoc" Width="1.5" PointX="9.750001" PointY="55.35512727864581" />
+        <EntityTypeShape EntityType="LMISEntities.JobOffer" Width="1.5" PointX="5.2500009999999993" PointY="53.37445507812501" />
+        <EntityTypeShape EntityType="LMISEntities.JobOfferAdditionalDoc" Width="1.5" PointX="7.5000009999999993" PointY="85.815700195312473" />
+        <EntityTypeShape EntityType="LMISEntities.JobOfferDetail" Width="1.5" PointX="7.5000009999999993" PointY="36.894554361979147" />
+        <EntityTypeShape EntityType="LMISEntities.JobOfferEducationLevel" Width="1.5" PointX="7.5000009999999993" PointY="77.624840820312485" />
+        <EntityTypeShape EntityType="LMISEntities.JobOfferEducationLevelDetail" Width="1.5" PointX="9.750001" PointY="77.624840820312471" />
+        <EntityTypeShape EntityType="LMISEntities.jobOfferMedicalDetail" Width="1.5" PointX="7.5000009999999993" PointY="83.470016601562492" />
+        <EntityTypeShape EntityType="LMISEntities.jobOfferSkillsDetail" Width="1.5" PointX="12.5000015" PointY="56.874373697916639" />
+        <EntityTypeShape EntityType="LMISEntities.JobOtherSkill" Width="1.5" PointX="7.5000009999999993" PointY="80.355127278645824" />
+        <EntityTypeShape EntityType="LMISEntities.JobSeekersGuidancekit" Width="1.5" PointX="17.75" PointY="0.95285953776041765" />
+        <EntityTypeShape EntityType="LMISEntities.JobSeekersGuidancekitDetail" Width="1.5" PointX="20" PointY="1.2413116861979177" />
+        <EntityTypeShape EntityType="LMISEntities.JobseekerTemplate" Width="1.5" PointX="2.7499999999999991" PointY="14.952859537760418" />
+        <EntityTypeShape EntityType="LMISEntities.JobseekerTemplatesDetail" Width="1.5" PointX="4.9999999999999991" PointY="15.337462402343753" />
+        <EntityTypeShape EntityType="LMISEntities.Langauge" Width="1.5" PointX="5.7500005000000005" PointY="8.3278473307291669" />
+        <EntityTypeShape EntityType="LMISEntities.ListOfEmail" Width="1.5" PointX="24.75" PointY="0.75" />
+        <EntityTypeShape EntityType="LMISEntities.NewHire" Width="1.5" PointX="8.2500004999999987" PointY="9.607838867187489" />
+        <EntityTypeShape EntityType="LMISEntities.News" Width="1.5" PointX="24.75" PointY="4.75" />
+        <EntityTypeShape EntityType="LMISEntities.NewTrainee" Width="1.5" PointX="8.2500004999999987" PointY="17.760631835937492" />
+        <EntityTypeShape EntityType="LMISEntities.NonFormalTraining" Width="1.5" PointX="24.75" PointY="10.75" />
+        <EntityTypeShape EntityType="LMISEntities.ObsceneWord" Width="1.5" PointX="19.75" PointY="24.75" />
+        <EntityTypeShape EntityType="LMISEntities.OfficeDetail" Width="1.5" PointX="3" PointY="11.779755696614581" />
+        <EntityTypeShape EntityType="LMISEntities.Office" Width="1.5" PointX="0.75" PointY="11.010549967447917" />
+        <EntityTypeShape EntityType="LMISEntities.Opportunity" Width="1.5" PointX="10.500000499999999" PointY="36.451867187500007" />
+        <EntityTypeShape EntityType="LMISEntities.OpportunitiesDetail" Width="1.5" PointX="12.750000499999999" PointY="37.894127929687507" />
+        <EntityTypeShape EntityType="LMISEntities.OrganizationContact_Info" Width="1.5" PointX="8.2500004999999987" PointY="40.432112955729181" />
+        <EntityTypeShape EntityType="LMISEntities.OrganizationContactInfoDetail" Width="1.5" PointX="10.500000499999999" PointY="48.066085937500006" />
+        <EntityTypeShape EntityType="LMISEntities.OrganizationDetail" Width="1.5" PointX="6.0000004999999987" PointY="23.75905794270831" />
+        <EntityTypeShape EntityType="LMISEntities.OrganizationDetails_Det" Width="1.5" PointX="8.2500004999999987" PointY="20.875521158854166" />
+        <EntityTypeShape EntityType="LMISEntities.Page" Width="1.5000000000000002" PointX="0.7500005000000004" PointY="35.971245442708351" />
+        <EntityTypeShape EntityType="LMISEntities.PagesAction" Width="1.5000000000000004" PointX="3.0000005000000005" PointY="36.951785807291678" />
+        <EntityTypeShape EntityType="LMISEntities.Partner" Width="1.5" PointX="8.2500004999999987" PointY="12.722728190104157" />
+        <EntityTypeShape EntityType="LMISEntities.PartnersDetail" Width="1.5" PointX="10.500000499999999" PointY="13.684235351562492" />
+        <EntityTypeShape EntityType="LMISEntities.PolicesOfEgypt" Width="1.5" PointX="25.75" PointY="15.75" />
+        <EntityTypeShape EntityType="LMISEntities.PortalUser" Width="1.5" PointX="3.7500004999999987" PointY="25.393620117187478" />
+        <EntityTypeShape EntityType="LMISEntities.PublicationReport" Width="1.5" PointX="25.75" PointY="20.75" />
+        <EntityTypeShape EntityType="LMISEntities.Qualification" Width="1.5" PointX="25.75" PointY="25.75" />
+        <EntityTypeShape EntityType="LMISEntities.RecruitmentAgency" Width="1.5" PointX="26.75" PointY="0.75" />
+        <EntityTypeShape EntityType="LMISEntities.Report" Width="1.5" PointX="15" PointY="4.33887418619792" />
+        <EntityTypeShape EntityType="LMISEntities.RequestLog" Width="1.5" PointX="5.25" PointY="88.522565429687518" />
+        <EntityTypeShape EntityType="LMISEntities.Skill" Width="1.5" PointX="10.250001" PointY="58.06667513020831" />
+        <EntityTypeShape EntityType="LMISEntities.SocialMedia" Width="1.5" PointX="26.75" PointY="5.7499999999999982" />
+        <EntityTypeShape EntityType="LMISEntities.StatisticalData" Width="1.5" PointX="10.75" PointY="20.75" />
+        <EntityTypeShape EntityType="LMISEntities.SubCode" Width="1.5" PointX="8.0000005" PointY="4.943244466145833" />
+        <EntityTypeShape EntityType="LMISEntities.Testimonial" Width="1.5" PointX="7.75" PointY="0.97208968098958337" />
+        <EntityTypeShape EntityType="LMISEntities.TestimonialsDetail" Width="1.5" PointX="10" PointY="1.5489939778645834" />
+        <EntityTypeShape EntityType="LMISEntities.ThemesVariable" Width="1.5" PointX="15" PointY="1.8008891601562507" />
+        <EntityTypeShape EntityType="LMISEntities.TrainingApply" Width="1.5" PointX="13.500001" PointY="47.06667513020831" />
+        <EntityTypeShape EntityType="LMISEntities.TrainingOffer" Width="1.5" PointX="11.250001" PointY="23.662907226562481" />
+        <EntityTypeShape EntityType="LMISEntities.TrainingOfferDetail" Width="1.5" PointX="13.500001" PointY="28.893112304687477" />
+        <EntityTypeShape EntityType="LMISEntities.TrainingOfferOccurrence" Width="1.5" PointX="13.500001" PointY="23.432539388020828" />
+        <EntityTypeShape EntityType="LMISEntities.TrainingOtherSkill" Width="1.5" PointX="13.500001" PointY="25.77822298177081" />
+        <EntityTypeShape EntityType="LMISEntities.TrainingSkillDetail" Width="1.5" PointX="15.5000015" PointY="41.76864046223956" />
+        <EntityTypeShape EntityType="LMISEntities.UnionCommitteeDetail" Width="1.5" PointX="5.25" PointY="1.1970429687500035" />
+        <EntityTypeShape EntityType="LMISEntities.UnionCommittee" Width="1.5" PointX="3" PointY="1.1970429687500008" />
+        <EntityTypeShape EntityType="LMISEntities.UnionDetail" Width="1.5" PointX="3" PointY="3.9273294270833397" />
+        <EntityTypeShape EntityType="LMISEntities.UnionProfession" Width="1.5" PointX="3" PointY="6.6576158854166785" />
+        <EntityTypeShape EntityType="LMISEntities.Union" Width="1.5" PointX="0.75" PointY="2.7735208333333397" />
+        <EntityTypeShape EntityType="LMISEntities.VariablesMapping" Width="1.5" PointX="26.75" PointY="10.75" />
+        <EntityTypeShape EntityType="LMISEntities.Admin" Width="1.5" PointX="21.75" PointY="26.75" />
+        <EntityTypeShape EntityType="LMISEntities.Test" Width="1.5" PointX="2.75" PointY="9.75" />
+        <AssociationConnector Association="LMISEntities.FK_PagesActions_Actions" />
+        <AssociationConnector Association="LMISEntities.FK_AdminWorkingStatus_AspNetUsers" />
+        <AssociationConnector Association="LMISEntities.FK_PagesActions_AspNetRoles" />
+        <AssociationConnector Association="LMISEntities.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="LMISEntities.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualDetails_AspNetUsers" />
+        <AssociationConnector Association="LMISEntities.FK_OrganizationContact_Info_AspNetUsers" />
+        <AssociationConnector Association="LMISEntities.FK_RequestLog_AspNetUsers" />
+        <AssociationConnector Association="LMISEntities.FK_CareerMapAlternative_CareerMapGuidance" />
+        <AssociationConnector Association="LMISEntities.FK_ReportsThemes_DimThemes1" />
+        <AssociationConnector Association="LMISEntities.FK_ThemesVariables_DimThemes" />
+        <AssociationConnector Association="LMISEntities.FK_EmployeerTemplatesDetails_EmployeerTemplates" />
+        <AssociationConnector Association="LMISEntities.FK_EmployerguidancekitDetails_Employerguidancekit" />
+        <AssociationConnector Association="LMISEntities.FK_Events_OrganizationContact_Info" />
+        <AssociationConnector Association="LMISEntities.FK_EventsDetails_Events" />
+        <AssociationConnector Association="LMISEntities.FK_SubCode_GeneralCode" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualCertificationDetails_Det_IndividualCertificationDetails" />
+        <AssociationConnector Association="LMISEntities.R_22" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualDetailsDet_IndividualDetails" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualOtherSkills_IndividualDetails" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualSkillsDetails_IndividualDetails" />
+        <AssociationConnector Association="LMISEntities.FK_JobApplied_IndividualDetails" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingApply_IndividualDetails" />
+        <AssociationConnector Association="LMISEntities.R_13" />
+        <AssociationConnector Association="LMISEntities.R_17" />
+        <AssociationConnector Association="LMISEntities.R_23" />
+        <AssociationConnector Association="LMISEntities.R_28" />
+        <AssociationConnector Association="LMISEntities.R_6" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualEducationlevelDet_IndividualEducationlevel" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualExperienceDetails_Det_IndividualExperienceDetails" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualSkillsDetails_Skills" />
+        <AssociationConnector Association="LMISEntities.FK_IndividualTrainingDetails_Det_IndividualTrainingDetails" />
+        <AssociationConnector Association="LMISEntities.FK_JobApplied_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_JobAppliedAdditionalDoc_JobApplied" />
+        <AssociationConnector Association="LMISEntities.FK_JobOffer_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.FK_JobOfferAdditionalDoc_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_JobOfferDetails_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_JobOfferEducationLevel_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_jobOfferMedicalDetails_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_jobOfferSkillsDetails_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_JobOtherSkills_JobOffer" />
+        <AssociationConnector Association="LMISEntities.FK_JobOfferEducationLevelDetails_JobOfferEducationLevel" />
+        <AssociationConnector Association="LMISEntities.FK_jobOfferSkillsDetails_Skills" />
+        <AssociationConnector Association="LMISEntities.FK_JobSeekersGuidancekitDetails_JobSeekersGuidancekit" />
+        <AssociationConnector Association="LMISEntities.FK_JobseekerTemplatesDetails_JobseekerTemplates" />
+        <AssociationConnector Association="LMISEntities.R_41" />
+        <AssociationConnector Association="LMISEntities.FK_NewHire_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.FK_NewTrainee_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.FK_OfficeDetails_Offices" />
+        <AssociationConnector Association="LMISEntities.FK_Opportunities_OrganizationContact_Info" />
+        <AssociationConnector Association="LMISEntities.FK_OpportunitiesDetails_Opportunities" />
+        <AssociationConnector Association="LMISEntities.FK_OrganizationContact_Info_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.FK_OrganizationContactInfoDetails_OrganizationContact_Info" />
+        <AssociationConnector Association="LMISEntities.FK_OrganizationDetailsDetails_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.FK_Partners_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingOffer_OrganizationDetails" />
+        <AssociationConnector Association="LMISEntities.R_24" />
+        <AssociationConnector Association="LMISEntities.FK_PagesActions_Pages" />
+        <AssociationConnector Association="LMISEntities.FK_PartnersDetails_Partners" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingSkillDetails_Skills" />
+        <AssociationConnector Association="LMISEntities.FK_TestimonialsDetails_Testimonials" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingApply_TrainingOffer" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingOfferDetails_TrainingOffer" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingOfferOccurrence_TrainingOffer" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingOtherSkills_TrainingOffer" />
+        <AssociationConnector Association="LMISEntities.FK_TrainingSkillDetails_TrainingOffer" />
+        <AssociationConnector Association="LMISEntities.FK_UnionCommitteeDetails_UnionCommittees" />
+        <AssociationConnector Association="LMISEntities.FK_UnionCommittees_Unions" />
+        <AssociationConnector Association="LMISEntities.FK_UnionDetails_Unions" />
+        <AssociationConnector Association="LMISEntities.FK_UnionProfessions_Unions" />
+        <AssociationConnector Association="LMISEntities.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

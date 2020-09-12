@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RptTbl" msprop:Generator_TableClassName="RptTblDataTable" msprop:Generator_TableVarName="tableRptTbl" msprop:Generator_TablePropName="RptTbl" msprop:Generator_RowDeletingName="RptTblRowDeleting" msprop:Generator_RowChangingName="RptTblRowChanging" msprop:Generator_RowEvHandlerName="RptTblRowChangeEventHandler" msprop:Generator_RowDeletedName="RptTblRowDeleted" msprop:Generator_UserTableName="RptTbl" msprop:Generator_RowChangedName="RptTblRowChanged" msprop:Generator_RowEvArgName="RptTblRowChangeEvent" msprop:Generator_RowClassName="RptTblRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReportEnName" msprop:Generator_ColumnVarNameInTable="columnReportEnName" msprop:Generator_ColumnPropNameInRow="ReportEnName" msprop:Generator_ColumnPropNameInTable="ReportEnNameColumn" msprop:Generator_UserColumnName="ReportEnName" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_UserColumnName="Value" type="xs:string" minOccurs="0" />
+              <xs:element name="ChangingVariable" msprop:Generator_ColumnVarNameInTable="columnChangingVariable" msprop:Generator_ColumnPropNameInRow="ChangingVariable" msprop:Generator_ColumnPropNameInTable="ChangingVariableColumn" msprop:Generator_UserColumnName="ChangingVariable" type="xs:string" minOccurs="0" />
+              <xs:element name="RunningVariable" msprop:Generator_ColumnVarNameInTable="columnRunningVariable" msprop:Generator_ColumnPropNameInRow="RunningVariable" msprop:Generator_ColumnPropNameInTable="RunningVariableColumn" msprop:Generator_UserColumnName="RunningVariable" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

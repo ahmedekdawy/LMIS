@@ -1,0 +1,43 @@
+﻿.rtl {
+    float: right ;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: right !important;
+    direction: rtl !important; 
+    
+ }   
+.rtl ul{float: right;} 
+.float-left{ float: inherit !important;}
+.rtl form{direction: rtl;font-family:verdana;} 
+.rtl .lmislogo{
+	content:url("../images/ELMIS_Logo.png");
+    width: 403px;
+    height: 150px;
+}
+/* RTL Support added by Waleed A. Aly */
+ul.nav-wizard {
+    width: 100%;
+}
+ul.nav-wizard > li > span {
+    display: inline-block;
+}
+.rtl ul.nav-wizard, .rtl ul.nav-wizard span { 
+    margin: 0 auto;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.rtl .align-end {
+    text-align: left;
+    float: left;
+}
+.profile {
+    float: right;
+}
+.popupcss {
+    float:right
+}
+/* ********************************** */

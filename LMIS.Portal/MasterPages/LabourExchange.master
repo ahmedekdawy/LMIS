@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/FrontEnd.Master" AutoEventWireup="true" CodeBehind="LabourExchange.master.cs" Inherits="LMIS.Portal.MasterPages.LabourExchange" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+    <div class="col-md-12">
+        <div class="panel with-nav-tabs panel-default">
+            <div class="panel-heading">
+                <ul class="nav nav-tabs">
+                    <li class="<%=TabClass(1, "Profile")%>">
+                        <a href="../Registration/Profile"><%=GetGlobalResourceObject("CommonControls", "F001")%></a>
+                    </li>
+                    <li class="<%=TabClass(2, "Contacts, Contact")%>">
+                        <a href="../Registration/Contacts"><%=GetGlobalResourceObject("CommonControls", "F002")%></a>
+                    </li>
+                    <li class="<%=TabClass(3, "CVSearch")%>">
+                        <a href="../LabourExchange/CVSearch"><%=GetGlobalResourceObject("CommonControls", "F003")%></a>
+                    </li>
+                    <li class="<%=TabClass(4, "JobList, JobPost")%>">
+                        <a href="../LabourExchange/JobList"><%=GetGlobalResourceObject("CommonControls", "F004")%></a>
+                    </li>
+                    <li class="<%=TabClass(5, "OpportunityList, OpportunityPost")%>">
+                        <a href="../LabourExchange/OpportunityList.aspx#anchor"><%=GetGlobalResourceObject("CommonControls", "F005")%></a>
+                    </li>
+                    <li class="<%=TabClass(6, "EventList, EventPost")%>">
+                        <a href="../LabourExchange/EventList"><%=GetGlobalResourceObject("CommonControls", "F006")%></a>
+                    </li>
+                    <li class="<%=TabClass(15, "TrainingList, TrainingPost")%>">
+                        <a href="../LabourExchange/TrainingList"><%=GetGlobalResourceObject("CommonControls", "F015")%></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-body">
+                <div class="tab-content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</asp:Content>

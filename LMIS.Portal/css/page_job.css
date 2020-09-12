@@ -1,0 +1,186 @@
+/*Job
+------------------------------------*/
+.job-img {
+	overflow: hidden;
+	position: relative;
+	min-height: 300px;
+	background: url(../../img/bg/11.jpg) 70% 40% no-repeat;
+}
+
+.job-img .job-banner {
+	padding: 20px;
+	max-width: 450px;
+	margin: 60px auto 100px;	
+	background: rgba(255,255,255,0.8);
+}
+
+.job-img .job-banner h2 {
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.job-img .job-banner {
+		padding: 10px;
+		margin: 30px auto 100px;	
+	}
+}
+
+.job-img .job-img-inputs {
+	left: 0;
+	right: 0;
+	bottom: -7px;
+	padding: 20px 0;
+	position: absolute;
+	background: rgba(0,0,0,0.9);
+}
+
+/*Job-Content
+------------------------------------*/
+.job-content .categories li {
+	padding: 6px 0;
+	border-bottom: 1px dotted #eee;
+}
+
+.job-content .hex {
+	color: #999
+}
+
+/*High-Rated
+------------------------------------*/
+.high-rated .carousel-indicators {
+	top: 10px;
+	left: 65%;
+	text-align: right;
+}
+
+.high-rated .carousel-indicators .active {
+	background: #555;
+}
+
+.high-rated .carousel-indicators li {
+	border-color: #555;
+}
+
+.high-rated .carousel-inner > .item {
+	margin: 0;
+}
+
+.high-rated .star-vote {
+	float: right;
+	margin-top: 8px;
+}
+
+.high-rated .star-vote ul {
+	margin-bottom: 0;
+}
+
+.high-rated .star-vote li {
+	padding: 0;
+}
+
+/*Easy Block (used for image badges)
+------------------------------------*/
+.easy-block-v1 {
+	position: relative;
+}
+
+.easy-block-v1 img {
+	width: 100%;
+}
+
+.easy-block-v1 .overflow-h h3 {
+	width: 60%;	
+	float: left;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+
+.easy-block-v1 .easy-block-v1-badge {
+	left: 0px;
+	top: 10px;
+	z-index: 1;
+	color: #fff;
+	padding: 4px 10px;
+	position: absolute;
+}
+
+/*Easy Block v2 (used for image badges)
+------------------------------------*/
+.easy-block-v2 {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.easy-block-v2 img {
+	width: 100%;
+}
+
+.easy-block-v2 .easy-bg-v2 {
+	top: 5px;
+	color: #fff;
+	width: 100px;
+	padding: 5px;
+	right: -32px;
+	font-size: 13px;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 2px;
+	transform: rotate(45deg);   
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+/*Easy Block v3 (used for image badges)
+------------------------------------*/
+.easy-block-v3 {
+	text-align: left;
+	background: #585f69;
+	padding: 30px 20px 20px;
+}
+
+.easy-block-v3.first { 
+	background: #696f77; 
+}
+.easy-block-v3.second { 
+	background: #707780; 
+}
+.easy-block-v3.third { 
+	background: #787f88; 
+}
+
+.easy-block-v3 i {
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	min-width: 45px;
+	padding-top: 10px;
+}
+
+.easy-block-v3 .inner-faq-b {
+	overflow: hidden;
+}
+
+.easy-block-v3 .inner-faq-b h2,
+.easy-block-v3 .inner-faq-b h3 {
+	font-size: 21px;
+	margin-bottom: 8px;
+}
+
+.easy-block-v3 .inner-faq-b h4 {
+	color: #fff;
+	font-size: 17px;
+	margin-bottom: 2px;
+}
+
+.easy-block-v3 .inner-faq-b h2,
+.easy-block-v3 .inner-faq-b h3,
+.easy-block-v3 .inner-faq-b p {
+	color: #fff;
+}

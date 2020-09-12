@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66573A1C-0346-44EB-B82C-B9B134118EE7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LMIS.Bll</RootNamespace>
+    <AssemblyName>LMIS.Bll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\packages\Lucene.Net.2.9.4.1\lib\net40\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Analysis.Hunspell">
+      <HintPath>..\packages\Lucene.Net.Analysis.Hunspell.1.0.2\lib\Lucene.Net.Analysis.Hunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="NHunspell">
+      <HintPath>..\packages\NHunspell.1.2.5359.26126\lib\net\NHunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\DalFactory.cs" />
+    <Compile Include="Helpers\Extensions.cs" />
+    <Compile Include="Managers\AspNetUserRolesManager.cs" />
+    <Compile Include="Managers\ChatLogManager.cs" />
+    <Compile Include="Managers\RecruitmentAgenciesManager.cs" />
+    <Compile Include="Managers\EmployersTrainingProvidersManager.cs" />
+    <Compile Include="Managers\ConceptsDefinitionsManager.cs" />
+    <Compile Include="Managers\ConceptNonFormalTrainingManager.cs" />
+    <Compile Include="Managers\ConfigCenterManager.cs" />
+    <Compile Include="Managers\DataServiceManager.cs" />
+    <Compile Include="Managers\DimThemesManager.cs" />
+    <Compile Include="Managers\EventManager.cs" />
+    <Compile Include="Managers\FactStatisticalDataManager.cs" />
+    <Compile Include="Managers\FeedbackManager.cs" />
+    <Compile Include="Managers\IndividualDetailsManager.cs" />
+    <Compile Include="Managers\AspNetUsersManager.cs" />
+    <Compile Include="Managers\GeneraCodeManager.cs" />
+    <Compile Include="Managers\IndividualManager.cs" />
+    <Compile Include="Managers\IndManager.cs" />
+    <Compile Include="Managers\JobManager.cs" />
+    <Compile Include="Managers\LmisReportsManager.cs" />
+    <Compile Include="Managers\NewsManager.cs" />
+    <Compile Include="Managers\ListOfEmailsManager.cs" />
+    <Compile Include="Managers\HelpfulLinkManager.cs" />
+    <Compile Include="Managers\OfficeManager.cs" />
+    <Compile Include="Managers\FaqManager.cs" />
+    <Compile Include="Managers\QualificationsManager.cs" />
+    <Compile Include="Managers\ObsceneWordsManager.cs" />
+    <Compile Include="Managers\OrganizationContactInfoManager.cs" />
+    <Compile Include="Managers\OpportunityManager.cs" />
+    <Compile Include="Managers\OrganizationManager.cs" />
+    <Compile Include="Managers\OrgManager.cs" />
+    <Compile Include="Managers\PagesActionsManager.cs" />
+    <Compile Include="Managers\PagesManager.cs" />
+    <Compile Include="Managers\PartnerManager.cs" />
+    <Compile Include="Managers\PortalUsersManager.cs" />
+    <Compile Include="Managers\ReportsManager.cs" />
+    <Compile Include="Managers\RequestLogManager.cs" />
+    <Compile Include="Managers\SubCodeManager.cs" />
+    <Compile Include="Managers\TestimonialsManager.cs" />
+    <Compile Include="Managers\ThemesVariablesManager.cs" />
+    <Compile Include="Managers\TrainingManager.cs" />
+    <Compile Include="Managers\UnionManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LMIS.Dal\LMIS.Dal.csproj">
+      <Project>{6a9c7b45-9f51-454b-aae6-627184fbe080}</Project>
+      <Name>LMIS.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LMIS.Infrastructure\LMIS.Infrastructure.csproj">
+      <Project>{7e196bc9-69d8-42e5-b3ec-689ac6707eba}</Project>
+      <Name>LMIS.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LMIS.Utlities\LMIS.Utlities.csproj">
+      <Project>{36476040-66e6-4656-9f02-ee730a8c28a5}</Project>
+      <Name>LMIS.Utlities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BLLClassDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

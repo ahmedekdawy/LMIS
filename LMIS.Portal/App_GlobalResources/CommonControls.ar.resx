@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="F000" xml:space="preserve">
+    <value>فرص العمل و التدريب</value>
+  </data>
+  <data name="F001" xml:space="preserve">
+    <value>حسابي</value>
+  </data>
+  <data name="F002" xml:space="preserve">
+    <value>جهة الإتصال</value>
+  </data>
+  <data name="F003" xml:space="preserve">
+    <value>السير الذاتية</value>
+  </data>
+  <data name="F004" xml:space="preserve">
+    <value>تسجيل وظيفة</value>
+  </data>
+  <data name="F005" xml:space="preserve">
+    <value>تسجيل فرصة عمل أو تدريب</value>
+  </data>
+  <data name="F005_AllOpp" xml:space="preserve">
+    <value>جميع الفرص</value>
+  </data>
+  <data name="F005_OppTitle" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="F005_OppUpload" xml:space="preserve">
+    <value>ملف الإعلان عن الفرصة</value>
+  </data>
+  <data name="F005_PostNewOpportunity" xml:space="preserve">
+    <value>تسجيل فرصة جديدة</value>
+  </data>
+  <data name="F006" xml:space="preserve">
+    <value>تسجيل فعالية</value>
+  </data>
+  <data name="F007_logout" xml:space="preserve">
+    <value>تسجيل خروج</value>
+  </data>
+  <data name="F007_logWith" xml:space="preserve">
+    <value>سجل الدخول باسم المستخدم</value>
+  </data>
+  <data name="F009" xml:space="preserve">
+    <value>Individual Registeration</value>
+  </data>
+  <data name="F010_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="F010_Theme" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="F010_Themes" xml:space="preserve">
+    <value>الفئه</value>
+  </data>
+  <data name="F010_Title" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="F010_UnitScale" xml:space="preserve">
+    <value>وحده القياس</value>
+  </data>
+  <data name="F016_ThemeVariables" xml:space="preserve">
+    <value>متغيرات الموضوع</value>
+  </data>
+  <data name="F016_Title" xml:space="preserve">
+    <value>ربط موضوع ب متغيرات</value>
+  </data>
+  <data name="F016_Variables" xml:space="preserve">
+    <value>الموضوعات</value>
+  </data>
+  <data name="F017_ChangeVariable" xml:space="preserve">
+    <value>المتغيرات المتغيره</value>
+  </data>
+  <data name="F017_NameAr" xml:space="preserve">
+    <value>اسم التقرير-عربى</value>
+  </data>
+  <data name="F017_NameEn" xml:space="preserve">
+    <value>اسم التقرير-انجليزى</value>
+  </data>
+  <data name="F017_NameFr" xml:space="preserve">
+    <value>اسم التقرير-فرنسى</value>
+  </data>
+  <data name="F017_RunVariable" xml:space="preserve">
+    <value>المتغيرات التشغيليه</value>
+  </data>
+  <data name="F017_SingleValue" xml:space="preserve">
+    <value>اختر قيمه واحده لكل متغير</value>
+  </data>
+  <data name="F017_YearFrom" xml:space="preserve">
+    <value>الى سنه</value>
+  </data>
+  <data name="F017_YearTo" xml:space="preserve">
+    <value>من سنه</value>
+  </data>
+  <data name="F023_Role" xml:space="preserve">
+    <value>المجموعه</value>
+  </data>
+  <data name="F023_Title" xml:space="preserve">
+    <value>المجموعات</value>
+  </data>
+  <data name="F024_Title" xml:space="preserve">
+    <value>انشاء مستخدم</value>
+  </data>
+  <data name="F025_Title" xml:space="preserve">
+    <value>مجموعات المستخدمين</value>
+  </data>
+  <data name="F025_Users" xml:space="preserve">
+    <value>المستخدمين</value>
+  </data>
+  <data name="F025_UserSelect" xml:space="preserve">
+    <value>اختر مستخدم</value>
+  </data>
+  <data name="F011_ChooseReport" xml:space="preserve">
+    <value>اختر تقرير</value>
+  </data>
+  <data name="F011_GenerateTemplater" xml:space="preserve">
+    <value>انشاء النموذج</value>
+  </data>
+  <data name="F011_Title" xml:space="preserve">
+    <value> انشاء نموذج ادخال البيانات </value>
+  </data>
+  <data name="F012_Title" xml:space="preserve">
+    <value>تحميل نموذج البيانات</value>
+  </data>
+  <data name="F012_Upload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="X_Add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="X_Browse" xml:space="preserve">
+    <value>إستعراض</value>
+  </data>
+  <data name="X_Cancel" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="X_ConfirmDelete" xml:space="preserve">
+    <value>هل تريد حذف البيان؟</value>
+  </data>
+  <data name="X_Download" xml:space="preserve">
+    <value>تنزيل</value>
+  </data>
+  <data name="X_Email" xml:space="preserve">
+    <value>بريد الكترونى</value>
+  </data>
+  <data name="X_EndDate" xml:space="preserve">
+    <value>إلى تاريخ</value>
+  </data>
+  <data name="X_Forgotpassword" xml:space="preserve">
+    <value>نسيت كلمة المرور؟</value>
+  </data>
+  <data name="X_Noresultsmatch" xml:space="preserve">
+    <value>لا يوجد نتائح</value>
+  </data>
+  <data name="X_OK" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="X_Password" xml:space="preserve">
+    <value>كلمه المرور</value>
+  </data>
+  <data name="X_Save" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="X_Save1" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="X_SaveAndContinue" xml:space="preserve">
+    <value>تسجيل و إنتقال</value>
+  </data>
+  <data name="X_SaveAndPost" xml:space="preserve">
+    <value>تسجيل و نشر</value>
+  </data>
+  <data name="X_Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="X_Select" xml:space="preserve">
+    <value>اختيار</value>
+  </data>
+  <data name="X_Showpassword" xml:space="preserve">
+    <value>اظهار كلمه المرور</value>
+  </data>
+  <data name="X_StartDate" xml:space="preserve">
+    <value>من تاريخ</value>
+  </data>
+  <data name="X_Translate" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="X_Upload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="X_UploadAndSave" xml:space="preserve">
+    <value>تحميل و تسجيل</value>
+  </data>
+  <data name="F026_NewPassword" xml:space="preserve">
+    <value>كلمه المرور الجديده</value>
+  </data>
+  <data name="F026_passwordConfirmnotMatch" xml:space="preserve">
+    <value>تاكيد كلمه المرور لا تتطابقه مع كلمه المرور</value>
+  </data>
+  <data name="F026_passwordConfirmRequired" xml:space="preserve">
+    <value>ادخل تاكيد كلمه المرور</value>
+  </data>
+  <data name="F026_Reset" xml:space="preserve">
+    <value>تغير كلمه المرور</value>
+  </data>
+  <data name="F026_Title" xml:space="preserve">
+    <value>تغير كلمه المرور</value>
+  </data>
+  <data name="F027_Pages" xml:space="preserve">
+    <value>الصفحات</value>
+  </data>
+  <data name="F027_Title" xml:space="preserve">
+    <value>صلاحيات المجموعات فى الشاشات</value>
+  </data>
+  <data name="X_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="X_print" xml:space="preserve">
+    <value>طباعه</value>
+  </data>
+  <data name="X_Query" xml:space="preserve">
+    <value>استعلام</value>
+  </data>
+  <data name="X_Update" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="F0028_NameAr" xml:space="preserve">
+    <value>الاسم-عربى</value>
+  </data>
+  <data name="F028_EnterName" xml:space="preserve">
+    <value>ادخل الاسم الفرعى</value>
+  </data>
+  <data name="F028_GeneralCode" xml:space="preserve">
+    <value>الكود الرئيسى</value>
+  </data>
+  <data name="F028_NameEn" xml:space="preserve">
+    <value>الاسم-انجليزى</value>
+  </data>
+  <data name="F028_NameFr" xml:space="preserve">
+    <value>الاسم-فرنسى</value>
+  </data>
+  <data name="F028_SelectGeneralCode" xml:space="preserve">
+    <value>اختر كود رئيسى</value>
+  </data>
+  <data name="F028_subCode" xml:space="preserve">
+    <value>الكود الفرعى</value>
+  </data>
+  <data name="F028_Title" xml:space="preserve">
+    <value>الاكواد الفرعيه</value>
+  </data>
+  <data name="F029_Title" xml:space="preserve">
+    <value>ConfigCenter</value>
+  </data>
+  <data name="F017_Title" xml:space="preserve">
+    <value>Report Generator </value>
+  </data>
+  <data name="F028_ParentSubCode" xml:space="preserve">
+    <value>الكود الرئيسى</value>
+  </data>
+  <data name="X_Cancel1" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="F010_Required" xml:space="preserve">
+    <value>ادخل الحقول المطلوبه</value>
+  </data>
+  <data name="X_language" xml:space="preserve">
+    <value>اللغه</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>../css/StyleArabic.css</value>
+  </data>
+  <data name="F018_fullTime" xml:space="preserve">
+    <value>دوام كامل</value>
+  </data>
+  <data name="F018_partTime" xml:space="preserve">
+    <value>دوام جزئى</value>
+  </data>
+  <data name="Menu_EmployersCareerGuidanceArticles" xml:space="preserve">
+    <value>Employers Career Guidance Articles</value>
+  </data>
+  <data name="Menu_InformalSectorConceptsTraining" xml:space="preserve">
+    <value>Informal Sector Concepts of non-formal training</value>
+  </data>
+  <data name="Menu_JobSeekersCareerGuidanceArticles" xml:space="preserve">
+    <value>Job Seekers Career Guidance Articles</value>
+  </data>
+  <data name="F034_Title" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="F034_feeddBack" xml:space="preserve">
+    <value>feeddBack</value>
+  </data>
+  <data name="F034_Message" xml:space="preserve">
+    <value>الرساله</value>
+  </data>
+  <data name="F034_SiteRating" xml:space="preserve">
+    <value>Site Rating</value>
+  </data>
+  <data name="F034_Testimonial" xml:space="preserve">
+    <value>Testimonial</value>
+  </data>
+  <data name="F034_Titles" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="F037" xml:space="preserve">
+    <value>تسجيل مؤسسة</value>
+  </data>
+  <data name="F037_AcceptandFinishRegisteration" xml:space="preserve">
+    <value>قبول وإنهاء التسجيل</value>
+  </data>
+  <data name="F037_Access" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="F037_AccessContent" xml:space="preserve">
+    <value>الموقع متاح للمعلومات العامة ولكنها مختلفة يقتصر على أنواع مختلفة من المستخدمين. ومع ذلك، ينبغي لجميع المستخدمين الالتزام بالقواعد والقوانين واللوائح التي تنظم القرصنة، تغيير أو تعديل المحتوى، لنشر أي وثيقة انتهاك القوانين المصرية.</value>
+  </data>
+  <data name="F037_Authorizationletter" xml:space="preserve">
+    <value>خطاب تفويض</value>
+  </data>
+  <data name="F037_Choosewhatwillyouuseourportalfor" xml:space="preserve">
+    <value>اختيار ما سوف تستخدم البوابة  في</value>
+  </data>
+  <data name="F037_ContactName" xml:space="preserve">
+    <value>اسم جهة الاتصال</value>
+  </data>
+  <data name="F037_ContactsInformation" xml:space="preserve">
+    <value>اتصالات معلومات</value>
+  </data>
+  <data name="F037_Copyright" xml:space="preserve">
+    <value>حقوق الطبع والنشر</value>
+  </data>
+  <data name="F037_CopyrightContent" xml:space="preserve">
+    <value>فقا للقوانين المصرية، ومركز التجارة الدولية تحتفظ بجميع حقوق نشر أو إنتاج المعلومات المتاحة على الموقع.</value>
+  </data>
+  <data name="F037_Department" xml:space="preserve">
+    <value>قسم</value>
+  </data>
+  <data name="F037_EconomicActivity" xml:space="preserve">
+    <value>النشاط الاقتصادي</value>
+  </data>
+  <data name="F037_EmployerDetails" xml:space="preserve">
+    <value>
+تفاصيل الشركة</value>
+  </data>
+  <data name="F037_EstablishmentDate" xml:space="preserve">
+    <value>تاريخ الانشاء</value>
+  </data>
+  <data name="F037_Fax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="F037_IDNumber" xml:space="preserve">
+    <value>الرقم التعريفي</value>
+  </data>
+  <data name="F037_IndustryType" xml:space="preserve">
+    <value>نوع الصناعة</value>
+  </data>
+  <data name="F037_ITCRegistration" xml:space="preserve">
+    <value>ات س التسجيل #</value>
+  </data>
+  <data name="F037_LogoandProfile" xml:space="preserve">
+    <value>شعار والملف الشخصي</value>
+  </data>
+  <data name="F037_Next" xml:space="preserve">
+    <value>التالى</value>
+  </data>
+  <data name="F037_OrganizationLogo" xml:space="preserve">
+    <value>شعار منظمة</value>
+  </data>
+  <data name="F037_OrganizationName" xml:space="preserve">
+    <value>اسم المؤسسة</value>
+  </data>
+  <data name="F037_OrganizationProfile" xml:space="preserve">
+    <value>الملف الشخصي المنظمة</value>
+  </data>
+  <data name="F037_OrganizationSize" xml:space="preserve">
+    <value>حجم المؤسسة</value>
+  </data>
+  <data name="F037_OrganizationType" xml:space="preserve">
+    <value>نوع المؤسسة</value>
+  </data>
+  <data name="F037_Otherindustrytype" xml:space="preserve">
+    <value>صناعة اخري</value>
+  </data>
+  <data name="F037_Previous" xml:space="preserve">
+    <value>سابق</value>
+  </data>
+  <data name="F037_Thisfieldisrequired" xml:space="preserve">
+    <value>هذه البان مطلوب.</value>
+  </data>
+  <data name="F037_Trainingfororganizationemployees" xml:space="preserve">
+    <value>التدريب لموظفي المؤسسة</value>
+  </data>
+  <data name="F037_UseOfTheWebsite" xml:space="preserve">
+    <value>استخدام الموقع</value>
+  </data>
+  <data name="F037_UseOfTheWebsiteContent" xml:space="preserve">
+    <value>جميع الوثائق والمحتوى المتاح على الموقع هي لأغراض إعلامية فقط. في حين أن فريق إل م اي س تسعى جاهدة للحفاظ على المعلومات المتاحة بأفضل جودة وآخر تطورات الوضع، ونحن لا توفر ضمانات بأي وسيلة، سواء كانت صريحة أو ضمنية، حول مدى شمولية ودقة والاتساق وصلة أو استعداد المعلومات أو الخدمات أو أي الرسومات المعروضة على موقع الويب. فريق إل ام اي اس ليست مسؤولة عن أي ضرر أو خسارة ناتجة عن استخدام المعلومات من خلال الموقع.
+ELMIS لديها العديد من الروابط لمواقع أخرى. وتعمل بعض منها من قبل الوكالات الوطنية والدولية. ELMIS لا تملك السيطرة على محتوى هذه المواقع وآراء الممثلة في هذه المواقع يجب أن تعتبر أبدا على النحو الموصى به أو أقرتها ELMIS. عند استخدام هذه المواقع، فإن سياسة الخصوصية ELMIS لا تنطبق وبدلا من ذلك سوف تكون خاضعة لسياسة الخصوصية الخاصة على الموقع.
+وELMIS تعلن فرص العمل والنشاطات في جميع المنظمات، ولكن هذا لا يعتبر إقرارا أو توصية للمؤسسة معينة من قبل ELMIS.
+على الرغم من بذل كل جهد ممكن للحفاظ على حسن سير العمل في الموقع، فإن ELMIS لن تكون مسؤولة عن أي خسائر نظرا لموقع يجري متاحة مؤقتا أو بسبب أي المسائل التقنية التي هي خارجة عن سيطرتنا.</value>
+  </data>
+  <data name="F037_YearsOfExperince" xml:space="preserve">
+    <value>سنوات  الخبرة</value>
+  </data>
+  <data name="F037_Zippostalcode" xml:space="preserve">
+    <value>الرمز البريدي / الرمز البريدي</value>
+  </data>
+  <data name="F038" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="F038_AddCertificate" xml:space="preserve">
+    <value>إضافة شهادة</value>
+  </data>
+  <data name="F038_AddEducation" xml:space="preserve">
+    <value>إضافة التعليم</value>
+  </data>
+  <data name="F038_AddExperience" xml:space="preserve">
+    <value>إضافة الخبرة</value>
+  </data>
+  <data name="F038_AddSkill" xml:space="preserve">
+    <value>إضافة المهارة</value>
+  </data>
+  <data name="F038_AppliedJobs" xml:space="preserve">
+    <value>طلبات الوظائف</value>
+  </data>
+  <data name="F038_AppliedJobsandTraining" xml:space="preserve">
+    <value>طلبات التدريب والوظائف</value>
+  </data>
+  <data name="F038_AppliedTrainings" xml:space="preserve">
+    <value>طلبات التدريب</value>
+  </data>
+  <data name="F038_Certificate" xml:space="preserve">
+    <value>شهادات</value>
+  </data>
+  <data name="F038_Clickhere" xml:space="preserve">
+    <value>اضغط هنا</value>
+  </data>
+  <data name="F038_EditProfile" xml:space="preserve">
+    <value>عدل الملف</value>
+  </data>
+  <data name="F038_Education" xml:space="preserve">
+    <value>التعليم</value>
+  </data>
+  <data name="F038_NoDataCertificateContent" xml:space="preserve">
+    <value>لم يتم اضافة شهادات بعد !، إذا كنت ترغب في إضافة أول واحد</value>
+  </data>
+  <data name="F038_NodataEducationContent" xml:space="preserve">
+    <value>لم يتم اضافة تعليم بعد !، إذا كنت ترغب في إضافة أول واحد</value>
+  </data>
+  <data name="F038_NoDataExperienceContent" xml:space="preserve">
+    <value>لم يتم اضافة تجارب بعد !، إذا كنت ترغب في إضافة أول واحد</value>
+  </data>
+  <data name="F038_NoDataSkillsContent" xml:space="preserve">
+    <value>لم يتم اضافة مهارات بعد !، إذا كنت ترغب في إضافة أول واحد</value>
+  </data>
+  <data name="F038_NodataTrainingContent" xml:space="preserve">
+    <value>لم يتم اضافة تدريبات بعد !، إذا كنت ترغب في إضافة أول واحد</value>
+  </data>
+  <data name="F038_Nojobsappliedyet" xml:space="preserve">
+    <value>وظائف لم يتم التقدم عليها بعد!</value>
+  </data>
+  <data name="F038_Notrainingsappliedyet" xml:space="preserve">
+    <value>تداريب لم يتم التقدم عليها بعد!</value>
+  </data>
+  <data name="F038_PersonalData" xml:space="preserve">
+    <value>بيانات شخصية</value>
+  </data>
+  <data name="F038_PersonalImage" xml:space="preserve">
+    <value>صورة شخصية</value>
+  </data>
+  <data name="F038_Profile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="F038_Training" xml:space="preserve">
+    <value>تدريب</value>
+  </data>
+  <data name="F038_TrainingMessage" xml:space="preserve">
+    <value>* قد يطلب الأحداث لحضور الدورة</value>
+  </data>
+  <data name="F038_WorkExperience" xml:space="preserve">
+    <value>خبرة في العمل</value>
+  </data>
+  <data name="F039" xml:space="preserve">
+    <value>تسجيل حساب </value>
+  </data>
+  <data name="F039_IDNumber" xml:space="preserve">
+    <value>رقم اثبات الهوية</value>
+  </data>
+  <data name="F039_Type" xml:space="preserve">
+    <value>نوع اثبات الهوية</value>
+  </data>
+  <data name="F040" xml:space="preserve">
+    <value>إخلاء المسؤولية</value>
+  </data>
+  <data name="F015" xml:space="preserve">
+    <value>تسجيل فرصه تدريب</value>
+  </data>
+</root>

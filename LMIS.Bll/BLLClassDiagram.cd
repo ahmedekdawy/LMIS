@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LMIS.Bll.Helpers.DalFactory">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJFAMIGAKAwIAMAAAAiAcGCAEsCCAGNhSAAIyygCICA=</HashCode>
+      <FileName>Helpers\DalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ChatLogManager" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ChatLogManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ConceptNonFormalTrainingManager" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ConceptNonFormalTrainingManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ConfigCenterManager" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAAAAABCAAAAAAAAAAAAAAABAI=</HashCode>
+      <FileName>Managers\ConfigCenterManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.DataServiceManager" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAABAAQIABCgAAAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>Managers\DataServiceManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.DimThemesManager" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAABAAAQAAAAAEAAIAAEAAAIAAAAAE=</HashCode>
+      <FileName>Managers\DimThemesManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.GeneraCodeManager" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Managers\GeneraCodeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.HelpfulLinkManager" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\HelpfulLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.IndividualDetailsManager" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAAAAAQAQEAEAAAgIEBAMAAGEAAABAABAAAKEM=</HashCode>
+      <FileName>Managers\IndividualDetailsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.IndividualManager" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAABAAABAAAAAABCAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\IndividualManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.IndManager" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Managers\IndManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.JobManager" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABBAAgAAAAAAAAAABCBEBCAAIAAAgAAAgIAA=</HashCode>
+      <FileName>Managers\JobManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ListOfEmailsManager" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ListOfEmailsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.LmisReportsManager" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Managers\LmisReportsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.NewsManager" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAACAAAAEAAAABAAAAIAAAAAA=</HashCode>
+      <FileName>Managers\NewsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ObsceneWordsManager" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ObsceneWordsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.OfficeManager" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Managers\OfficeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.OpportunityManager" BaseTypeListCollapsed="true">
+    <Position X="4" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Managers\OpportunityManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.OrganizationContactInfoManager" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAQAAAAAAAEAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Managers\OrganizationContactInfoManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.OrganizationManager" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgwAAAAAAAAAAAAAAAAAAAABCAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\OrganizationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.OrgManager" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABBAAAAAACCEAABAEAAABAAAAAgAAAIAAAAAAAAA=</HashCode>
+      <FileName>Managers\OrgManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.PagesActionsManager" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAAAAAAAAIAAAQAAAAAEAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Managers\PagesActionsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.PartnerManager" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAACAAA=</HashCode>
+      <FileName>Managers\PartnerManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.PortalUsersManager" BaseTypeListCollapsed="true">
+    <Position X="3" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAgAAAAAACAAAIAAAAACAA=</HashCode>
+      <FileName>Managers\PortalUsersManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.QualificationsManager" BaseTypeListCollapsed="true">
+    <Position X="5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\QualificationsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ReportsManager" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAJAAAAAAAAAAQAAAAAEAAIAAAAAAAEAAAAQ=</HashCode>
+      <FileName>Managers\ReportsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.RequestLogManager" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAI=</HashCode>
+      <FileName>Managers\RequestLogManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.SubCodeManager" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAMAAAIAAAAAAAAAAQAAAAAGAIAAAAAAIAAAAAAI=</HashCode>
+      <FileName>Managers\SubCodeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.TestimonialsManager" BaseTypeListCollapsed="true">
+    <Position X="3" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAQAAAAAAAQAAAAACAAAAAAAA=</HashCode>
+      <FileName>Managers\TestimonialsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.ThemesVariablesManager" BaseTypeListCollapsed="true">
+    <Position X="5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAQAA=</HashCode>
+      <FileName>Managers\ThemesVariablesManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.TrainingManager" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAABAAABAAAQAAAAABCAEBCAAAAAAgAAAgIAA=</HashCode>
+      <FileName>Managers\TrainingManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.UnionManager" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABCAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Managers\UnionManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.EventManager" BaseTypeListCollapsed="true">
+    <Position X="13" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAAAAAAAABCAEAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Managers\EventManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Helpers.Extensions">
+    <Position X="14.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAgAAAAEAAAAAAgAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Bll.Managers.FactStatisticalDataManager" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Managers\FactStatisticalDataManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.FeedbackManager" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Managers\FeedbackManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.AspNetUserRolesManager" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAQAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Managers\AspNetUserRolesManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.AspNetUsersManager" BaseTypeListCollapsed="true">
+    <Position X="3" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAACAAAAAAgAAAAAQAABAAAAACAAAAAAA=</HashCode>
+      <FileName>Managers\AspNetUsersManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.PagesManager" BaseTypeListCollapsed="true">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\PagesManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Bll.Managers.CopyOfPagesManager" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\PagesManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

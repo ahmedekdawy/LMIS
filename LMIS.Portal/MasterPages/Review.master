@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/BackEnd.Master" AutoEventWireup="true" CodeBehind="Review.master.cs" Inherits="LMIS.Portal.MasterPages.Review" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+    <script src="<%=Page.ResolveClientUrl("~/Scripts/Extensions/searchablecombo.js")%>"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs({ heightStyle: "content" });
+            $("#tabs").removeClass("ui-widget"); //preserves lmis styles
+        });
+    </script>
+    <script src="<%=Page.ResolveClientUrl("~/MasterPages/Scripts/Review.js")%>"></script>
+    
+    <div style="display: none;">
+        
+        <div id="dlgApprove" title="<%=GetGlobalResourceObject("CommonControls", "X_Approve")%>">
+            <form>
+                <fieldset>
+                    <div class="form-group">
+                        <label id="lblConfirm"><%=GetGlobalResourceObject("MessagesResource", "F033_ConfirmApproval")%></label>
+                        <label id="lblFinishEditing"><%=GetGlobalResourceObject("MessagesResource", "F033_FinishEditing")%></label>
+                    </div>
+                    <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                    <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="dlgReject" title="<%=GetGlobalResourceObject("CommonControls", "X_Reject")%>">
+            <form>
+                <fieldset>
+                    <div class="form-group">
+                        <label><%=GetGlobalResourceObject("MessagesResource", "F033_ConfirmRejection")%></label>
+                        <textarea data-bind="textInput: vmReview.reasonForRejection" class="form-control" maxlength="500" rows="4"></textarea>
+                    </div>
+                    <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                    <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+                </fieldset>
+            </form>
+        </div>
+        
+    </div>
+
+    <div id="tabs">
+        <ul>
+            <li>
+                <a href="#tabRecord"><%=GetGlobalResourceObject("CommonControls", "X_Record")%></a>
+            </li>
+            <li style="display: none">
+                <a href="#tabReviews" style="color: #dc143c; font-style: oblique"><%=GetGlobalResourceObject("CommonControls", "X_Reviews")%></a>
+            </li>
+            <li style="display: none">
+                <a href="#tabActions"><%=GetGlobalResourceObject("CommonControls", "X_Actions")%></a>
+            </li>
+        </ul>
+        <div id="tabRecord">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="tabReviews">
+            <div>
+                <label class="ui-state-highlight ui-corner-all" style="cursor: pointer; width: 100%; padding: 5px 15px 5px 15px;">
+                    <input type="checkbox" data-bind="checked: vmReview.reviewComplete"/>
+                    <%=GetGlobalResourceObject("MessagesResource", "F033_ReviewComplete")%>
+                </label>
+            </div>
+            <div class="grdR" style="padding: 15px">
+                <table style="border-spacing: 0; width: 100%;" data-bind="visible: vmReview.attachments().length > 0">
+                    <thead>
+                        <tr>
+                            <th><%=GetGlobalResourceObject("CommonControls", "X_Attachments")%></th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: vmReview.attachments">
+                        <tr>
+                            <td>
+                                <a class="text-center" href="#" target="_blank" data-bind="attr: { href: url }">
+                                    <span data-bind="text: name"></span>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grdR" style="padding: 15px">
+                <table style="border-spacing: 0; width: 100%;" data-bind="visible: vmReview.textForReview().length > 0">
+                    <thead>
+                        <tr>
+                            <th style="width: 150px"><%=GetGlobalResourceObject("CommonControls", "X_ObsceneWords")%></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: vmReview.textForReview">
+                        <tr>
+                            <td data-bind="html: label" style="width: 150px"></td>
+                            <td>
+                                <span data-bind="visible: !trilingual, html: text"></span>
+                                <ul data-bind="visible: trilingual">
+                                    <li data-bind="visible: !lmis.string.isNullOrWhiteSpace(text.English), html: text.English"></li>
+                                    <li data-bind="visible: !lmis.string.isNullOrWhiteSpace(text.French), html: text.French"></li>
+                                    <li data-bind="visible: !lmis.string.isNullOrWhiteSpace(text.Arabic), html: text.Arabic"></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="tabActions">
+            <div id="divWarning" class="ui-state-error ui-corner-all" data-bind="style: { visibility: vmReview.reviewRequired() && !vmReview.reviewComplete() ? 'visible' : 'hidden' }">
+                <p>
+                    <i class="fa fa-warning fa-2x" style="color: #fed17a; margin: 0.7em"></i>
+                    <strong><%=GetGlobalResourceObject("MessagesResource", "X_Warning")%></strong>
+                    <span>  <%=GetGlobalResourceObject("MessagesResource", "F033_ReviewsRequired")%></span>
+                </p>
+            </div>
+            <div id="divEditor" class="grdR" style="padding: 15px" data-bind="foreach: vmReview.inputForEditing, visible: vmReview.editingRequired() && vmReview.editorsReady()">
+                <table style="border-spacing: 0; margin-bottom: 15px; width: 100%;" data-bind="if: id !== 'skills', visible: id !== 'skills'">
+                    <thead>
+                        <tr>
+                            <th style="width: 150px" data-bind="text: label" colspan="2"></th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: editors">
+                        <tr>
+                            <td style="width: 50%;">
+                                <span data-bind="visible: !trilingual, html: '<del>' + text + '</del>'"></span>
+                                <ul data-bind="visible: trilingual">
+                                    <li data-bind="visible: !lmis.string.isNullOrWhiteSpace(text.English), html: '<del>' + text.English + '</del>'"></li>
+                                    <li data-bind="visible: !lmis.string.isNullOrWhiteSpace(text.French), html: '<del>' + text.French + '</del>'"></li>
+                                    <li data-bind="visible: !lmis.string.isNullOrWhiteSpace(text.Arabic), html: '<del>' + text.Arabic + '</del>'"></li>
+                                </ul>
+                            </td>
+                            <td style="width: 50%" class="ui-widget">
+                                <select class="form-control searchablecombo" data-bind="options: options, value: newValue, optionsValue: 'id', optionsText: 'desc', optionsCaption: '<%=GetGlobalResourceObject("MessagesResource", "X_ChooseFromDDL")%>    '">
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="border-spacing: 0; margin-bottom: 15px; width: 100%;" data-bind="if: id === 'skills', visible: id === 'skills'">
+                    <thead>
+                        <tr>
+                            <th style="width: 150px" data-bind="text: label" colspan="2"></th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: editors">
+                        <tr>
+                            <td style="width: 50%" data-bind="html: '<b><small>' + industry.desc + ':</small></b> <del>' + skill.desc + '</del> (' + level.desc + ')'"></td>
+                            <td style="width: 50%" class="ui-widget">
+                                <select class="form-control searchablecombo" data-bind="options: options, value: newValue, optionsValue: 'id', optionsText: 'desc', optionsCaption: '<%=GetGlobalResourceObject("MessagesResource", "X_ChooseFromDDL")%>    '">
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="divControls" style="text-align: center;">
+                <button class="btn btn-default" type="button" style="margin: 15px;" data-bind="visible: !vmReview.reviewRequired() || vmReview.reviewComplete(), enable: vmReview.editorsReady(), click: function () { vmReview.showDialog(true); }">
+                    <i class="fa fa-check-circle fa-2x" style="color: forestgreen;">
+                        <%=GetGlobalResourceObject("CommonControls", "X_Approve")%>
+                    </i>
+                </button>
+                <button class="btn btn-default" type="button" style="margin: 15px;" data-bind="visible: vmReview.canReject(), click: function () { vmReview.showDialog(false); }">
+                    <i class="fa fa-times-circle fa-2x" style="color: #dc143c;">
+                        <%=GetGlobalResourceObject("CommonControls", "X_Reject")%>
+                    </i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</asp:Content>

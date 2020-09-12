@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LMIS.Infrastructure.Data.DTOs.CodeSet">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAgA=</HashCode>
+      <FileName>Data\DTOs\CodeSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.DTOs.CodeSuperset">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAA=</HashCode>
+      <FileName>Data\DTOs\CodeSuperset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.DTOs.ModelResponse">
+    <Position X="2.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAAEBAAAAQAAAAAAAAAAAAAAABAAEABAAAAAAAA=</HashCode>
+      <FileName>Data\DTOs\ModelResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.DTOs.UserInfo">
+    <Position X="5.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAKAAAAAkAACAAAggAgAAASAKAQAAQABAAAg=</HashCode>
+      <FileName>Data\DTOs\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.DTOs.UserInfoChat">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAKAAAAAgAAAAAAgACAAAACAIAQAAAAAAAAg=</HashCode>
+      <FileName>Data\DTOs\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Base.AspNetUserVM">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAACAAIEAAAAAAQAABAAAAAAAKAQQAABAAAQA=</HashCode>
+      <FileName>Data\Entities\Base\AspNetUserVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Organization.PortalUserVM">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAIAQAAAAIABAAABASAABAAACAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Base\PortalUserVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Organization.ContactPersonTranslationVM">
+    <Position X="11" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAEAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Organization\ContactPersonTranslation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Organization.OrganizationContactPersonVM">
+    <Position X="11" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAICAAoSIAABACAQIAAAgAAAAAAAaCAIAAAQAAgAA=</HashCode>
+      <FileName>Data\Entities\Organization\OrganizationContactPersonVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Organization.OrganizationProfileVM">
+    <Position X="12.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>KBAEQAAAAIIUQBAIIQAAAAABAyIgBAgCCIAAAgAAAQA=</HashCode>
+      <FileName>Data\Entities\Organization\OrganizationProfileVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Organization.OrganizationTranslationVM">
+    <Position X="14.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAgAAICAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Organization\OrganizationTranslationVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Organization.OrganizationVM">
+    <Position X="0.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CBABQAABIEIUABACIQAAAAQAAgAQBAgAAoBAAgAAAAA=</HashCode>
+      <FileName>Data\Entities\Organization\OrganizationVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.CalendarVM">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAgAAAAAAAAAQAAAEAAAAA=</HashCode>
+      <FileName>Data\Entities\CalendarVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ConceptNonFormalTrainingVM">
+    <Position X="7.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAIAAAIAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\ConceptNonFormalTrainingVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ConfigCenterVm">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>Data\Entities\ConfigCenterVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.EducationalInformationVm">
+    <Position X="12.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgAAgIAAAAAAAAACATQACgAAAAAAAAAAAEAgAI=</HashCode>
+      <FileName>Data\Entities\EducationalInformationVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.EventVm">
+    <Position X="14.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAQAEAEAABQACAAAgAAAAAQkCAQBAAEAAAAE=</HashCode>
+      <FileName>Data\Entities\EventVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ExperienceInformationVm">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAEQgAAAAAAAAAAAAAOQIAAA=</HashCode>
+      <FileName>Data\Entities\ExperienceInformationVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.FeedbackVM">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAAAgAAAAIAAAAAAAAAIE=</HashCode>
+      <FileName>Data\Entities\FeedbackVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.HelpfulLinkVm">
+    <Position X="5.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAABAAAAAAAAEAAAAAAAAAAAAAAAAABAE=</HashCode>
+      <FileName>Data\Entities\HelpfulLinkVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.IndividualRegisterationVm">
+    <Position X="5.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAICEBAQKAABACIAAAgAAQAAgIAAAsCAJAAACAAKAw=</HashCode>
+      <FileName>Data\Entities\IndividualRegisterationVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.JobVm">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="LMIS.Infrastructure.Data.Entities.JobVm.JobSkill" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\Entities\JobVm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>cAAQRAAAAAAgAFCYBYAAEAAgCAIAAAEIAMAAEEBAQIA=</HashCode>
+      <FileName>Data\Entities\JobVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.JobsCountVm">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAEAAAgA=</HashCode>
+      <FileName>Data\Entities\JobVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ListOfEmailsVm">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Data\Entities\ListOfEmailsVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.MessageInfoVM">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAgAAAAAAAAYAQAAIAAAAAA=</HashCode>
+      <FileName>Data\Entities\MessageInfoVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.NewsVm">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAECAgABAQAIAAAAAAIABAAAgBAAAAAQAAAIA=</HashCode>
+      <FileName>Data\Entities\NewsVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ObsceneWordsVm">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Data\Entities\ObsceneWordsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.OfficeVm">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgAAAAEAABAAAAAAgAAAAAACCAIAAAAQAAAA=</HashCode>
+      <FileName>Data\Entities\OfficeVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.OpportunityVm">
+    <Position X="9.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAABAAAAAIAAAEAABQAgAAAgAAAAAQkAAABAAEAAAAA=</HashCode>
+      <FileName>Data\Entities\OpportunityVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.OrgContactVm">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAAAAAEAAAAAGIAYAAAAAIAAA=</HashCode>
+      <FileName>Data\Entities\OrgContactVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.OrgVm">
+    <Position X="4" Y="4.5" Width="1.75" />
+    <NestedTypes>
+      <Class Name="LMIS.Infrastructure.Data.Entities.OrgVm.OrgContactInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\Entities\OrgVm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAAAAwCMAAwAAAAIABQACBACIAQIAAGCAAAA=</HashCode>
+      <FileName>Data\Entities\OrgVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.PagesVM">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAIAAEAAAAAAAAAAAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>Data\Entities\PagesVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.PagesActionsVM">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Data\Entities\PagesVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.PartnersDetailsVM">
+    <Position X="9.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAACAAAAAAAAAIAEAAAAgQAAAA=</HashCode>
+      <FileName>Data\Entities\PartnersDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.PartnerVM">
+    <Position X="11" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAI4AEABAAIQAALAAAAgAAAAYKEIAAAwQAgIA=</HashCode>
+      <FileName>Data\Entities\PartnerVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.QualificationsVm">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCACAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Data\Entities\QualificationsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ReportVM">
+    <Position X="0.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>miACCKUyAgBGAiYJhMBECCAgIgQ3gJKRAlwxMJFRFf8=</HashCode>
+      <FileName>Data\Entities\ReportVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.RequestLogVm">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAQAABFQAAAAAAQAAAAAAAEQIAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\RequestLogVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.SkillsInformationVm">
+    <Position X="4" Y="5.5" Width="1.75" />
+    <NestedTypes>
+      <Class Name="LMIS.Infrastructure.Data.Entities.SkillsInformationVm.TrainingSkill" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\Entities\SkillsInformationVm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\SkillsInformationVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.SubCodeVm">
+    <Position X="5.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAAAEAAAAAAAAAAAAQAACAAgAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\SubCodeVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.TestimonialsVM">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAQAAAAAAAIIAAAAAAAAIAA=</HashCode>
+      <FileName>Data\Entities\TestimonialsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ThemesVariablesVM">
+    <Position X="11" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAEAAAAAQAAAAAEAAAAAAAAAAAAAAQAAAABAAAA=</HashCode>
+      <FileName>Data\Entities\ThemesVariablesVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.ThemeVm">
+    <Position X="12.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAKAAAQIAAAAAIAAAAAAIAQAAME=</HashCode>
+      <FileName>Data\Entities\ThemeVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.TrainingandCertificationVm">
+    <Position X="14.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAIAAAAACAIAhAAAAAAAAABAAAMAAAAA=</HashCode>
+      <FileName>Data\Entities\TrainingandCertificationVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.TrainingVm">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="LMIS.Infrastructure.Data.Entities.TrainingVm.TrainingSkill" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\Entities\TrainingVm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>NAASAAAEAAIiAEAIB4AAABAgAAIAAAEKAAAAAEBAAAA=</HashCode>
+      <FileName>Data\Entities\TrainingVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.TransactionHistoryVm">
+    <Position X="2.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAABAAAAAAAAAAAAAAAAEAAAEAAAAAAAg=</HashCode>
+      <FileName>Data\Entities\TransactionHistoryVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.UnionVm">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="LMIS.Infrastructure.Data.Entities.UnionVm.UnionCommittee" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\Entities\UnionVm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgCAAgBAABAAAAAQAQAAAAAACAIQAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\UnionVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.GeneralCodeVM">
+    <Position X="4" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAACAQAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\GeneralCodeVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileAppliedJobsVM">
+    <Position X="7.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAIACAEAAAAAAAEAAAAAAAAAAAAAAAAAiAAA=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileAppliedJobsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileAppliedTrainingVM">
+    <Position X="9.25" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAIACAAAAAAAAAAAAAAAQAgIAAAAAAAAgAAA=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileAppliedTrainingVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileCertificateVM">
+    <Position X="11" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAACAAAAAAAAAAABgAAAQAAAAAA=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileCertificateVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileEducationVM">
+    <Position X="12.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgQAgJAgAAAAAAAAAAQEAAIAAAAAAARAAEAAAI=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileEducationVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileSkillVM">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAQJAAIEAAAAAAQAAAAAAAAAgAAQAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileSkillVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileTrainingVM">
+    <Position X="2.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAIAAQAAAAEAAIAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileTrainingVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileVM">
+    <Position X="4" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>MAAAAkABRGIAQISIAUAAAAACMAMQFAISAABAAGAADJg=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualProfileVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualTranslationVM">
+    <Position X="7.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAg=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualTranslationVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualVM">
+    <Position X="9.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABQWIAABQCIQAAIAgCIAAQEAAQAAAAACAABIA=</HashCode>
+      <FileName>Data\Entities\Individual\IndividualVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Data.Entities.Individual.IndividualProfileExperienceVM">
+    <Position X="14.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACICIQAAAAAAAEQAAAAAAAAAAAAAAKQAAAA=</HashCode>
+      <FileName>Data\Entities\Individual\IndiviualProfileExperienceVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Enums.Tables">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAIAAAAAAA=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Infrastructure.Helpers.Utils">
+    <Position X="9.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACg=</HashCode>
+      <FileName>Helpers\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="LMIS.Infrastructure.Data.DTOs.LocalString">
+    <Position X="2.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAA=</HashCode>
+      <FileName>Data\DTOs\GlobalString.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LMIS.Infrastructure.Data.DTOs.GlobalString">
+    <Position X="0.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AICCBAqAAAAAAAgCAAAAAAAABBAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Data\DTOs\GlobalString.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IAspNetUserRolesManager">
+    <Position X="0.5" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\AspNetUserRolesManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IAspNetUsersManager">
+    <Position X="4" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IAspNetUsersManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IChatLogManager">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IChatLogManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IConceptNonFormalTrainingManager">
+    <Position X="11" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IConceptNonFormalTrainingManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IConfigCenterManager">
+    <Position X="14.5" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAAAAAACAAAAAAAAAAAAAAABAI=</HashCode>
+      <FileName>Interfaces\Managers\IConfigCenterManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IDataServiceManager">
+    <Position X="2.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAABAAQIAACgAAAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>Interfaces\Managers\IDataServiceManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IDimThemesManager">
+    <Position X="5.75" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAABAAAAAAAAAEAAIAAEAAAIAAAAAE=</HashCode>
+      <FileName>Interfaces\Managers\IDimThemesManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IEventManager">
+    <Position X="9.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Interfaces\Managers\IEventManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IFactStatisticalDataManager">
+    <Position X="12.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IFactStatisticalDataManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IFeedbackManager">
+    <Position X="0.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IFeedbackManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IGeneralCodeManager">
+    <Position X="4" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IGeneralCodeManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IHelpfulLinkManager">
+    <Position X="7.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IHelpfulLinkManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IindividualDetailsManager">
+    <Position X="11" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAAAAAQAQEAEAAAgIEAAMAAEEAAABAABAAAKEM=</HashCode>
+      <FileName>Interfaces\Managers\IindividualDetailsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IIndividualManager">
+    <Position X="14.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAABAAABAAAAAAACAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IIndividualManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IIndManager">
+    <Position X="2.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Interfaces\Managers\IIndManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IJobManager">
+    <Position X="5.75" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABBAAgAAAAAAAAAAACBEBAAAIAAAgAAAgIAA=</HashCode>
+      <FileName>Interfaces\Managers\IJobManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IListOfEmailsManager">
+    <Position X="9.25" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IListOfEmailsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.ILmisReportsManager">
+    <Position X="12.75" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\Managers\ILmisReportsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.INewsManager">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAACAAAAEAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\INewsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IObsceneWordsManager">
+    <Position X="4" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IObsceneWordsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IOfficeManager">
+    <Position X="7.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\Managers\IOfficeManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IOpportunityManager">
+    <Position X="11" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Interfaces\Managers\IOpportunityManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IOrganizationContactInfoManager">
+    <Position X="14.5" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IOrganizationContactInfoManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IOrganizationManager">
+    <Position X="2.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgwAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IOrganizationManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IOrgManager">
+    <Position X="5.75" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgABBAAAAAACCEAAAAEAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IOrgManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IPagesActionsManager">
+    <Position X="9.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Interfaces\Managers\IPagesActionsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IPagesManager">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IPagesManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IPartnerManager">
+    <Position X="0.5" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAA=</HashCode>
+      <FileName>Interfaces\Managers\IPartnerManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IPortalUsersManager">
+    <Position X="4" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAIAAAAACAA=</HashCode>
+      <FileName>Interfaces\Managers\IPortalUsersManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IQualificationsManager">
+    <Position X="7.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IQualificationsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IReportsManager">
+    <Position X="11" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAJAAAAAAAAAAAAAAAAEAAIAAAAAAAEAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\IReportsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IRequestLogManager">
+    <Position X="14.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAI=</HashCode>
+      <FileName>Interfaces\Managers\IRequestLogManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.ISubCodeManager">
+    <Position X="2.25" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAQAAMAAAIAAAAAAAAAAAAAAAAGAIAAAAAAIAAAAAAI=</HashCode>
+      <FileName>Interfaces\Managers\ISubCodeManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.ITestimonialsManager">
+    <Position X="5.75" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Managers\ITestimonialsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IThemesVariablesManager">
+    <Position X="9.25" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAA=</HashCode>
+      <FileName>Interfaces\Managers\IThemesVariablesManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.ITrainingManager">
+    <Position X="12.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAABAAABAAAQAAAAAACAEBAAAAAAAgAAAgIAA=</HashCode>
+      <FileName>Interfaces\Managers\ITrainingManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Managers.IUnionManager">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\Managers\IUnionManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IAspNetUserRolesRepository">
+    <Position X="2.25" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\AspNetUserRolesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IAspNetUsersRepository">
+    <Position X="5.75" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IAspNetUsersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IChatLogRepository">
+    <Position X="9.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IChatLogRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IConceptNonFormalTrainingRepository">
+    <Position X="12.75" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IConceptNonFormalTrainingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IConfigCenterRepository">
+    <Position X="0.5" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAAAAAACAAAAAAAAAAAAAAABAI=</HashCode>
+      <FileName>Interfaces\Repositories\IConfigCenterRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IDataServiceRepository">
+    <Position X="4" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAABAAQIAACgAAAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>Interfaces\Repositories\IDataServiceRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IDimThemesRepository">
+    <Position X="7.5" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAABAAAAAAAAAEAAIAAEAAAIAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IDimThemesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IEventRepository">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAABAAgAAACAEAAQAAAAAgEAAAAAI=</HashCode>
+      <FileName>Interfaces\Repositories\IEventRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IFactStatisticalDataRepository">
+    <Position X="14.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IFactStatisticalDataRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IFeedbackRepository">
+    <Position X="2.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IFeedbackRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IGeneralCodeRepository">
+    <Position X="5.75" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IGeneralCodeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IHelpfulLinkRepository">
+    <Position X="9.25" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IHelpfulLinkRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IindividualDetailsRepository">
+    <Position X="12.75" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAAAAgQAAEAEAAAgIEAAMAAEFAAABBABAAAKEI=</HashCode>
+      <FileName>Interfaces\Repositories\IindividualDetailsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IIndividualRepository">
+    <Position X="0.5" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAABAAABAAAAAAACAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IIndividualRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IIndRepository">
+    <Position X="4" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IIndRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IJobRepository">
+    <Position X="7.5" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABBAAgAAABAAAgAAACBEBAAAIAAAgAAAgIAA=</HashCode>
+      <FileName>Interfaces\Repositories\IJobRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IListOfEmailsRepository">
+    <Position X="11" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IListOfEmailsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.ILmisReportsRepository">
+    <Position X="14.5" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\Repositories\ILmisReportsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.INewsRepository">
+    <Position X="2.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAACAAAAEAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\INewsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IObsceneWordsRepository">
+    <Position X="5.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IObsceneWordsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IOfficeRepository">
+    <Position X="9.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\Repositories\IOfficeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IOpportunityRepository">
+    <Position X="12.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAABAAgAAACAEAAQAAAAAgEAAAAAI=</HashCode>
+      <FileName>Interfaces\Repositories\IOpportunityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IOrganizationContactInfoRepository">
+    <Position X="0.5" Y="12.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IOrganizationContactInfoRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IOrganizationRepository">
+    <Position X="4" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgwAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IOrganizationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IOrgRepository">
+    <Position X="7.5" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgABBAAAAAACCEAAAAEAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IOrgRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IPagesActionsRepository">
+    <Position X="11" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Interfaces\Repositories\IPagesActionsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IPagesRepository">
+    <Position X="14.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IPagesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IPartnerRepository">
+    <Position X="2.25" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IPartnerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IPortalUsersRepository">
+    <Position X="5.75" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAIAAAAACAA=</HashCode>
+      <FileName>Interfaces\Repositories\IPortalUsersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IQualificationsRepository">
+    <Position X="9.25" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IQualificationsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IReportsRepository">
+    <Position X="12.75" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAJAAAAAAAAAAAAAAAAEAAIAAAAAAAEAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\IReportsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IRequestLogRepository">
+    <Position X="0.5" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAI=</HashCode>
+      <FileName>Interfaces\Repositories\IRequestLogRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.ISubCodeRepository">
+    <Position X="4" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAQAAMAAAIAAAAAAAAAAAAAAAAGAIAAAAAAIAAAAAAI=</HashCode>
+      <FileName>Interfaces\Repositories\ISubCodeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.ITestimonialsRepository">
+    <Position X="7.5" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Repositories\ITestimonialsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IThemesVariablesRepository">
+    <Position X="11" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAA=</HashCode>
+      <FileName>Interfaces\Repositories\IThemesVariablesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.ITrainingRepository">
+    <Position X="14.5" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAABAAABAABQAAgAAACAEBAAAAAAAgAAAgIAA=</HashCode>
+      <FileName>Interfaces\Repositories\ITrainingRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LMIS.Infrastructure.Interfaces.Repositories.IUnionRepository">
+    <Position X="2.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\Repositories\IUnionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LMIS.Infrastructure.Enums.ResponseStatus">
+    <Position X="5.75" Y="16" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAACAAAAAAAAAgAAAAAAAABAAAEAAAQ=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LMIS.Infrastructure.Enums.UserCat">
+    <Position X="7.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBA=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LMIS.Infrastructure.Enums.UserClass">
+    <Position X="9.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABA=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LMIS.Infrastructure.Enums.GeneralCode">
+    <Position X="2.25" Y="16" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BQAAAEAADIIAQACRAEAAAAAEABIAAAIEAYAAAAAAAIQ=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LMIS.Infrastructure.Enums.Approval">
+    <Position X="0.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LMIS.Infrastructure.Enums.Language">
+    <Position X="4" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

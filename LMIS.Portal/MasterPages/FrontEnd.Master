@@ -1,0 +1,612 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="LMIS.Portal.MasterPages.FrontEnd" %>
+<%@ Import Namespace="LMIS.Infrastructure.Data.DTOs" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/internal.dwt" codeOutsideHTMLIsLocked="false" -->
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title><%=Page.Title%> | LMIS</title>
+    <!-- InstanceEndEditable -->
+    <!-- core CSS -->
+
+    <link href="../css/lmis.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-nav-wizard.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="../css/jquery-ui.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="stylesheet" href="../css/jquery.dataTables.css">
+    <link rel="stylesheet" href="../css/bootstrap-multiselect.css" type="text/css" />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link rel="shortcut icon" href="../images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
+    <link href="<%$ Resources:CommonControls,Direction %>" rel="stylesheet" />
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+    <script src="../js/jquery.js"></script>
+    <script src="../Scripts/knockout-3.3.0.js"></script>
+    <script src="../Scripts/knockout.validation.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.prettyPhoto.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-multiselect.js"></script>
+    <script src="../js/jquery.dataTables.js"></script>
+    <script src="../Scripts/Extensions/lmis.js"></script>
+    <script src="../Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script type="text/javascript" src="../Scripts/moment.js"></script>
+    <script src="../js/datetime-moment.js"></script>
+
+
+
+    <%= Scripts.Render("~/bundles/noty") %>
+    <%= Scripts.Render("~/bundles/inputmask") %>
+ 
+    <script src="../js/datetime-moment.js"></script>
+    <!-- plug-in for DataTables -->
+    <script src="../Scripts/Require/require.js" data-main="../Scripts/Require/main.js"></script>
+
+</head>
+<!--/head-->
+<script type="text/javascript">
+    $(function () {
+        $(".datepiker").datepicker({
+            dateFormat: "dd/mm/yy",
+            changeMonth: true,
+            changeYear: true
+
+        });
+    });
+    function bm(path) {
+        var win = window.open('http://publications.egyptlmis.eg/' + path + '&&lang=' + lmis.uiCulture, '_blank');
+        if (win) {
+            //Browser has allowed it to be opened
+            win.focus();
+        } else {
+            //Broswer has blocked it
+            alert('Please allow popups for this site');
+        }
+    }
+</script>
+<body runat="server" class="rtl">
+
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-4">
+                        <div class="top-number">
+                            <a class="navbar-brand" href="../home">
+                                <img  src="../images/ELMIS_Logo.png" alt="logo" class="lmislogo" style="width: 181px; height: 100px  !important"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                        <div class="social">
+                            <ul class="top-menu">
+                                <li><a href="../home"><%=GetGlobalResourceObject("CommonControls", "Menu_LMIS")%>   |  </a></li>
+                                <li><a href="../Faq"   ><%=GetGlobalResourceObject("CommonControls", "F057")%>    |   </a></li>
+                                <li class="dropdown"><a href="../ContactUs"><%=GetGlobalResourceObject("CommonControls", "Menu_ContactUs")%> |</a>
+                                   <ul class="dropdown-menu">
+                                        <li><a href="../ContactUs"><%=GetGlobalResourceObject("CommonControls", "Menu_ContactUs")%> </a></li>|
+                                         <li ><a class="livechat"><%=GetGlobalResourceObject("CommonControls", "Menu_LiveChat")%> </a></li>
+                                    </ul>
+                                </li>
+                                <li id="backend"><a href="../BackEnd/home"><%=GetGlobalResourceObject("CommonControls", "Menu_BackEnd")%>  |</a></li>
+                                <li  class="dropdown"><a id="viewaccount"><%=GetGlobalResourceObject("CommonControls", "Menu_MyAccount")%>  |</a>
+                                    <ul class="dropdown-menu">
+                                         <li ><a href="../login" class="login"><%=GetGlobalResourceObject("CommonControls", "F007")%> |</a></li>
+                                       <li ><a href="../LabourExchange/LabourExchange"><%=GetGlobalResourceObject("CommonControls", "F030_Title")%>  </a></li> 
+                                    </ul>
+                                </li>
+                               
+                                <li><a tool href="javascript:SwitchLanguage('en')"><img src="../images/UnitedKingDom.png" alt="English" />|</a></li>
+                                <li><a href="javascript:SwitchLanguage('ar')"><img src="../images/Egypt.png" alt="عربى" /> |</a></li>
+                                <%--<li><a href="javascript:SwitchLanguage('fr')"><%=GetGlobalResourceObject("CommonControls", "X_French")%></a></li>--%>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.top-bar-->
+          
+        <nav class="navbar navbar-inverse" role="banner">
+           
+            <div class="container no-padding">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" style="padding-left: 15%;padding-right:15%">
+                  
+                    <ul class="nav navbar-nav ">
+                       
+                        
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown"><%=GetGlobalResourceObject("CommonControls", "X_LabourExchange")%>  <i class="fa fa-angle-down"></i></a>| 
+                           <ul class="dropdown-menu">
+                               <li><a href="../LabourExchange/JobSearch"><%=GetGlobalResourceObject("CommonControls", "F018")%></a></li>
+                        <%--       <li><a href="../LabourExchange/JobSearch.aspx?f1=01800001#anchor"><%=GetGlobalResourceObject("CommonControls", "F018_fullTime")%></a></li>
+                               <li><a href="../LabourExchange/JobSearch.aspx?f1=01800002#anchor"><%=GetGlobalResourceObject("CommonControls", "F018_partTime")%></a></li>--%>
+                               <li><a href="../LabourExchange/TrainingSearch"><%=GetGlobalResourceObject("CommonControls", "F020")%></a></li>
+                               <li><a href="../LabourExchange/Opportunities?m=f"><%=GetGlobalResourceObject("CommonControls", "F005_FormalOpps")%></a></li>
+                           </ul>
+                        </li>
+
+                        <li><a href="../HarmonizedData"><%=GetGlobalResourceObject("CommonControls", "Menu_LabourData")%> </a>|   </li>
+
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown"><%=GetGlobalResourceObject("CommonControls", "Menu_LabourMarket")%>     <i class="fa fa-angle-down"></i></a>| 
+                           <ul class="dropdown-menu">
+                               <li><a href="../LabourMarket/AverageWages"  ><%=GetGlobalResourceObject("CommonControls", "F047")%> </a></li>
+                               <li><a href="../workoffices" ><%=GetGlobalResourceObject("CommonControls", "B001")%></a></li>
+                                <li><a href="../LaborUnions" ><%=GetGlobalResourceObject("CommonControls", "B002")%></a></li>
+                               <li><a href="../RecruitmentAgencies" ><%=GetGlobalResourceObject("CommonControls", "F062")%></a></li>
+                               <li ><a href="../DescriptiveJob"><%=GetGlobalResourceObject("CommonControls", "F055")%></a></li>
+                               <li ><a href="../TrainingProviders"><%=GetGlobalResourceObject("CommonControls", "F060")%></a></li>
+                               <li ><a href="../Employers"><%=GetGlobalResourceObject("CommonControls", "F061")%></a></li>
+                           </ul>
+                        </li>
+
+
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown"><%=GetGlobalResourceObject("CommonControls", "Menu_InformalSector")%>    <i class="fa fa-angle-down"></i></a>| 
+                           <ul class="dropdown-menu">
+                               <li><a href="../ConceptOfNonFormalTraining"  ><%=GetGlobalResourceObject("CommonControls", "F052")%></a></li>
+                               <li><a href="../LabourMarket/PastAchievements"><%=GetGlobalResourceObject("CommonControls", "Menu_Pastachievements")%></a></li>
+                               <li><a href="../LabourExchange/Opportunities?m=i"><%=GetGlobalResourceObject("CommonControls", "F005_InformalOpps")%></a></li>
+                               <li><a href="../LabourMarket/NewsFeed" ><%=GetGlobalResourceObject("CommonControls", "Menu_Newsfeed")%></a></li>
+                               <li><a href="../SizeOfInformalSector" ><%=GetGlobalResourceObject("CommonControls", "Menu_Sizeinformalsector")%></a></li>
+                           </ul>
+                        </li>
+
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=GetGlobalResourceObject("CommonControls", "Menu_Publication")%>  <i class="fa fa-angle-down"></i></a>| 
+                            <ul class="dropdown-menu">
+
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=3')" ><%=GetGlobalResourceObject("CommonControls", "Menu_InformalSectorStudies")%> </a>
+                                 
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=4')"  ><%=GetGlobalResourceObject("CommonControls", "Menu_InformalSectorPublication")%> </a>
+                                   
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=5')" ><%=GetGlobalResourceObject("CommonControls", "Menu_LMISAnnualReport")%> </a>
+                                
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=6')"  ><%=GetGlobalResourceObject("CommonControls", "Menu_SurveysInventory")%> </a>
+                               
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=7')"  ><%=GetGlobalResourceObject("CommonControls", "Menu_GeneralStudies")%> </a>
+                               
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=8')"  ><%=GetGlobalResourceObject("CommonControls", "Menu_PublishedMaterial")%> </a>
+                                
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=9')" ><%=GetGlobalResourceObject("CommonControls", "Menu_EmployersCareerGuidanceArticles")%> </a>
+                              
+                                </li>
+                                <li >
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=10')" ><%=GetGlobalResourceObject("CommonControls", "Menu_JobSeekersCareerGuidanceArticles")%> </a>
+                             
+                                </li>
+                                <li>
+                                    <a href="#" onclick="return bm('Search/frmGlobalSearch.aspx?cid=LMIS&&lib=11')" ><%=GetGlobalResourceObject("CommonControls", "Menu_InformalSectorConceptsTraining")%> </a>
+                              
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li><a href="../Qualifications"  ><%=GetGlobalResourceObject("CommonControls", "Menu_Qualifications")%> </a>  </li>
+                 <%--       <li><a href="tab9/data-bank.html" onclick="return false;"><%=GetGlobalResourceObject("CommonControls", "Menu_DataBank")%>   </a></li>--%>
+                    </ul>
+               
+                       
+                         </div>
+            </div>
+             
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
+        
+    </header>
+    <!--/header-->
+
+    <section class="no-margin " id="internalheader">
+        <div class="container no-padding">
+            <!-- InstanceBeginEditable name="EditRegion4" -->
+            <div class="<%=HeaderBackground()%>">
+                <div class="pagetitle">
+                    <h2 id="anchor"><%=Page.Title%></h2>
+                </div>
+            </div>
+            <!-- InstanceEndEditable -->
+        </div>
+    </section>
+    <!-- InstanceBeginEditable name="EditRegion1" -->
+
+    <section id="internal-page-section">
+        <div class="container white-bg blog padding20">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div style="display: none;">
+                <p id="X_Required"><%=GetGlobalResourceObject("MessagesResource", "X_Required")%></p>
+                <p id="X_RequiredFieldErrors"><%=GetGlobalResourceObject("MessagesResource", "X_RequiredFieldErrors")%></p>
+                <p id="X_UnsavedChanges"><%=GetGlobalResourceObject("MessagesResource", "X_UnsavedChanges")%></p>
+                <p id="X_InvalidEmail"><%=GetGlobalResourceObject("MessagesResource", "X_InvalidEmail")%></p>
+                <p id="X_InputMaskDate"><%=GetGlobalResourceObject("MessagesResource", "X_InputMaskDate")%></p>
+                <p id="X_MomentDate"><%=GetGlobalResourceObject("MessagesResource", "X_MomentDate")%></p>
+                <p id="X_DatePickerDate"><%=GetGlobalResourceObject("MessagesResource", "X_DatePickerDate")%></p>
+                <p id="X_TypeInEnglish"><%=GetGlobalResourceObject("MessagesResource", "X_TypeInEnglish")%></p>
+                <p id="X_TypeInFrench"><%=GetGlobalResourceObject("MessagesResource", "X_TypeInFrench")%></p>
+                <p id="X_TypeInArabic"><%=GetGlobalResourceObject("MessagesResource", "X_TypeInArabic")%></p>
+                <p id="X_InvalidFileForUpload"><%=GetGlobalResourceObject("MessagesResource", "X_InvalidFileForUpload")%></p>
+                <p id="X_Processing"><%=GetGlobalResourceObject("MessagesResource", "X_Processing")%></p>
+                <p id="X_ConfirmContinue"><%=GetGlobalResourceObject("MessagesResource", "X_ConfirmContinue")%></p>
+                <p id="X_FileUpload"><%=GetGlobalResourceObject("MessagesResource", "X_FileUpload")%></p>
+                <p id="X_FileUploadProgress"><%=GetGlobalResourceObject("MessagesResource", "X_FileUploadProgress")%></p>
+                <p id="X_OK"><%=GetGlobalResourceObject("CommonControls", "X_OK")%></p>
+                <p id="X_PasswordsMismatch"><%=GetGlobalResourceObject("MessagesResource", "W001_PasswordsMismatch")%></p>
+                <p id="X_InvalidPassword"><%=GetGlobalResourceObject("MessagesResource", "W001_InvalidPassword")%></p>
+                <p id="X_Cancel"><%=GetGlobalResourceObject("CommonControls", "X_Cancel")%></p>
+                 <p id="X_AggrementRead"><%=GetGlobalResourceObject("CommonControls", "X_AggrementRead")%></p>
+                <div id="ServerValidations"><p><%=GetGlobalResourceObject("MessagesResource", "X_ValidationErrors")%></p><p id="ValidationMessage"></p>
+                </div>
+                <div id="Success"><p><%=GetGlobalResourceObject("MessagesResource", "X_OperationSuccess")%></p></div>
+                <div id="Upload">
+                    <p id="Progress"></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /.col-xs-12 -->
+
+
+    <!--/.get-started-->
+
+
+
+
+
+    <!--/.container-->
+    <!-- InstanceEndEditable -->
+    <!--/#welcome-info-->
+    <section id="bottom">
+
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3><%=GetGlobalResourceObject("CommonControls", "Master_link_Getintouch")%></h3>
+                        <p style="color:white"><%=GetGlobalResourceObject("CommonControls", "Master_link_Getintouch")%> <%=GetGlobalResourceObject("CommonControls", "Menu_ChatNow")%></p>
+                        <div><i class="fa fa-location-arrow"></i><span>84 Street, City, State 24813 </span></div>
+                        <div><i class="fa fa-phone"></i><span>+00 (123) 456 78 90 </span></div>
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <span><a href="mailto:info@lmis.com?Subject=Hello%20LMIS">info@lmis.com </a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-3-->
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="widget">
+                        <h3><%=GetGlobalResourceObject("CommonControls", "Menu_SiteMap")%></h3>
+                        <ul>
+                            <li><a href="../home"><%=GetGlobalResourceObject("CommonControls", "Menu_Home")%></a></li>
+                            <li><a href="../LabourExchange/LabourExchange"><%=GetGlobalResourceObject("CommonControls", "F030_Title")%></a></li>
+                            <li><a href="../HarmonizedData"><%=GetGlobalResourceObject("CommonControls", "Menu_LabourData")%></a></li>
+                            <li><a href="../ConceptOfNonFormalTraining"  ><%=GetGlobalResourceObject("CommonControls", "Menu_InformalSector")%>Informal Sector</a></li>
+                            <li><a href="../Qualifications"  ><%=GetGlobalResourceObject("CommonControls", "Menu_Qualifications")%></a></li>
+                           <li><a href="../Faq"  ><%=GetGlobalResourceObject("CommonControls", "F057")%>FAQ</a></li>
+                            <li><a href="../SiteMap"><%=GetGlobalResourceObject("CommonControls", "Menu_SiteMap")%></a></li>
+                            <li><a href="../Partners"><%=GetGlobalResourceObject("CommonControls", "Menu_Partners")%></a></li>
+                            <li>
+                               
+                                <a href="../ContactUs"><%=GetGlobalResourceObject("CommonControls", "Menu_ContactUs")%></a></li>
+                            <li><a  href="../HelpFullLinks" ><%=GetGlobalResourceObject("CommonControls", "Menu_HelpfulLinks")%> </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--/.col-md-3-->
+
+
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3><%=GetGlobalResourceObject("CommonControls", "Menu_Newsletter")%></h3>
+                        <p></p>
+                        <div class="subscribe">
+                            <form role="form">
+
+                                <asp:Label ID="lblSubScriberEmail" CssClass="border5 subscribe-input" runat="server"></asp:Label>
+
+                                <a onclick="fnSubscribe();"><i class="fa  subscribe-icon-block border5"><%=GetGlobalResourceObject("CommonControls", "Menu_Subscribe")%></i></a>
+
+                            </form>
+                        </div>
+                        <h3><%=GetGlobalResourceObject("CommonControls", "F029_SocialLinks")%></h3>
+                        <ul class="footer-social-icons" >
+                            <li><a href="https://twitter.com/autoconsme" target="_blank" class="twitter">
+                                <img src="../images/social-icons/twitter.png" />
+                            </a></li>
+
+                            <li><a href="" target="_blank" class="facebook">
+                                <img src="../images/social-icons/facebook.png" /></a></li>
+
+                            <li><a href="" target="_blank" class="googleplus">
+                                <img src="../images/social-icons/google-plus.png" /></a></li>
+
+                            <li><a href="" target="_blank" class="linkedin">
+                                <img src="../images/social-icons/linkedin.png" /></a></li>
+
+                            <li><a href="" target="_blank" class="eblog">
+                                <img src="../images/social-icons/eblog.png" /></a></li>
+
+                            <li><a href="" target="_blank" class="youtube">
+                                <img src="../images/social-icons/youtube.png" /></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--/.col-md-3-->
+            </div>
+        </div>
+    </section>
+    <!--/#bottom-->
+    <div id="live-chat"  class="live-chat"><i class="fa fa-comment"></i><span><%=GetGlobalResourceObject("CommonControls", "Menu_LiveChat")%></span> </div>
+    <div id="live-chat-panel" class="live-chat-panel">
+        <div class="top-title container" >
+
+            <div class="col-lg-10"><i class="fa fa-comments"></i><span><%=GetGlobalResourceObject("CommonControls", "Menu_StartChat")%></span> </div>
+            <div class="col-lg-2" id="live-chat-hide"><i class="fa fa-minus-square"></i></div>
+        </div>
+        <div class="live-chat-panel-body " >
+            <form class="form-horizontal">
+                  <div class="form-group-chat text-center" style='overflow:scroll; width:400px;height:400px;' >
+                    
+                </div>
+                <div class="form-group-chat" style="position: absolute;bottom:0">
+                    <textarea  class=" col-md-12" id="txtMessage" placeholder="Message" rows="2"></textarea>
+                    <input type="button" class="btn btn-default btn-success " style="margin-top: 2px;" value="Send" />
+                </div>
+            
+              
+            </form>
+        </div>
+    </div>
+    <footer id="footer" class="midnight">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" style="color:white">
+                    Copyright  &copy; 2014 | LMIS All Rights Reserved.
+                    
+                </div>
+                <div class="col-sm-6" >
+                    <ul class="pull-right ">
+                        <li ><a href="../ConceptsDefinitions" ><%=GetGlobalResourceObject("CommonControls", "F058")%>  </a>| </li>
+                        <li><a href="../Disclaimer"><%=GetGlobalResourceObject("CommonControls", "Menu_Disclaimer")%>  </a>| </li>
+                        <li ><a href="../Faq" ><%=GetGlobalResourceObject("CommonControls", "F057")%></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--/#footer-->
+
+    <script type="text/javascript">
+        function SwitchLanguage(lang) {
+            document.cookie = "CultureInfo=" + lang + "; path=/";
+            window.location.reload(true);
+           
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 3000
+            });
+
+            $('.carousel').carousel('cycle');
+        });
+        $(function () {
+            $(".dropdown-menu > li > a.trigger").on("click", function (e) {
+                var current = $(this).next();
+                var grandparent = $(this).parent().parent();
+                if ($(this).hasClass('left-caret') || $(this).hasClass('right-caret'))
+                    $(this).toggleClass('right-caret left-caret');
+                grandparent.find('.left-caret').not(this).toggleClass('right-caret left-caret');
+                grandparent.find(".sub-menu:visible").not(current).hide();
+                current.toggle();
+                e.stopPropagation();
+            });
+            $(".dropdown-menu > li > a:not(.trigger)").on("click", function () {
+                var root = $(this).closest('.dropdown');
+                root.find('.left-caret').toggleClass('right-caret left-caret');
+                root.find('.sub-menu:visible').hide();
+            });
+        });
+
+        $(function () {
+            $('[id^=carousel-selector-]').click(function () {
+                var id_selector = $(this).attr("id");
+                var id = id_selector.substr(id_selector.length - 1);
+                id = parseInt(id);
+                $('#myCarousel').carousel(id);
+                $('[id^=carousel-selector-]').removeClass('selected');
+                $(this).addClass('selected');
+            });
+            
+            // when the carousel slides, auto update
+            $('#myCarousel').on('slid', function (e) {
+                var id = $('.item.active').data('slide-number');
+                id = parseInt(id);
+                $('[id^=carousel-selector-]').removeClass('selected');
+                $('[id=carousel-selector-' + id + ']').addClass('selected');
+            });
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+
+
+
+        });
+    </script>
+    <!-- InstanceBeginEditable name="EditRegion5" -->
+    <!-- InstanceEndEditable -->
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var session = '<%=Session["UserInfo"] != null ? "true" : "false" %>';
+            if (session == "true") {
+                var isIndividual = '<%=(Session["UserInfo"]!=null)?(((LMIS.Infrastructure.Data.DTOs.UserInfo)Session["UserInfo"]).IsIndividual ? "true" : "false"): "false"%>';
+                $("#viewaccount").attr("href", (isIndividual == "true") ? "../Individual/Profile" : "../Registration/Profile");
+                $(".login").text('<%=GetGlobalResourceObject("CommonControls", "F007_logout")%>');
+                $("#aLogout").show();
+               
+         
+                $("#backend").show();   
+                
+
+            } else {
+                $(".login").text('<%=GetGlobalResourceObject("CommonControls", "F007")%>');
+                $("#viewaccount").attr("href", "../login");
+                $("#aLogin").show();
+                $("#aLogout").hide();
+                $("#backend").hide(); 
+            }
+            if ($(".facebook").attr("href") == '') {
+
+                lmis.ajax("../FrontEnd/home.aspx/GetSocialMediaLinks", null, 0, "",
+                    function (data) {
+                        $(".eblog").attr("href", 'http://' + data.d[0].Value.replace('www.', '').replace('http://', '').replace('https://', ''));
+                        $(".facebook").attr("href", 'http://' + data.d[1].Value.replace('www.', '').replace('http://', '').replace('https://', ''));
+                        $(".googleplus").attr("href", 'http://' + data.d[2].Value.replace('www.', '').replace('http://', '').replace('https://', ''));
+                        $(".linkedin").attr("href", 'http://' + data.d[3].Value.replace('www.', '').replace('http://', '').replace('https://', ''));
+                        $(".twitter").attr("href", 'http://' + data.d[4].Value.replace('www.', '').replace('http://', '').replace('https://', ''));
+                        $(".youtube").attr("href", 'http://' + data.d[5].Value.replace('www.', '').replace('http://', '').replace('https://', ''));
+
+
+                    });
+
+            }
+
+           
+         
+
+        });
+
+        function fnSubscribe() {
+            lmis.ajax("../FrontEnd/home.aspx/SubscribeNewsLetter", null, 0, "show,close");
+        }
+        $('.livechat').click(livechatfn);
+        $('#live-chat').click(livechatfn);
+        function livechatfn() {
+            var session = '<%=Session["UserInfo"] != null ? "true" : "false" %>';
+            var liveChatDays;
+            var liveChatFrom;
+            var liveChatTo
+
+            lmis.ajax("../FrontEnd/LiveChat.aspx/GetChatTime", null, 0, "",
+                function(data) {
+                    var result = data.d;
+                    liveChatDays = result.LiveChatDays;
+                    liveChatFrom = result.LiveChatFrom;
+                    liveChatTo = result.LiveChatTo;
+                    console.log(liveChatDays);
+                    console.log(liveChatFrom);
+                    console.log(liveChatTo);
+                    var todayTime = new Date().getHours() + ':' + new Date().getMinutes();
+                    
+                    if (liveChatDays.indexOf(new Date().getDay() + 2) !== -1 && Date.parse('01/01/2011 ' + liveChatFrom) < Date.parse('01/01/2011 ' + todayTime) && Date.parse('01/01/2011 ' + todayTime) < Date.parse('01/01/2011 ' + liveChatTo)) {
+                        if (session == "true") {
+                            popitup('../LiveChat', 'LiveChat');
+                        } else {
+
+                            lmis.notification.error('<%=GetGlobalResourceObject("CommonControls", "Master_login")%>');
+                        }
+                    } else {
+                        lmis.notification.error('live chat is not available now, Chat time from: ' + liveChatFrom + ' to: ' + liveChatTo);
+                    }
+                });
+    
+
+        }
+        $('#live-chat-hide').click(function(){$('#live-chat-panel').hide(300); });
+			
+        function popitup(url, windowName) {
+            newwindow = window.open(url, windowName, 'height=400,width=350');
+            if (window.focus) { newwindow.focus() }
+            return false;
+        }
+
+    </script>
+</body>
+<!-- InstanceEnd -->
+</html>

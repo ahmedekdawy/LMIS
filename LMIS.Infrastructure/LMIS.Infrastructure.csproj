@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E196BC9-69D8-42E5-B3EC-689AC6707EBA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LMIS.Infrastructure</RootNamespace>
+    <AssemblyName>LMIS.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHunspell">
+      <HintPath>..\packages\NHunspell.1.2.5554.16953\lib\net\NHunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DTOs\CodeSet.cs" />
+    <Compile Include="Data\DTOs\CodeSuperset.cs" />
+    <Compile Include="Data\DTOs\ModelResponse.cs" />
+    <Compile Include="Data\DTOs\GlobalString.cs" />
+    <Compile Include="Data\DTOs\UserInfo.cs" />
+    <Compile Include="Data\Entities\CalendarVM.cs" />
+    <Compile Include="Data\Entities\RecruitmentAgenciesVM.cs" />
+    <Compile Include="Data\Entities\EmployersTrainingProvidersVM.cs" />
+    <Compile Include="Data\Entities\ConceptsDefinitionsVM.cs" />
+    <Compile Include="Data\Entities\ConceptNonFormalTrainingVM.cs" />
+    <Compile Include="Data\Entities\ConfigCenterVm.cs" />
+    <Compile Include="Data\Entities\ListOfEmailsVm.cs" />
+    <Compile Include="Data\Entities\FeedbackVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileAppliedJobsVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileAppliedTrainingVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileCertificateVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileEducationVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileSkillVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileTrainingVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualTranslationVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndividualProfileVM.cs" />
+    <Compile Include="Data\Entities\Individual\IndiviualProfileExperienceVM.cs" />
+    <Compile Include="Data\Entities\MessageInfoVM.cs" />
+    <Compile Include="Data\Entities\NewsVm.cs" />
+    <Compile Include="Data\Entities\Base\AspNetUserVM.cs" />
+    <Compile Include="Data\Entities\HelpfulLinkVM.cs" />
+    <Compile Include="Data\Entities\OfficeVm.cs" />
+    <Compile Include="Data\Entities\FaqVM.cs" />
+    <Compile Include="Data\Entities\QualificationsVM.cs" />
+    <Compile Include="Data\Entities\ObsceneWordsVM.cs" />
+    <Compile Include="Data\Entities\Organization\ContactPersonTranslation.cs" />
+    <Compile Include="Data\Entities\Organization\OrganizationContactPersonVM.cs" />
+    <Compile Include="Data\Entities\Organization\OrganizationTranslationVM.cs" />
+    <Compile Include="Data\Entities\Organization\OrganizationProfileVM.cs" />
+    <Compile Include="Data\Entities\Organization\OrganizationVM.cs" />
+    <Compile Include="Data\Entities\Base\PortalUserVM.cs" />
+    <Compile Include="Data\Entities\OrgContactVm.cs" />
+    <Compile Include="Data\Entities\OrgVm.cs" />
+    <Compile Include="Data\Entities\PagesVM.cs" />
+    <Compile Include="Data\Entities\PartnersDetailsVM.cs" />
+    <Compile Include="Data\Entities\PartnerVM.cs" />
+    <Compile Include="Data\Entities\RequestLogVm.cs" />
+    <Compile Include="Data\Entities\TestimonialsVM.cs" />
+    <Compile Include="Data\Entities\TrainingandCertificationVm.cs" />
+    <Compile Include="Data\Entities\ExperienceInformationVm.cs" />
+    <Compile Include="Data\Entities\EventVm.cs" />
+    <Compile Include="Data\Entities\GeneralCodeVM.cs" />
+    <Compile Include="Data\Entities\EducationalInformationVm.cs" />
+    <Compile Include="Data\Entities\IndividualRegisterationVm.cs" />
+    <Compile Include="Data\Entities\JobVm.cs" />
+    <Compile Include="Data\Entities\OpportunityVm.cs" />
+    <Compile Include="Data\Entities\ReportVM.cs" />
+    <Compile Include="Data\Entities\SubCodeVm.cs" />
+    <Compile Include="Data\Entities\ThemesVariablesVM.cs" />
+    <Compile Include="Data\Entities\ThemeVm.cs" />
+    <Compile Include="Data\Entities\SkillsInformationVm.cs" />
+    <Compile Include="Data\Entities\TrainingVm.cs" />
+    <Compile Include="Data\Entities\TransactionHistoryVm.cs" />
+    <Compile Include="Data\Entities\UnionVm.cs" />
+    <Compile Include="Enums\Enums.cs" />
+    <Compile Include="Helpers\Utils.cs" />
+    <Compile Include="Interfaces\Managers\AspNetUserRolesManager.cs" />
+    <Compile Include="Interfaces\Managers\IChatLogManager.cs" />
+    <Compile Include="Interfaces\Managers\IRecruitmentAgenciesManager.cs" />
+    <Compile Include="Interfaces\Managers\IEmployersTrainingProvidersManager.cs" />
+    <Compile Include="Interfaces\Managers\IConceptsDefinitionsManager.cs" />
+    <Compile Include="Interfaces\Managers\IConceptNonFormalTrainingManager.cs" />
+    <Compile Include="Interfaces\Managers\IConfigCenterManager.cs" />
+    <Compile Include="Interfaces\Managers\IDataServiceManager.cs" />
+    <Compile Include="Interfaces\Managers\IDimThemesManager.cs" />
+    <Compile Include="Interfaces\Managers\IEventManager.cs" />
+    <Compile Include="Interfaces\Managers\IFactStatisticalDataManager.cs" />
+    <Compile Include="Interfaces\Managers\IFeedbackManager.cs" />
+    <Compile Include="Interfaces\Managers\IindividualDetailsManager.cs" />
+    <Compile Include="Interfaces\Managers\IGeneralCodeManager.cs" />
+    <Compile Include="Interfaces\Managers\IIndividualManager.cs" />
+    <Compile Include="Interfaces\Managers\IIndManager.cs" />
+    <Compile Include="Interfaces\Managers\IJobManager.cs" />
+    <Compile Include="Interfaces\Managers\ILmisReportsManager.cs" />
+    <Compile Include="Interfaces\Managers\INewsManager.cs" />
+    <Compile Include="Interfaces\Managers\IListOfEmailsManager.cs" />
+    <Compile Include="Interfaces\Managers\IHelpfulLinkManager.cs" />
+    <Compile Include="Interfaces\Managers\IObsceneWordsManager.cs" />
+    <Compile Include="Interfaces\Managers\IOpportunityManager.cs" />
+    <Compile Include="Interfaces\Managers\IAspNetUsersManager.cs" />
+    <Compile Include="Interfaces\Managers\IOrganizationContactInfoManager.cs" />
+    <Compile Include="Interfaces\Managers\IOrganizationManager.cs" />
+    <Compile Include="Interfaces\Managers\IOrgManager.cs" />
+    <Compile Include="Interfaces\Managers\IPagesActionsManager.cs" />
+    <Compile Include="Interfaces\Managers\IPagesManager.cs" />
+    <Compile Include="Interfaces\Managers\IPartnerManager.cs" />
+    <Compile Include="Interfaces\Managers\IPortalUsersManager.cs" />
+    <Compile Include="Interfaces\Managers\IFaqManager.cs" />
+    <Compile Include="Interfaces\Managers\IQualificationsManager.cs" />
+    <Compile Include="Interfaces\Managers\IReportsManager.cs" />
+    <Compile Include="Interfaces\Managers\IRequestLogManager.cs" />
+    <Compile Include="Interfaces\Managers\ISubCodeManager.cs" />
+    <Compile Include="Interfaces\Managers\ITestimonialsManager.cs" />
+    <Compile Include="Interfaces\Managers\IThemesVariablesManager.cs" />
+    <Compile Include="Interfaces\Managers\ITrainingManager.cs" />
+    <Compile Include="Interfaces\Managers\IOfficeManager.cs" />
+    <Compile Include="Interfaces\Managers\IUnionManager.cs" />
+    <Compile Include="Interfaces\Repositories\AspNetUserRolesRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IChatLogRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRecruitmentAgenciesRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEmployersTrainingProvidersRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IConceptsDefinitionsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IConceptNonFormalTrainingRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IConfigCenterRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IDataServiceRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IDimThemesRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEventRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFactStatisticalDataRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFeedbackRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IindividualDetailsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IAspNetUsersRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IGeneralCodeRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IIndividualRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IIndRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IJobRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ILmisReportsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\INewsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IListOfEmailsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IHelpfulLinkRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOfficeRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFaqRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IQualificationsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IObsceneWordsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOrganizationContactInfoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOpportunityRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOrganizationRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOrgRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPagesActionsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPagesRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPartnerRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPortalUsersRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IReportsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRequestLogRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ISubCodeRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ITestimonialsRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IThemesVariablesRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ITrainingRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUnionRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="LMIS.Infrastructure.ClassDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

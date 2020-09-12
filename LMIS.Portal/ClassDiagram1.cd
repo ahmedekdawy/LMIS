@@ -1,0 +1,1175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LMIS.Portal.About" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>About.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BundleConfig" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Portal.SmsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LMIS.Portal.ApplicationUserManager" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.ApplicationSignInManager" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.RouteConfig" Collapsed="true">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Startup" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.WebApiConfig" Collapsed="true">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Contact" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Contact.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal._Default" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Disclaimer" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Disclaimer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Global" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAIEAAAAAAAAAAFAIAAAAAAAAAAg=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IdentityHelper" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwSAAAAAAAAAAQAABAAgAAAAAAAAIAAgAAACAAAgAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.SiteMaster" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQKBAAAAIAAEAAABAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Site_Mobile" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAACAAAAAIAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Mobile.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.AddVariable" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABAAAAAAAAAAAAAQAAIBAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>Statistics\AddVariable.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.CreateReport" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEKAAyBAAQgEAAAACAN0AAAoBAISHAENCEgQAYAAQA=</HashCode>
+      <FileName>Statistics\CreateReport.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.ReportsDS" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statistics\DS\ReportsDS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Report_Entry" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCCFAAAAAAAAAAAEAAAAJAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Statistics\Report_Entry.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.ThemesVariable" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQwAQAAAEEAAAIAEgIAAIAAAAEAAAAAAQgIAAgA=</HashCode>
+      <FileName>Statistics\ThemesVariable.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.View_Report" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAGhAAAAAAACAAFEwEAAIBAQCICCIAAAARoAAAA=</HashCode>
+      <FileName>Statistics\View_Report.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.ViewSwitcher" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAIA=</HashCode>
+      <FileName>ViewSwitcher.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.WebForm1" Collapsed="true">
+    <Position X="19.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>WebForm1.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.AddPhoneNumber" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account\AddPhoneNumber.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.Confirm" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIIAEAA=</HashCode>
+      <FileName>Account\Confirm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.ForgotPassword" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAIAAAACCAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAA=</HashCode>
+      <FileName>Account\Forgot.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.Lockout" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Account\Lockout.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.Login">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAACCAAAAAAAAAAAAQAAAAABACAAAAAAIgAAA=</HashCode>
+      <FileName>Account\Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.Manage" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAADAgAAgUAAAAAAQABAIAAAAQABAAAAAAIkAAA=</HashCode>
+      <FileName>Account\Manage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.ManageLogins" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABEAAAAQAAAAABAAAAAAAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>Account\ManageLogins.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.ManagePassword" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAhAAABAACQAAAAANAAAAAAAAAAAAAABAABAgIkAIA=</HashCode>
+      <FileName>Account\ManagePassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.OpenAuthProviders" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAIAAAA=</HashCode>
+      <FileName>Account\OpenAuthProviders.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.Register" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAIAAAAAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Account\Register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.RegisterExternalLogin" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAIACAAAAACAAAAAAAAAAAAIwAAA=</HashCode>
+      <FileName>Account\RegisterExternalLogin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.ResetPassword" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAACAAAAAAAAAAAAAAAAAAAAACAAAAAIAAIAA=</HashCode>
+      <FileName>Account\ResetPassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.ResetPasswordConfirmation" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Account\ResetPasswordConfirmation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.TwoFactorAuthenticationSignIn" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQIAgAAAIACEAAAIABAgAAAEABAAAAAAAAAAAAIIABA=</HashCode>
+      <FileName>Account\TwoFactorAuthenticationSignIn.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Account.VerifyPhoneNumber" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAABAAIAAAA=</HashCode>
+      <FileName>Account\VerifyPhoneNumber.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.login" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>Administration\login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.PagesActions" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAEQgAAAAAAABAgAAAAAAIAAAI=</HashCode>
+      <FileName>Administration\PagesActions.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.Register" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAhAAAACABAAAIAAAEAAgAAAAAAAACAIAAAAIAIAA=</HashCode>
+      <FileName>Administration\Register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.ResetPassword" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAACAAAAAAAAAAAAAAAAAAAAACAAAAAAIgIAA=</HashCode>
+      <FileName>Administration\ResetPassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.ResetPasswordConfirmation" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQA=</HashCode>
+      <FileName>Administration\ResetPasswordConfirmation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.Roles" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAIAAAAAAAAAAAAAAAkACAAAQAAACBAAAAIAAAA=</HashCode>
+      <FileName>Administration\Roles.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Administration.UsersInRoles" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAEAAAAAAABAgAAgAAAIAAAI=</HashCode>
+      <FileName>Administration\UsersInRoles.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resources.CommonControls" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>bvV++//v+/7//f3/////f13/+////t//ff2vfn//td0=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resources.MessagesResource" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>STQcwS1zgwJAAClKIgAFsoEnDag8ALUDgAIAIhNgwIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.App_Start.NinjectWeb" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\NinjectWeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.App_Start.NinjectWebCommon" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAQACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\NinjectWebCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.BackEndDefault" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\BackEndDefault.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ConceptOfNonFormalTrainingBack" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAACAEAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\ConceptOfNonFormalTrainingBack.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ConfigCenter" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAABAACAAAAAACAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\ConfigCenter.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.DescriptiveJobBack" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\DescriptiveJobBack.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.DimThemes" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QSAIAMBgAAAQBAFAAAQEIEAAMAIBAJAAFACAQAIAAAA=</HashCode>
+      <FileName>BackEnd\DimThemes.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.GeneralCode" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAIAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\GeneralCode.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.GenerateThemeTemplate" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAiAAAABEAAAIAAEQAAAIAAACEAAAAAAAAoAAgQ=</HashCode>
+      <FileName>BackEnd\GenerateThemeTemplate.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.HelpfulLinks" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAACAEAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\HelpfulLinks.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ImportTemplate" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAEAoAAAA=</HashCode>
+      <FileName>BackEnd\ImportTemplate.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ImportVariableData" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAAAEAgAAAA=</HashCode>
+      <FileName>BackEnd\ImportVariableData.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ListOfEmails" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAACAEAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\ListOfEmails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.News" Collapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAgAAABAAAAAEAAAAAAEAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\News.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ObsceneWords" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAACAEAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\ObsceneWords.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.Offices" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAACAEAAAAAAAAAQAIAAAI=</HashCode>
+      <FileName>BackEnd\Offices.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.QualificationsBack" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAACAEAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BackEnd\QualificationsBack.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.Review" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>BackEnd\Review.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.ReviewRequests" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAABAEAAAAAAAAAAAEAAAAQAIAAAA=</HashCode>
+      <FileName>BackEnd\ReviewRequests.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.SubCode" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAgIBgAAAQBAUAAAEEIEAAgQABABCIAACgQAIAAII=</HashCode>
+      <FileName>BackEnd\SubCode.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.BackEnd.TransactionHistory" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADABAAAAAAAAAAEAEAAoAIBAACAQAAAACIAAAA=</HashCode>
+      <FileName>BackEnd\TransactionHistory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Controllers.DataServiceController" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQACAAAAAAAABAAAAgAAAACBAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DataServiceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Controllers.EmailAlertsController" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Controllers\EmailAlertsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Controllers.UploadController" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAEAAAAAAgAAAAQAABABCDAIAAAAAA=</HashCode>
+      <FileName>Controllers\UploadController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookMasterUI.CustomError1" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAEEAAAAAAAEAAAAAAAAAAAAAAAAIAAAQ=</HashCode>
+      <FileName>CustomError.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.DashBoard.BecomePartner" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DashBoard\BecomePartner.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.DashBoard.PartnerDetails" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DashBoard\PartnerDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.DashBoard.WebForm1" Collapsed="true">
+    <Position X="18" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAEAAAAAIAAAA=</HashCode>
+      <FileName>DashBoard\Partners.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.EmployerRegisteration.Index" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAACAAAAABIAAAAAEIAAAA=</HashCode>
+      <FileName>EmployerRegisteration\Index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.AvailableVacancies" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEA=</HashCode>
+      <FileName>FrontEnd\AvailableVacancies.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.AverageWages" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\AverageWages.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.Calendar" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAQAIAAAI=</HashCode>
+      <FileName>FrontEnd\Calendar.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.ConceptNonFormalTraining" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\ConceptOfNonFormalTraining.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.ContactUs" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AZAAAAAALAAAAAAAAAAFQEAAAAAAQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\ContactUs.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.DescriptiveJob" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\DescriptiveJob.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.HelpfulLinksFront" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\HelpfulLinksFront.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.home" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAABAAABAAAAAAIACAQ=</HashCode>
+      <FileName>FrontEnd\home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.JobsOffers" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAA=</HashCode>
+      <FileName>FrontEnd\JobsOffers.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.LiveChat" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\LiveChat.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.NewsFeed" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\NewsFeed.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.NewsItem" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\NewsItem.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.PastAchievements" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\PastAchievements.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.Qualifications" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\Qualifications.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.FrontEnd.SiteMap" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FrontEnd\SiteMap.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Helpers.BllFactory" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ITDjEQiACEAIQBAAAAqBMmDEsgSWiDtoQFAZQywgKCA=</HashCode>
+      <FileName>Helpers\BllFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Helpers.CustomMultipartFormDataStreamProvider" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAAAgBAAAAIAAAKAAAAABAIAAAMAAAAAo=</HashCode>
+      <FileName>Helpers\CustomMultipartFormDataStreamProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Helpers.Encryption64" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAAAAAAAQQAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Encryption64.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Helpers.Utils" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAASAACAABAAAAACCAAChAAAAACAECBCI=</HashCode>
+      <FileName>Helpers\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Hubs.PerfHub" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAAAEAAAAAAAAAAAEICAAAAAAAAQAA=</HashCode>
+      <FileName>Hubs\PerfHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.EditCertificateInfo" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQIAAAAAAEAAAAAAAAAEAAAAAAQAIAAAA=</HashCode>
+      <FileName>Individual\EditCertificateInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.EditEducationalInfo" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAEAAAAEgAAAAIAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>Individual\EditEducationalInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.EditExperienceInfo" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>Individual\EditExperienceInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.EditPersonalInfo" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAAgAAAAAAAAAAAAFAAAAAAEIAAAA=</HashCode>
+      <FileName>Individual\EditPersonalInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.EditSkillInfo" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAACAAAQAIACAA=</HashCode>
+      <FileName>Individual\EditSkillInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.EditTrainingInfo" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAQAIAIEA=</HashCode>
+      <FileName>Individual\EditTrainingInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.Index" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Individual\Index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.Profile" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAABAAAAAAAAAAAAAAAAAAQAAAAAAQAoAAAA=</HashCode>
+      <FileName>Individual\Profile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Individual.Registeration" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAEIAAAA=</HashCode>
+      <FileName>Individual\Registeration.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.AddExperienceInformation" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\AddExperienceInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.AddNewCertificate" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAEAAAAAAAAAEAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\AddNewCertificate.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.AddNewTraining" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAQAIAIAA=</HashCode>
+      <FileName>IndividualRegistration\AddNewTraining.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.EducationalInformation" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEEAAAAAEAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\EducationalInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.ExperienceInformation" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEIAAAAAEAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\ExperienceInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.InstitutionInformation" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAEAAAAEAAAAAIAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\InstitutionInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.PersonalInformation" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAhAAAAAAAAEAAAAAAAAAgAAAAAARAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\PersonalInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.SchoolInformation" Collapsed="true">
+    <Position X="18" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAEAAAAAIAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\SchoolInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.SkillsInformation" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAQAIACAA=</HashCode>
+      <FileName>IndividualRegistration\SkillsInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.TrainingInformation" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAQAEAAAAAAEAAAAAAAAAQAIBAAA=</HashCode>
+      <FileName>IndividualRegistration\TrainingInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.IndividualRegistration.UniversityInformation" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAEAAAAEAAAAAIAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>IndividualRegistration\UniversityInformation.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Infrastructure.NinjectControllerFactory" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\NinjectControllerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.ContactPerson" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>LabourExchange\ContactPerson.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.CVSearch" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAIgAAI=</HashCode>
+      <FileName>LabourExchange\CVSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.EventDetails" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>LabourExchange\EventDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.EventList" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAEAAAAAAEAAAAAAAAAQAIAAAI=</HashCode>
+      <FileName>LabourExchange\EventList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.EventPost" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAABAAAAEAAAACAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\EventPost.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.JobApplication" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAAAAAEAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\JobApplication.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.JobDetails" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAEAAAAAAABAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\JobDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.JobList" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAEAAAAAAEAAAAAAAAAQAIAIAI=</HashCode>
+      <FileName>LabourExchange\JobList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.JobPost" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAABAAAAEAAAACAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\JobPost.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.JobSearch" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAIgAAA=</HashCode>
+      <FileName>LabourExchange\JobSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.LabourExchange" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>LabourExchange\LabourExchange.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.Opportunities" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\Opportunities.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.OpportunityDetails" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAAAAQAAAAAA=</HashCode>
+      <FileName>LabourExchange\OpportunityDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.OpportunityList" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAIAABA=</HashCode>
+      <FileName>LabourExchange\OpportunityList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.OpportunityPost" Collapsed="true">
+    <Position X="19.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAEAAAAAEAAAAAAAAAAACAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\OpportunityPost.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.OpportunityTest" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\OpportunityTest.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.OrgAccount" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAFIAAAAAEIAAAA=</HashCode>
+      <FileName>LabourExchange\OrgAccount.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.Profile" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAIAAABAAAAAAACAAAAAAAAAAQAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\Profile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.TrainingDetails" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAEAAAAAAABAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\TrainingDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.TrainingList" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAEAAAAAAEAAAAAAAAAQAIAIAI=</HashCode>
+      <FileName>LabourExchange\TrainingList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.TrainingPost" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAABAAAAEAAAACAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>LabourExchange\TrainingPost.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.LabourExchange.TrainingSearch" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAIgAAA=</HashCode>
+      <FileName>LabourExchange\TrainingSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.MasterPages.BackEnd" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MasterPages\BackEnd.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.MasterPages.FrontEnd" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAgAAAAIAAAAABAAAAAAAAAAAAAgIACAA=</HashCode>
+      <FileName>MasterPages\FrontEnd.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.MasterPages.LabourExchange" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MasterPages\LabourExchange.master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.MasterPages.Popup" Collapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAABIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MasterPages\Popup.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.MasterPages.Review" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MasterPages\Review.master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Models.ApplicationUser" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Models.ApplicationDbContext" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Publications.browse" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Publications\browse.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Publications.frmGlobalFreeSearch" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Publications\frmGlobalFreeSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Publications.frmGlobalSearch" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Publications\frmGlobalSearch.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Contact" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAABAAACAAAAAgAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>Registration\Contact.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Contacts" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAQAIAAAI=</HashCode>
+      <FileName>Registration\Contacts.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Profile" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAQCCCAJAAAAAAAAAAAAAAAQAoAAAI=</HashCode>
+      <FileName>Registration\Profile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.SignUp" Collapsed="true">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAQAoAAAA=</HashCode>
+      <FileName>Registration\SignUp.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Credentials" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Credentials.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Ind.IndRegWiz" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Ind\IndRegWiz.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Org.OrgContact" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Org\OrgContact.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Org.OrgContactInfo" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Org\OrgContactInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Org.OrgDetails" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Org\OrgDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Org.OrgProfile" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Org\OrgProfile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Org.OrgRegWiz" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Org\OrgRegWiz.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Registration.Widgets.Org.OrgServices" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Registration\Widgets\Org\OrgServices.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Statistics.DS.LMISPortal" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAhAAAgwAAAAJABAAAQAAIAggCQBgAABAAAAEABBI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Statistics.DS.ReportDS" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Statistics.DS.ReportsDS" Collapsed="true">
+    <Position X="19.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAQQQAAAAAgCQBgAAACAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Statistics.DS.LMISPortalTableAdapters.LMISReportsTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Statistics.DS.LMISPortalTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMIS.Portal.Statistics.ReportsList" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAACAAAAAEAAAAAAEAAAAIIAAAEAgAAAAAAIAQAM=</HashCode>
+      <FileName>Statistics\ReportsList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

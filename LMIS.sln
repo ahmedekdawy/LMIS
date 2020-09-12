@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{B0B00153-CA23-487F-95A6-939EE6E6A390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{AE86F3D0-48A7-4CE7-B747-FFA97FA4AA80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C50B0AE2-FBA4-4523-81F8-A7BB43812D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Infrastructure", "LMIS.Infrastructure\LMIS.Infrastructure.csproj", "{7E196BC9-69D8-42E5-B3EC-689AC6707EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Utlities", "LMIS.Utlities\LMIS.Utlities.csproj", "{36476040-66E6-4656-9F02-EE730A8C28A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Dal", "LMIS.Dal\LMIS.Dal.csproj", "{6A9C7B45-9F51-454B-AAE6-627184FBE080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Bll", "LMIS.Bll\LMIS.Bll.csproj", "{66573A1C-0346-44EB-B82C-B9B134118EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Services", "LMIS.Services\LMIS.Services.csproj", "{4F5DFD9E-43A4-4135-A8D4-01CEB0AF2ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Portal", "LMIS.Portal\LMIS.Portal.csproj", "{946066EB-D63D-4D53-8719-045CC6601177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMIS.Portal.Tests", "LMIS.Portal.Tests\LMIS.Portal.Tests.csproj", "{9C034C2D-FABF-4660-842D-95DD76D12092}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{CCA27CE9-92E9-49C8-8AD3-B3921DA5CBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics", "Statistics\Statistics.csproj", "{4EFC51BF-C5C0-4D5E-98EA-347B1D7F80BD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lmisautocons.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LMIS.Infrastructure\\LMIS.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName1 = LMIS.sln
+		SccProjectName1 = LMIS.Infrastructure
+		SccLocalPath1 = LMIS.Infrastructure
+		SccProjectUniqueName2 = LMIS.Utlities\\LMIS.Utlities.csproj
+		SccProjectTopLevelParentUniqueName2 = LMIS.sln
+		SccProjectName2 = LMIS.Utlities
+		SccLocalPath2 = LMIS.Utlities
+		SccProjectUniqueName3 = LMIS.Dal\\LMIS.Dal.csproj
+		SccProjectTopLevelParentUniqueName3 = LMIS.sln
+		SccProjectName3 = LMIS.Dal
+		SccLocalPath3 = LMIS.Dal
+		SccProjectUniqueName4 = LMIS.Bll\\LMIS.Bll.csproj
+		SccProjectTopLevelParentUniqueName4 = LMIS.sln
+		SccProjectName4 = LMIS.Bll
+		SccLocalPath4 = LMIS.Bll
+		SccProjectUniqueName5 = LMIS.Services\\LMIS.Services.csproj
+		SccProjectTopLevelParentUniqueName5 = LMIS.sln
+		SccProjectName5 = LMIS.Services
+		SccLocalPath5 = LMIS.Services
+		SccProjectUniqueName6 = LMIS.Portal\\LMIS.Portal.csproj
+		SccProjectTopLevelParentUniqueName6 = LMIS.sln
+		SccProjectName6 = LMIS.Portal
+		SccLocalPath6 = LMIS.Portal
+		SccProjectUniqueName7 = LMIS.Portal.Tests\\LMIS.Portal.Tests.csproj
+		SccProjectTopLevelParentUniqueName7 = LMIS.sln
+		SccProjectName7 = LMIS.Portal.Tests
+		SccLocalPath7 = LMIS.Portal.Tests
+		SccProjectUniqueName8 = ModelingProject1\\ModelingProject1.modelproj
+		SccProjectName8 = ModelingProject1
+		SccLocalPath8 = ModelingProject1
+		SccProjectUniqueName9 = Statistics\\Statistics.csproj
+		SccProjectName9 = Statistics
+		SccLocalPath9 = Statistics
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E196BC9-69D8-42E5-B3EC-689AC6707EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E196BC9-69D8-42E5-B3EC-689AC6707EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E196BC9-69D8-42E5-B3EC-689AC6707EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E196BC9-69D8-42E5-B3EC-689AC6707EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36476040-66E6-4656-9F02-EE730A8C28A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36476040-66E6-4656-9F02-EE730A8C28A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36476040-66E6-4656-9F02-EE730A8C28A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36476040-66E6-4656-9F02-EE730A8C28A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9C7B45-9F51-454B-AAE6-627184FBE080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9C7B45-9F51-454B-AAE6-627184FBE080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9C7B45-9F51-454B-AAE6-627184FBE080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9C7B45-9F51-454B-AAE6-627184FBE080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66573A1C-0346-44EB-B82C-B9B134118EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66573A1C-0346-44EB-B82C-B9B134118EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66573A1C-0346-44EB-B82C-B9B134118EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66573A1C-0346-44EB-B82C-B9B134118EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5DFD9E-43A4-4135-A8D4-01CEB0AF2ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5DFD9E-43A4-4135-A8D4-01CEB0AF2ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5DFD9E-43A4-4135-A8D4-01CEB0AF2ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5DFD9E-43A4-4135-A8D4-01CEB0AF2ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946066EB-D63D-4D53-8719-045CC6601177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946066EB-D63D-4D53-8719-045CC6601177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946066EB-D63D-4D53-8719-045CC6601177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946066EB-D63D-4D53-8719-045CC6601177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C034C2D-FABF-4660-842D-95DD76D12092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C034C2D-FABF-4660-842D-95DD76D12092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C034C2D-FABF-4660-842D-95DD76D12092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C034C2D-FABF-4660-842D-95DD76D12092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA27CE9-92E9-49C8-8AD3-B3921DA5CBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA27CE9-92E9-49C8-8AD3-B3921DA5CBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA27CE9-92E9-49C8-8AD3-B3921DA5CBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA27CE9-92E9-49C8-8AD3-B3921DA5CBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFC51BF-C5C0-4D5E-98EA-347B1D7F80BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFC51BF-C5C0-4D5E-98EA-347B1D7F80BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFC51BF-C5C0-4D5E-98EA-347B1D7F80BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFC51BF-C5C0-4D5E-98EA-347B1D7F80BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E196BC9-69D8-42E5-B3EC-689AC6707EBA} = {B0B00153-CA23-487F-95A6-939EE6E6A390}
+		{36476040-66E6-4656-9F02-EE730A8C28A5} = {B0B00153-CA23-487F-95A6-939EE6E6A390}
+		{6A9C7B45-9F51-454B-AAE6-627184FBE080} = {AE86F3D0-48A7-4CE7-B747-FFA97FA4AA80}
+		{66573A1C-0346-44EB-B82C-B9B134118EE7} = {AE86F3D0-48A7-4CE7-B747-FFA97FA4AA80}
+		{4F5DFD9E-43A4-4135-A8D4-01CEB0AF2ED0} = {AE86F3D0-48A7-4CE7-B747-FFA97FA4AA80}
+		{946066EB-D63D-4D53-8719-045CC6601177} = {C50B0AE2-FBA4-4523-81F8-A7BB43812D6B}
+		{9C034C2D-FABF-4660-842D-95DD76D12092} = {C50B0AE2-FBA4-4523-81F8-A7BB43812D6B}
+	EndGlobalSection
+EndGlobal

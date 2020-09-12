@@ -1,0 +1,11 @@
+﻿.trilingual-textarea{-ms-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;padding:5px 15px 0 10px;text-align:left;}
+.trilingual-textarea ~ textarea{-ms-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;}
+.trilingual-textarea > label[lang=\"en\"]{text-align:right;}
+.trilingual-textarea > label[lang=\"fr\"]{text-align:right;}
+.trilingual-textarea > label[lang=\"ar\"]{text-align:right;}
+.grd th, td{padding:2px 10px 2px 10px;}
+.grdR th, td{padding:2px 10px 2px 10px;}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}

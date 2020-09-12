@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Popup.master.cs" Inherits="LMIS.Portal.MasterPages.Popup" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title></title>
+    <!-- core CSS -->
+
+    <link href="../css/lmis.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="../css/jquery-ui.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="stylesheet" href="../css/jquery.dataTables.css">
+    <link rel="stylesheet" href="../css/bootstrap-multiselect.css" type="text/css" />
+
+    <!-- InstanceEndEditable -->
+    <script src="../js/jquery.js"></script>
+    <script src="../Scripts/knockout-3.3.0.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.prettyPhoto.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-multiselect.js"></script>
+    <script src="../js/jquery.dataTables.js"></script>
+    <script src="../Scripts/Extensions/lmis.js"></script>
+    <script src="../Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script type="text/javascript" src="../Scripts/moment.js"></script>
+    <script src="../js/datetime-moment.js"></script>
+    <!-- plug-in for DataTables -->
+    <%= Scripts.Render("~/bundles/noty") %>
+    <script type="text/javascript">
+        $(function () {
+            $(".datepiker").datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true
+
+            });
+        });
+
+   </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body runat="server" class="<%$ Resources:CommonControls,Direction %>" style="background: none;">
+    <form id="form1" runat="server">
+        <div class="container white-bg blog padding20">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="display: none;">
+            <p id="X_InputMaskDate"><%=GetGlobalResourceObject("MessagesResource", "X_InputMaskDate")%></p>
+            <p id="X_MomentDate"><%=GetGlobalResourceObject("MessagesResource", "X_MomentDate")%></p>
+            <p id="X_TypeInEnglish"><%=GetGlobalResourceObject("MessagesResource", "X_TypeInEnglish")%></p>
+            <p id="X_TypeInFrench"><%=GetGlobalResourceObject("MessagesResource", "X_TypeInFrench")%></p>
+            <p id="X_TypeInArabic"><%=GetGlobalResourceObject("MessagesResource", "X_TypeInArabic")%></p>
+            <p id="X_Processing"><%=GetGlobalResourceObject("MessagesResource", "X_Processing")%></p>
+            <p id="X_ConfirmContinue"><%=GetGlobalResourceObject("MessagesResource", "X_ConfirmContinue")%></p>
+            <p id="X_FileUpload"><%=GetGlobalResourceObject("MessagesResource", "X_FileUpload")%></p>
+            <p id="X_FileUploadProgress"><%=GetGlobalResourceObject("MessagesResource", "X_FileUploadProgress")%></p>
+            <p id="X_OK"><%=GetGlobalResourceObject("CommonControls", "X_OK")%></p>
+            <p id="X_Cancel"><%=GetGlobalResourceObject("CommonControls", "X_Cancel")%></p>
+            <div id="ServerValidations">
+                <p><%=GetGlobalResourceObject("MessagesResource", "X_ValidationErrors")%></p>
+                <p id="ValidationMessage"></p>
+            </div>
+            <div id="Success">
+                <p><%=GetGlobalResourceObject("MessagesResource", "X_OperationSuccess")%></p>
+            </div>
+            <div id="Upload">
+                <p id="Progress"></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,2010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="F000" xml:space="preserve">
+    <value>Opportunities</value>
+  </data>
+  <data name="F001" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="F002" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="F003" xml:space="preserve">
+    <value>Search CVs</value>
+  </data>
+  <data name="F004" xml:space="preserve">
+    <value>Post a Job</value>
+  </data>
+  <data name="F005" xml:space="preserve">
+    <value>Post an Opportunity</value>
+  </data>
+  <data name="F005_AllOpp" xml:space="preserve">
+    <value>All Opportunities</value>
+  </data>
+  <data name="F005_OppTitle" xml:space="preserve">
+    <value>Opportunity Title</value>
+  </data>
+  <data name="F005_OppUpload" xml:space="preserve">
+    <value>Upload Opportunity</value>
+  </data>
+  <data name="F005_PostNewOpportunity" xml:space="preserve">
+    <value>Post a New Opportunity</value>
+  </data>
+  <data name="F006" xml:space="preserve">
+    <value>Post an Event</value>
+  </data>
+  <data name="F007" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="F007_logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="F007_logWith" xml:space="preserve">
+    <value>Login with your Username</value>
+  </data>
+  <data name="F008" xml:space="preserve">
+    <value>Become a Partner</value>
+  </data>
+  <data name="F009" xml:space="preserve">
+    <value>Individual Registration</value>
+  </data>
+  <data name="F009_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="F009_Allowemployertoviewcontactinformation" xml:space="preserve">
+    <value>Allow employer to view Contact Information</value>
+  </data>
+  <data name="F009_ContactsInformation" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="F009_CV" xml:space="preserve">
+    <value>My CV</value>
+  </data>
+  <data name="F009_DateofBirth" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="F009_Education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="F009_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="F009_Experience" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="F009_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="F009_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="F009_JobSearch" xml:space="preserve">
+    <value>Job Search</value>
+  </data>
+  <data name="F009_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="F009_Maritalstatus" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="F009_Medicalconditions" xml:space="preserve">
+    <value>Medical Conditions</value>
+  </data>
+  <data name="F009_Militarystatus" xml:space="preserve">
+    <value>Military Status</value>
+  </data>
+  <data name="F009_MobileNo" xml:space="preserve">
+    <value>Mobile No.</value>
+  </data>
+  <data name="F009_MobileNo2" xml:space="preserve">
+    <value>Mobile No 2.</value>
+  </data>
+  <data name="F009_Nationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="F009_NationailtyIDorPassportID" xml:space="preserve">
+    <value>National ID or Passport ID</value>
+  </data>
+  <data name="F009_NationailtyInformation" xml:space="preserve">
+    <value>Nationailty Information</value>
+  </data>
+  <data name="F009_PersonalInfo" xml:space="preserve">
+    <value>Personal Information</value>
+  </data>
+  <data name="F009_PhotoandotherOptions" xml:space="preserve">
+    <value>Photo and other Options</value>
+  </data>
+  <data name="F009_RetypePassword" xml:space="preserve">
+    <value>Re-type Password</value>
+  </data>
+  <data name="F009_Skills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="F009_Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="F009_TelephoneNo" xml:space="preserve">
+    <value>Telephone No.</value>
+  </data>
+  <data name="F009_TrainingandCertifications" xml:space="preserve">
+    <value>Training and Certifications</value>
+  </data>
+  <data name="F009_UserDetails" xml:space="preserve">
+    <value>User Details</value>
+  </data>
+  <data name="F010_Themes" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="F010_Title" xml:space="preserve">
+    <value>Themes</value>
+  </data>
+  <data name="X_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="X_Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="X_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="X_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="X_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="X_Forgotpassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="X_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="X_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="X_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="X_SaveAndContinue" xml:space="preserve">
+    <value>Save and Continue</value>
+  </data>
+  <data name="X_SaveAndPost" xml:space="preserve">
+    <value>Save and Post</value>
+  </data>
+  <data name="X_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="X_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="X_Showpassword" xml:space="preserve">
+    <value>Show password</value>
+  </data>
+  <data name="X_Translate" xml:space="preserve">
+    <value>Translate</value>
+  </data>
+  <data name="X_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="X_UploadAndSave" xml:space="preserve">
+    <value>Upload and Save</value>
+  </data>
+  <data name="F037_YearsOfExperince" xml:space="preserve">
+    <value>Years Of Experince</value>
+  </data>
+  <data name="F006_AllEvents" xml:space="preserve">
+    <value>All Events</value>
+  </data>
+  <data name="F006_PostNewEvent" xml:space="preserve">
+    <value>Post a New Event</value>
+  </data>
+  <data name="F006_Address" xml:space="preserve">
+    <value>Event Address</value>
+  </data>
+  <data name="F006_ContactInfo" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="F006_EventDetails" xml:space="preserve">
+    <value>Event Details</value>
+  </data>
+  <data name="F006_Titles" xml:space="preserve">
+    <value>Event Title</value>
+  </data>
+  <data name="F006_Type" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="F006_Upload" xml:space="preserve">
+    <value>Upload Event</value>
+  </data>
+  <data name="X_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="X_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="X_Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="X_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="X_Telephone" xml:space="preserve">
+    <value>Telephone No.</value>
+  </data>
+  <data name="X_Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="F011_ChooseReport" xml:space="preserve">
+    <value>Choose Report</value>
+  </data>
+  <data name="F011_GenerateTemplater" xml:space="preserve">
+    <value>Generate Template</value>
+  </data>
+  <data name="F011_Title" xml:space="preserve">
+    <value>Generate Theme Template</value>
+  </data>
+  <data name="F012_Title" xml:space="preserve">
+    <value>Import Template</value>
+  </data>
+  <data name="F012_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="F004_JobDescription" xml:space="preserve">
+    <value>Job Description</value>
+  </data>
+  <data name="F004_JobDetails" xml:space="preserve">
+    <value>Job Details</value>
+  </data>
+  <data name="F004_JobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="F004_VacantPositions" xml:space="preserve">
+    <value>No. of Vacant Positions</value>
+  </data>
+  <data name="X_Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="X_Arabic" xml:space="preserve">
+    <value>  عربي</value>
+    <comment>Don't translate</comment>
+  </data>
+  <data name="X_English" xml:space="preserve">
+    <value>English</value>
+    <comment>Don't translate</comment>
+  </data>
+  <data name="X_French" xml:space="preserve">
+    <value>Français</value>
+    <comment>Don't translate</comment>
+  </data>
+  <data name="X_YOfExperience" xml:space="preserve">
+    <value>Years of Experience</value>
+  </data>
+  <data name="F004_JobSpecs" xml:space="preserve">
+    <value>Job Specification</value>
+  </data>
+  <data name="X_EducationCertificate" xml:space="preserve">
+    <value>Education Certificate</value>
+  </data>
+  <data name="X_EducationLevel" xml:space="preserve">
+    <value>Education Level</value>
+  </data>
+  <data name="X_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="F004_Skills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="F004_Ads" xml:space="preserve">
+    <value>Advertisement And Others</value>
+  </data>
+  <data name="F004_PerHour" xml:space="preserve">
+    <value>Per Hour</value>
+  </data>
+  <data name="F004_PerMonth" xml:space="preserve">
+    <value>Per Month</value>
+  </data>
+  <data name="F004_SalaryRange" xml:space="preserve">
+    <value>Salary Range</value>
+  </data>
+  <data name="X_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="F004_Documents" xml:space="preserve">
+    <value>Additional Documents</value>
+  </data>
+  <data name="F004_MedicalCondition" xml:space="preserve">
+    <value>Medical Condition</value>
+  </data>
+  <data name="X_UploadDoc" xml:space="preserve">
+    <value>Upload Document</value>
+  </data>
+  <data name="F014_LevelofEducation" xml:space="preserve">
+    <value>Level of Education</value>
+  </data>
+  <data name="F009_GraduationYear" xml:space="preserve">
+    <value>Graduation Year</value>
+  </data>
+  <data name="F009_Institutiondegree" xml:space="preserve">
+    <value>Institution Degree</value>
+  </data>
+  <data name="F009_Institutiongrade" xml:space="preserve">
+    <value>Institution Grade</value>
+  </data>
+  <data name="F009_Institutiongradepercentage" xml:space="preserve">
+    <value>Institution Grade Percentage</value>
+  </data>
+  <data name="F009_InstitutionGraduationyear" xml:space="preserve">
+    <value>Institution Graduation Year</value>
+  </data>
+  <data name="F009_InstitutionInformation" xml:space="preserve">
+    <value>Institution Information</value>
+  </data>
+  <data name="F009_InstitutionName" xml:space="preserve">
+    <value>Institution Name</value>
+  </data>
+  <data name="F009_Schooldegree" xml:space="preserve">
+    <value>School Degree</value>
+  </data>
+  <data name="F009_SchoolGrade" xml:space="preserve">
+    <value>School Grade</value>
+  </data>
+  <data name="F009_SchoolInfo" xml:space="preserve">
+    <value>School Information</value>
+  </data>
+  <data name="F009_SchoolName" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="F009_UniversityInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="F009_UniversityName" xml:space="preserve">
+    <value>University Name</value>
+  </data>
+  <data name="F009_Addneweducation" xml:space="preserve">
+    <value>Add New Education Level</value>
+  </data>
+  <data name="F009_UniversityCertificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="F009_UniversityFacultyName" xml:space="preserve">
+    <value>Faculty Name</value>
+  </data>
+  <data name="F009_UniversityGrade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="F009_UniversityGradeGPA" xml:space="preserve">
+    <value>Grade GPA</value>
+  </data>
+  <data name="F009_UniversityGraduationyear" xml:space="preserve">
+    <value>Graduation Year</value>
+  </data>
+  <data name="F004_EmploymentType" xml:space="preserve">
+    <value>Type of Employment</value>
+  </data>
+  <data name="F004_ExpFrom" xml:space="preserve">
+    <value>Years of Experience (From)</value>
+  </data>
+  <data name="F004_ExpTo" xml:space="preserve">
+    <value>Years of Experience (To)</value>
+  </data>
+  <data name="F004_JobStatus" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
+  <data name="X_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="X_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="X_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="X_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="X_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="X_Industry" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="F010_Name" xml:space="preserve">
+    <value>Theme(En)</value>
+  </data>
+  <data name="F010_UnitScale" xml:space="preserve">
+    <value>Unit Scale(En)</value>
+  </data>
+  <data name="F015" xml:space="preserve">
+    <value>Post a Training</value>
+  </data>
+  <data name="F015_CourseDescription" xml:space="preserve">
+    <value>Course Description</value>
+  </data>
+  <data name="F015_CourseDetails" xml:space="preserve">
+    <value>Course Details</value>
+  </data>
+  <data name="F015_CourseDuration" xml:space="preserve">
+    <value>Course Duration (days)</value>
+  </data>
+  <data name="F015_CourseOutline" xml:space="preserve">
+    <value>Course Outline</value>
+  </data>
+  <data name="F015_CourseSeats" xml:space="preserve">
+    <value>No. of Seats</value>
+  </data>
+  <data name="F015_CourseTitle" xml:space="preserve">
+    <value>Course Title</value>
+  </data>
+  <data name="X_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="X_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="X_RejectReason" xml:space="preserve">
+    <value>Reason of Rejection</value>
+  </data>
+  <data name="X_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="X_TimeFrom" xml:space="preserve">
+    <value>Time (from)</value>
+  </data>
+  <data name="X_TimeTo" xml:space="preserve">
+    <value>Time (to)</value>
+  </data>
+  <data name="X_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="X_WeekDays" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="F015_CourseSkills" xml:space="preserve">
+    <value>Course Skills</value>
+  </data>
+  <data name="X_Skill" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="X_SkillLevel" xml:space="preserve">
+    <value>Skill Level</value>
+  </data>
+  <data name="X_SkillType" xml:space="preserve">
+    <value>Skill Type</value>
+  </data>
+  <data name="X_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="X_Skills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="X_Save1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="F016_ThemeVariables" xml:space="preserve">
+    <value>Theme Variables </value>
+  </data>
+  <data name="F016_Title" xml:space="preserve">
+    <value>Themes &amp; Variables</value>
+  </data>
+  <data name="F016_Variables" xml:space="preserve">
+    <value>Variables </value>
+  </data>
+  <data name="F017_NameAr" xml:space="preserve">
+    <value>Report Name(Ar)</value>
+  </data>
+  <data name="F017_NameEn" xml:space="preserve">
+    <value>Report Name(En)</value>
+  </data>
+  <data name="F017_NameFr" xml:space="preserve">
+    <value>Report Name(Fr)</value>
+  </data>
+  <data name="F017_Title" xml:space="preserve">
+    <value>Report Generator </value>
+  </data>
+  <data name="F017_ChangeVariable" xml:space="preserve">
+    <value>Changing Variable</value>
+  </data>
+  <data name="F017_RunVariable" xml:space="preserve">
+    <value>Running Variable</value>
+  </data>
+  <data name="F017_SingleValue" xml:space="preserve">
+    <value>Please select Single value for each variable</value>
+  </data>
+  <data name="F017_YearFrom" xml:space="preserve">
+    <value>Year From</value>
+  </data>
+  <data name="F017_YearTo" xml:space="preserve">
+    <value>Year To</value>
+  </data>
+  <data name="F015_AddTrainingList" xml:space="preserve">
+    <value>Add Training List File</value>
+  </data>
+  <data name="F015_AllOffers" xml:space="preserve">
+    <value>All Training Offers</value>
+  </data>
+  <data name="F015_PostOffer" xml:space="preserve">
+    <value>Post a New Training Offer</value>
+  </data>
+  <data name="X_Applicants" xml:space="preserve">
+    <value>Applicants</value>
+  </data>
+  <data name="F015_CourseList" xml:space="preserve">
+    <value>Training List</value>
+  </data>
+  <data name="X_DeleteFile" xml:space="preserve">
+    <value>Delete File</value>
+  </data>
+  <data name="X_UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="F015_ApplicantsFor" xml:space="preserve">
+    <value>Applicants for: </value>
+  </data>
+  <data name="X_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="X_ClearFile" xml:space="preserve">
+    <value>Clear File</value>
+  </data>
+  <data name="F004_ApplicationForm" xml:space="preserve">
+    <value>Application Form</value>
+  </data>
+  <data name="F004_AllOffers" xml:space="preserve">
+    <value>All Job Offers</value>
+  </data>
+  <data name="F004_ApplicantsFor" xml:space="preserve">
+    <value>Applicants for:</value>
+  </data>
+  <data name="F004_PostOffer" xml:space="preserve">
+    <value>Post a New Job Offer</value>
+  </data>
+  <data name="F004_RecommendedCVs" xml:space="preserve">
+    <value>Recommended CVs</value>
+  </data>
+  <data name="X_FindOutMore" xml:space="preserve">
+    <value>Find out more</value>
+  </data>
+  <data name="F018" xml:space="preserve">
+    <value>Job Search</value>
+  </data>
+  <data name="F018_EmploymentType" xml:space="preserve">
+    <value>Employment Type</value>
+  </data>
+  <data name="F019" xml:space="preserve">
+    <value>Job Details</value>
+  </data>
+  <data name="F020" xml:space="preserve">
+    <value>Training Search</value>
+  </data>
+  <data name="F021" xml:space="preserve">
+    <value>Training Details</value>
+  </data>
+  <data name="X_Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="X_Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="X_LabourExchange" xml:space="preserve">
+    <value>Labor Exchange</value>
+  </data>
+  <data name="F019_JobDesc" xml:space="preserve">
+    <value>Job Description</value>
+  </data>
+  <data name="F019_MedConds" xml:space="preserve">
+    <value>Medical Conditions</value>
+  </data>
+  <data name="F019_ReqSkills" xml:space="preserve">
+    <value>Required Skills</value>
+  </data>
+  <data name="X_Apply" xml:space="preserve">
+    <value>Apply Now</value>
+  </data>
+  <data name="X_Years" xml:space="preserve">
+    <value>Years</value>
+  </data>
+  <data name="X_Vacancies" xml:space="preserve">
+    <value>Vacancies</value>
+  </data>
+  <data name="X_EGP" xml:space="preserve">
+    <value>EGP</value>
+  </data>
+  <data name="X_Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="X_Seats" xml:space="preserve">
+    <value>Seats</value>
+  </data>
+  <data name="F021_CourseDesc" xml:space="preserve">
+    <value>Course Description</value>
+  </data>
+  <data name="F021_CourseOutline" xml:space="preserve">
+    <value>Course Outline File</value>
+  </data>
+  <data name="F021_Occurrence" xml:space="preserve">
+    <value>Occurrence</value>
+  </data>
+  <data name="F021_Skills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="F009_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="F009_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="F010_Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="F022" xml:space="preserve">
+    <value>Job Application</value>
+  </data>
+  <data name="F022_AppTemplate" xml:space="preserve">
+    <value>Application Form</value>
+  </data>
+  <data name="F022_DocName" xml:space="preserve">
+    <value>Required Document</value>
+  </data>
+  <data name="X_SelectedFile" xml:space="preserve">
+    <value>Selected File</value>
+  </data>
+  <data name="X_Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="F22_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="F009_AddAnotherJob" xml:space="preserve">
+    <value>Add Another Job</value>
+  </data>
+  <data name="F009_Employername" xml:space="preserve">
+    <value>Employer Name</value>
+  </data>
+  <data name="F009_JobDesc" xml:space="preserve">
+    <value>Job Description</value>
+  </data>
+  <data name="F009_JobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="F009_TypeofEmployment" xml:space="preserve">
+    <value>Type of Employment</value>
+  </data>
+  <data name="F009_Currentemployer" xml:space="preserve">
+    <value>Current Employer</value>
+  </data>
+  <data name="F009_TotalYearsofExperience" xml:space="preserve">
+    <value>Total Years of Experience</value>
+  </data>
+  <data name="X_Months" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="X_CompareDate" xml:space="preserve">
+    <value>End Date must be greater than Start Date</value>
+  </data>
+  <data name="F009_TrainingName" xml:space="preserve">
+    <value>Training Name</value>
+  </data>
+  <data name="F009_TrainingProvider" xml:space="preserve">
+    <value>Training Provider</value>
+  </data>
+  <data name="F009_AddTraining" xml:space="preserve">
+    <value>Add New Training</value>
+  </data>
+  <data name="F009_AddNewCertificate" xml:space="preserve">
+    <value>Add New Certificate</value>
+  </data>
+  <data name="X_Certificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="X_CertificationIssueDate" xml:space="preserve">
+    <value>Certification Issue Date</value>
+  </data>
+  <data name="X_CertificationName" xml:space="preserve">
+    <value>Certification Name</value>
+  </data>
+  <data name="X_CertificationValidUntil" xml:space="preserve">
+    <value>Certification Valid Until</value>
+  </data>
+  <data name="F023_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="F023_Title" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="X_ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to Remove?</value>
+  </data>
+  <data name="F024_Title" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="F025_Title" xml:space="preserve">
+    <value>Manage Users Roles</value>
+  </data>
+  <data name="F025_Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="F025_UserSelect" xml:space="preserve">
+    <value>Choose User</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="X_Noresultsmatch" xml:space="preserve">
+    <value>No results match</value>
+  </data>
+  <data name="F026_NewPassword" xml:space="preserve">
+    <value>Enter your new Password</value>
+  </data>
+  <data name="F026_passwordConfirmnotMatch" xml:space="preserve">
+    <value>The Password and Confirmation Password do not match.</value>
+  </data>
+  <data name="F026_passwordConfirmRequired" xml:space="preserve">
+    <value>The Confirm Password field is required.</value>
+  </data>
+  <data name="F026_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="F026_Title" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="F027_Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="F027_Title" xml:space="preserve">
+    <value>Roles Permission on Pages</value>
+  </data>
+  <data name="X_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="X_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="X_Query" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="X_Update" xml:space="preserve">
+    <value>Modifiy</value>
+  </data>
+  <data name="F0028_NameAr" xml:space="preserve">
+    <value>Name(Ar)</value>
+  </data>
+  <data name="F028_EnterName" xml:space="preserve">
+    <value>Enter Sub Name</value>
+  </data>
+  <data name="F028_GeneralCode" xml:space="preserve">
+    <value>General Code</value>
+  </data>
+  <data name="F028_NameEn" xml:space="preserve">
+    <value>Name(En)</value>
+  </data>
+  <data name="F028_NameFr" xml:space="preserve">
+    <value>Name(Fr)</value>
+  </data>
+  <data name="F028_SelectGeneralCode" xml:space="preserve">
+    <value>Select General Code</value>
+  </data>
+  <data name="F028_subCode" xml:space="preserve">
+    <value>Sub Code</value>
+  </data>
+  <data name="F028_Title" xml:space="preserve">
+    <value>Sub Code</value>
+  </data>
+  <data name="F029_Title" xml:space="preserve">
+    <value>ConfigCenter</value>
+  </data>
+  <data name="F028_ParentSubCode" xml:space="preserve">
+    <value>Parent SubCode</value>
+  </data>
+  <data name="X_Cancel1" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="F010_Required" xml:space="preserve">
+    <value>Enter Required Fields</value>
+  </data>
+  <data name="X_language" xml:space="preserve">
+    <value>language</value>
+  </data>
+  <data name="F030_Title" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Menu_BackEnd" xml:space="preserve">
+    <value>Back End</value>
+  </data>
+  <data name="Menu_Browsing" xml:space="preserve">
+    <value>Browsing</value>
+  </data>
+  <data name="Menu_ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Menu_DataBank" xml:space="preserve">
+    <value>Data Bank</value>
+  </data>
+  <data name="Menu_FreeSearch" xml:space="preserve">
+    <value>Free Search</value>
+  </data>
+  <data name="Menu_GeneralStudies" xml:space="preserve">
+    <value>General Studies</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Menu_InformalSectorPublication" xml:space="preserve">
+    <value>Informal Sector Publication</value>
+  </data>
+  <data name="Menu_InformalSectorStudies" xml:space="preserve">
+    <value>Informal Sector Studies</value>
+  </data>
+  <data name="Menu_LiveChat" xml:space="preserve">
+    <value>Live Chat</value>
+  </data>
+  <data name="Menu_LMISAnnualReport" xml:space="preserve">
+    <value>LMIS Annual Report</value>
+  </data>
+  <data name="Menu_MyAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Menu_Publication" xml:space="preserve">
+    <value>Digital Library</value>
+  </data>
+  <data name="Menu_PublishedMaterial" xml:space="preserve">
+    <value>Published Material</value>
+  </data>
+  <data name="Menu_Qualifications" xml:space="preserve">
+    <value>Qualifications</value>
+  </data>
+  <data name="Menu_SearchByField" xml:space="preserve">
+    <value>Search By Field</value>
+  </data>
+  <data name="Menu_SiteMap" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="Menu_SurveysInventory" xml:space="preserve">
+    <value>Surveys Inventory</value>
+  </data>
+  <data name="Menu_LMIS" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Master_link_Getintouch" xml:space="preserve">
+    <value>Get in touch</value>
+  </data>
+  <data name="MenuStartConversation" xml:space="preserve">
+    <value>Start Conversation</value>
+  </data>
+  <data name="Menu_AverageWages" xml:space="preserve">
+    <value>Average Wages</value>
+  </data>
+  <data name="Menu_Careerguidanceemployers" xml:space="preserve">
+    <value>Career guidance for employers</value>
+  </data>
+  <data name="Menu_Careerguidancejobseekers" xml:space="preserve">
+    <value>Career guidance for job seekers</value>
+  </data>
+  <data name="Menu_ChatNow" xml:space="preserve">
+    <value>Now you can chat online with someone from our team.</value>
+  </data>
+  <data name="F052" xml:space="preserve">
+    <value>Concept of non formal training</value>
+  </data>
+  <data name="Menu_Disclaimer" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="Menu_HelpfulLinks" xml:space="preserve">
+    <value>Helpful Links</value>
+  </data>
+  <data name="Menu_InformalSector" xml:space="preserve">
+    <value>Informal Sector</value>
+  </data>
+  <data name="Menu_LabourData" xml:space="preserve">
+    <value>Harmonized Data</value>
+  </data>
+  <data name="Menu_LabourMarket" xml:space="preserve">
+    <value>Labor Market</value>
+  </data>
+  <data name="Menu_LabourUnionsworkoffices" xml:space="preserve">
+    <value>Labor Unions and Work Offices</value>
+  </data>
+  <data name="Menu_Newsfeed" xml:space="preserve">
+    <value>News feed</value>
+  </data>
+  <data name="Menu_Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
+  <data name="Menu_Opportunities" xml:space="preserve">
+    <value>Opportunities</value>
+  </data>
+  <data name="Menu_Partners" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="Menu_Pastachievements" xml:space="preserve">
+    <value>Past Achievements</value>
+  </data>
+  <data name="Menu_RecruitmentAgencies" xml:space="preserve">
+    <value>Recruitment Agencies</value>
+  </data>
+  <data name="Menu_Sizeinformalsector" xml:space="preserve">
+    <value>Size of the informal sector</value>
+  </data>
+  <data name="Menu_StartChat" xml:space="preserve">
+    <value>Start Chat</value>
+  </data>
+  <data name="Menu_StructureinformalSector" xml:space="preserve">
+    <value>Structure of the Informal Sector</value>
+  </data>
+  <data name="Menu_Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="Menu_TestimonialsFeedback" xml:space="preserve">
+    <value>Testimonials and Feedback</value>
+  </data>
+  <data name="F031_Title" xml:space="preserve">
+    <value>Organizaion Registration</value>
+  </data>
+  <data name="F032_Title" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>../css/English.css</value>
+  </data>
+  <data name="F018_fullTime" xml:space="preserve">
+    <value>Full Time</value>
+  </data>
+  <data name="F018_partTime" xml:space="preserve">
+    <value>Part Time</value>
+  </data>
+  <data name="Menu_EmployersCareerGuidanceArticles" xml:space="preserve">
+    <value>Employers Career Guidance Articles</value>
+  </data>
+  <data name="Menu_InformalSectorConceptsTraining" xml:space="preserve">
+    <value>Informal Sector Concepts of non-formal training</value>
+  </data>
+  <data name="Menu_JobSeekersCareerGuidanceArticles" xml:space="preserve">
+    <value>Job Seekers Career Guidance Articles</value>
+  </data>
+  <data name="F033" xml:space="preserve">
+    <value>Review Requests</value>
+  </data>
+  <data name="F034_Title" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="F034_Titles" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="F034_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="F034_TypeFeedBack" xml:space="preserve">
+    <value>Type of Feedback</value>
+  </data>
+  <data name="F034_YourMessage" xml:space="preserve">
+    <value>Your Message</value>
+  </data>
+  <data name="F034_feeddBack" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="F034_SiteRating" xml:space="preserve">
+    <value>Site Rating</value>
+  </data>
+  <data name="F034_Testimonial" xml:space="preserve">
+    <value>Testimonial</value>
+  </data>
+  <data name="F010_NameAr" xml:space="preserve">
+    <value>Themes (Ar)</value>
+  </data>
+  <data name="F010_NameFr" xml:space="preserve">
+    <value>Themes (Fr)</value>
+  </data>
+  <data name="F010_TitleAr" xml:space="preserve">
+    <value>Unit Scale (Ar)</value>
+  </data>
+  <data name="F010_TitleFr" xml:space="preserve">
+    <value>Unit Scale (Fr)</value>
+  </data>
+  <data name="F010_UnitScaleAr" xml:space="preserve">
+    <value>Unit Scale Ar</value>
+  </data>
+  <data name="F010_UnitScaleFr" xml:space="preserve">
+    <value>Unit Scale Fr</value>
+  </data>
+  <data name="F035_Title" xml:space="preserve">
+    <value>News Feed</value>
+  </data>
+  <data name="F032_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="F036_Title" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="F036_NewsBannerPath" xml:space="preserve">
+    <value>News Banner Path</value>
+  </data>
+  <data name="F036_NewsDate" xml:space="preserve">
+    <value>News Date</value>
+  </data>
+  <data name="F036_NewsDescription" xml:space="preserve">
+    <value>News Description</value>
+  </data>
+  <data name="F036_NewsExpiryDate" xml:space="preserve">
+    <value>News Expiry Date</value>
+  </data>
+  <data name="F036_NewsIconPath" xml:space="preserve">
+    <value>News Icon Path</value>
+  </data>
+  <data name="F036_NewsTitle" xml:space="preserve">
+    <value>News Title</value>
+  </data>
+  <data name="F036_NewsType" xml:space="preserve">
+    <value>News Type</value>
+  </data>
+  <data name="F036_NewsVideoPath" xml:space="preserve">
+    <value>News Video Path</value>
+  </data>
+  <data name="F036_IsAchievement" xml:space="preserve">
+    <value>Is Achievement</value>
+  </data>
+  <data name="F036_IsInformal" xml:space="preserve">
+    <value>Is Informal</value>
+  </data>
+  <data name="F033_Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="F033_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="F033_Updated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="F033_ReqType" xml:space="preserve">
+    <value>Request Type</value>
+  </data>
+  <data name="F033_TrType" xml:space="preserve">
+    <value>Transaction Type</value>
+  </data>
+  <data name="F033_ListAllRequests" xml:space="preserve">
+    <value>All Requests</value>
+  </data>
+  <data name="F033_ListMyRequests" xml:space="preserve">
+    <value>My Requests</value>
+  </data>
+  <data name="X_Review" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="F033_Reassign" xml:space="preserve">
+    <value>Reassign</value>
+  </data>
+  <data name="F033_AssignTo" xml:space="preserve">
+    <value>Assign to ...</value>
+  </data>
+  <data name="X_Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="X_ObsceneWords" xml:space="preserve">
+    <value>Obscene Words</value>
+  </data>
+  <data name="X_Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="X_Reviews" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="X_Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="X_Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="X_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="X_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="F037_EconomicActivity" xml:space="preserve">
+    <value>Economic Activity</value>
+  </data>
+  <data name="F037_IndustryType" xml:space="preserve">
+    <value>Industry Type</value>
+  </data>
+  <data name="F037_OrganizationName" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="F037_OrganizationSize" xml:space="preserve">
+    <value>Organization Size</value>
+  </data>
+  <data name="F037_OrganizationType" xml:space="preserve">
+    <value>Organization Type</value>
+  </data>
+  <data name="F037_Otherindustrytype" xml:space="preserve">
+    <value>Other industry type</value>
+  </data>
+  <data name="F037_AcceptandFinishRegisteration" xml:space="preserve">
+    <value>Accept and Finish Registration</value>
+  </data>
+  <data name="F037_Access" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="F037_AccessContent" xml:space="preserve">
+    <value>The site is available to public but different information is restricted to different types of users. However, all users should abide to rules, laws and regulations governing hacking, changing or modifying content, or posting any document violating the Egyptian Laws.</value>
+  </data>
+  <data name="F037_Authorizationletter" xml:space="preserve">
+    <value>Authorization Letter</value>
+  </data>
+  <data name="F037_Choosewhatwillyouuseourportalfor" xml:space="preserve">
+    <value>Choose what will you use our portal for</value>
+  </data>
+  <data name="F037_ContactName" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="F037_ContactsInformation" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="F037_Copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="F037_CopyrightContent" xml:space="preserve">
+    <value>In accordance with the Egyptian Laws, the ITC retains all rights to publish or produce information available on the website.</value>
+  </data>
+  <data name="F037_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="F037_EmployerDetails" xml:space="preserve">
+    <value>Employer  Details</value>
+  </data>
+  <data name="F037_EstablishmentDate" xml:space="preserve">
+    <value>Establishment  Date</value>
+  </data>
+  <data name="F037_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="F037_IDNumber" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="F037_ITCRegistration" xml:space="preserve">
+    <value>ITC Registration #</value>
+  </data>
+  <data name="F037_LogoandProfile" xml:space="preserve">
+    <value>Logo and Profile</value>
+  </data>
+  <data name="F037_OrganizationLogo" xml:space="preserve">
+    <value>Organization Logo</value>
+  </data>
+  <data name="F037_OrganizationProfile" xml:space="preserve">
+    <value>Organization Profile</value>
+  </data>
+  <data name="F037_Thisfieldisrequired" xml:space="preserve">
+    <value>This field is required.</value>
+  </data>
+  <data name="F037_Trainingfororganizationemployees" xml:space="preserve">
+    <value>Training for organization employees</value>
+  </data>
+  <data name="F037_UseOfTheWebsite" xml:space="preserve">
+    <value>Use of the website</value>
+  </data>
+  <data name="F037_UseOfTheWebsiteContent" xml:space="preserve">
+    <value>All the documents and content available on the website are for informational purposes only. Whereas the ELMIS team strives to keep the information available in the best quality and the latest status, we do not provide warranties by any means, whether explicit or implicit, about the comprehensiveness, precision, consistency, relevance or readiness of the information, services or any graphics displayed on the website. ELMIS team is not liable for any damage or loss arising from using the website’s information.
+ELMIS has many links to other websites; some of which are operated by national and international agencies. ELMIS has no control over the content of these websites and the views represented on these websites should never be deemed as recommended or endorsed by the ELMIS. When using these websites, the ELMIS privacy policy will not apply and instead you will be subject to the website’s own privacy policy.
+The ELMIS advertises career opportunities and events for all organizations, yet this is not considered an endorsement or a recommendation for a particular institution by the ELMIS.
+Even though every effort is made to maintain the smooth running of the website, the ELMIS will not be liable for any losses incurred due to the website being temporarily unavailable or due to any technical issues that are beyond our control.</value>
+  </data>
+  <data name="F037_Zippostalcode" xml:space="preserve">
+    <value>Zip/postal code</value>
+  </data>
+  <data name="F038_AddCertificate" xml:space="preserve">
+    <value>Add Certificate</value>
+  </data>
+  <data name="F038_AddEducation" xml:space="preserve">
+    <value>Add Education</value>
+  </data>
+  <data name="F038_AddExperience" xml:space="preserve">
+    <value>Add Experience</value>
+  </data>
+  <data name="F038_AddSkill" xml:space="preserve">
+    <value>Add Skill</value>
+  </data>
+  <data name="F038_AppliedJobsandTraining" xml:space="preserve">
+    <value>Applied Jobs and Training</value>
+  </data>
+  <data name="F038_EditProfile" xml:space="preserve">
+    <value>Edit Profile</value>
+  </data>
+  <data name="F038_PersonalData" xml:space="preserve">
+    <value>Personal Data</value>
+  </data>
+  <data name="F038_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Contacts Information</value>
+  </data>
+  <data name="F038_AppliedJobs" xml:space="preserve">
+    <value>Applied Jobs</value>
+  </data>
+  <data name="F038_AppliedTrainings" xml:space="preserve">
+    <value>Applied Trainings</value>
+  </data>
+  <data name="F038_Certificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="F038_Clickhere" xml:space="preserve">
+    <value>Click here</value>
+  </data>
+  <data name="F038_Education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="F038_NoDataCertificateContent" xml:space="preserve">
+    <value>No certificates added yet!, If you want to add the first one</value>
+  </data>
+  <data name="F038_NodataEducationContent" xml:space="preserve">
+    <value>No educations added yet!, If you want to add the first one</value>
+  </data>
+  <data name="F038_NoDataExperienceContent" xml:space="preserve">
+    <value>No Experiences added yet!, If you want to add the first one</value>
+  </data>
+  <data name="F038_NoDataSkillsContent" xml:space="preserve">
+    <value>No Skills added yet!, If you want to add the first one</value>
+  </data>
+  <data name="F038_NodataTrainingContent" xml:space="preserve">
+    <value>No Trainings added yet!, If you want to add the first one</value>
+  </data>
+  <data name="F038_Nojobsappliedyet" xml:space="preserve">
+    <value>No jobs applied yet!</value>
+  </data>
+  <data name="F038_Notrainingsappliedyet" xml:space="preserve">
+    <value>No trainings applied yet!</value>
+  </data>
+  <data name="F039_PersonalImage" xml:space="preserve">
+    <value>Personal Image</value>
+  </data>
+  <data name="F038_Training" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="F038_WorkExperience" xml:space="preserve">
+    <value>Work Experience</value>
+  </data>
+  <data name="F038_TrainingMessage" xml:space="preserve">
+    <value>* Events for attendance of the course may be requested</value>
+  </data>
+  <data name="F037_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="F037_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="F037" xml:space="preserve">
+    <value>Organization Registration</value>
+  </data>
+  <data name="F038" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="F039" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="F039_IDNumber" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="F039_Type" xml:space="preserve">
+    <value>ID Type</value>
+  </data>
+  <data name="F040" xml:space="preserve">
+    <value>Disclaimar</value>
+  </data>
+  <data name="F041_Title" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="F042_Title" xml:space="preserve">
+    <value>Become a Partner</value>
+  </data>
+  <data name="F043_Title" xml:space="preserve">
+    <value>Partner Details</value>
+  </data>
+  <data name="F042_CEOEmail" xml:space="preserve">
+    <value>CEO Email</value>
+  </data>
+  <data name="F042_CEOFirstName" xml:space="preserve">
+    <value>CEO First Name</value>
+  </data>
+  <data name="F042_CEOLastName" xml:space="preserve">
+    <value>CEO Last Name</value>
+  </data>
+  <data name="F042_CommercialRegistrationNO" xml:space="preserve">
+    <value>Commercial registration number</value>
+  </data>
+  <data name="F042_ContactsDetails" xml:space="preserve">
+    <value>Contact Details</value>
+  </data>
+  <data name="F042_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="F042_GeneralDescriptionCoreBusiness" xml:space="preserve">
+    <value>General description of core business</value>
+  </data>
+  <data name="F042_organizationDetails" xml:space="preserve">
+    <value>Organization Details</value>
+  </data>
+  <data name="F042_OrganizationSkills" xml:space="preserve">
+    <value>Organization Skills</value>
+  </data>
+  <data name="F042_OrganizationWebsite" xml:space="preserve">
+    <value>Organization website</value>
+  </data>
+  <data name="F042_PossibleAreaCooperation" xml:space="preserve">
+    <value>Possible area of cooperation</value>
+  </data>
+  <data name="F042_SavePartner" xml:space="preserve">
+    <value>Save and Become a Partner</value>
+  </data>
+  <data name="F042_YearFounded" xml:space="preserve">
+    <value>Year founded</value>
+  </data>
+  <data name="F044_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="F044_Graph" xml:space="preserve">
+    <value>Graph</value>
+  </data>
+  <data name="F044_Tabular" xml:space="preserve">
+    <value>Tabular</value>
+  </data>
+  <data name="F044_Title" xml:space="preserve">
+    <value>Statistical Reports</value>
+  </data>
+  <data name="R001" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="X_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="R001_ContactInfo" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="R001_Creds" xml:space="preserve">
+    <value>Credentials</value>
+  </data>
+  <data name="R001_Disclaimer" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="R001_OrgDets" xml:space="preserve">
+    <value>Organization Details</value>
+  </data>
+  <data name="R001_Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="X_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="X_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="W002_Activity" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="W002_EstDate" xml:space="preserve">
+    <value>Date of Establishment</value>
+  </data>
+  <data name="W002_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="W002_IDType" xml:space="preserve">
+    <value>ID Type</value>
+  </data>
+  <data name="W002_Industry" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="W002_Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="W002_OrgName" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="W002_OrgSize" xml:space="preserve">
+    <value>Organization Size</value>
+  </data>
+  <data name="W002_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="W002_YOE" xml:space="preserve">
+    <value>Years of Experience</value>
+  </data>
+  <data name="X_PostalCode" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="X_SignUp" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="R001_Ind" xml:space="preserve">
+    <value>Individual Registration</value>
+  </data>
+  <data name="R001_Org" xml:space="preserve">
+    <value>Organization Registration</value>
+  </data>
+  <data name="W001_AuthLetter" xml:space="preserve">
+    <value>Authorization Letter</value>
+  </data>
+  <data name="W003_ItcRegNo" xml:space="preserve">
+    <value>ITC registration number</value>
+  </data>
+  <data name="R002_Ind" xml:space="preserve">
+    <value>Personal Profile</value>
+  </data>
+  <data name="R002_Org" xml:space="preserve">
+    <value>Organization Profile</value>
+  </data>
+  <data name="X_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="X_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="W004_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="W004_FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="W004_JobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="X_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="X_Mobile" xml:space="preserve">
+    <value>Mobile No.</value>
+  </data>
+  <data name="R003_EmpCreds" xml:space="preserve">
+    <value>Employee Credentials</value>
+  </data>
+  <data name="R003_EmpDetails" xml:space="preserve">
+    <value>Employee Details</value>
+  </data>
+  <data name="R003" xml:space="preserve">
+    <value>Organization Contacts</value>
+  </data>
+  <data name="R003_AddContact" xml:space="preserve">
+    <value>Add a New Contact</value>
+  </data>
+  <data name="R003_AllContacts" xml:space="preserve">
+    <value>All Contacts</value>
+  </data>
+  <data name="F004_CVSearch" xml:space="preserve">
+    <value>Search for Candidates</value>
+  </data>
+  <data name="F003_MedFit" xml:space="preserve">
+    <value>Medically Fit</value>
+  </data>
+  <data name="F003_MedUnfit" xml:space="preserve">
+    <value>Medically Unfit</value>
+  </data>
+  <data name="F003_SkillRating" xml:space="preserve">
+    <value>Skill Rating</value>
+  </data>
+  <data name="F038_current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="F003_Edlevel" xml:space="preserve">
+    <value>Education Level</value>
+  </data>
+  <data name="F003_JobOffer" xml:space="preserve">
+    <value>Job Offer</value>
+  </data>
+  <data name="F003_YOE" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="F032_AvailableJobSeekers" xml:space="preserve">
+    <value>Available Job Seekers</value>
+  </data>
+  <data name="F032_JobsApplied" xml:space="preserve">
+    <value>Jobs Applied</value>
+  </data>
+  <data name="F032_JobSeekers" xml:space="preserve">
+    <value>Job  Seekers</value>
+  </data>
+  <data name="F045" xml:space="preserve">
+    <value>Available Vacancies</value>
+  </data>
+  <data name="F045_Count" xml:space="preserve">
+    <value>Number Of Available Vacancies</value>
+  </data>
+  <data name="F045_Qualification" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="F046" xml:space="preserve">
+    <value>Job Offers</value>
+  </data>
+  <data name="F046_Count" xml:space="preserve">
+    <value>Number Of Job Offers</value>
+  </data>
+  <data name="F047" xml:space="preserve">
+    <value>Average Wages</value>
+  </data>
+  <data name="Master_login" xml:space="preserve">
+    <value>Please login first!</value>
+  </data>
+  <data name="F048" xml:space="preserve">
+    <value>Live Chat</value>
+  </data>
+  <data name="F049_PostNewConcept" xml:space="preserve">
+    <value>Post a New Concept</value>
+  </data>
+  <data name="F049_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="F049_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="F006_Events" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="F050" xml:space="preserve">
+    <value>Transaction History</value>
+  </data>
+  <data name="X_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="X_TransactionType" xml:space="preserve">
+    <value>Transaction Type</value>
+  </data>
+  <data name="F051" xml:space="preserve">
+    <value>Obscene Words</value>
+  </data>
+  <data name="F051_Post" xml:space="preserve">
+    <value>Post a New ObsceneWord</value>
+  </data>
+  <data name="F053" xml:space="preserve">
+    <value>ContactUs Emails</value>
+  </data>
+  <data name="F029_EmailDisplayName" xml:space="preserve">
+    <value>EmailDisplay Name</value>
+  </data>
+  <data name="F029_EmailPort" xml:space="preserve">
+    <value>Email Port</value>
+  </data>
+  <data name="F029_EmailSettings" xml:space="preserve">
+    <value>Email Settings</value>
+  </data>
+  <data name="F029_EmailSSL" xml:space="preserve">
+    <value>Email SSL</value>
+  </data>
+  <data name="F029_NewsLetter" xml:space="preserve">
+    <value>News Letter Settings</value>
+  </data>
+  <data name="F029googleplus" xml:space="preserve">
+    <value>google-plus</value>
+  </data>
+  <data name="F029linkedin" xml:space="preserve">
+    <value>linkedin</value>
+  </data>
+  <data name="F029LiveChat" xml:space="preserve">
+    <value>Live Chat </value>
+  </data>
+  <data name="F029LiveChatDays" xml:space="preserve">
+    <value>Live Chat Days</value>
+  </data>
+  <data name="F029LiveChatFrom" xml:space="preserve">
+    <value>Live Chat From</value>
+  </data>
+  <data name="F029LiveChatTo" xml:space="preserve">
+    <value>Live Chat To</value>
+  </data>
+  <data name="F029twitter" xml:space="preserve">
+    <value>twitter</value>
+  </data>
+  <data name="F029youtube" xml:space="preserve">
+    <value>youtube</value>
+  </data>
+  <data name="F029_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="F029_FaceBook" xml:space="preserve">
+    <value>FaceBook</value>
+  </data>
+  <data name="F029_HomeWelcomeMessageAr" xml:space="preserve">
+    <value>Home Welcome Message Ar</value>
+  </data>
+  <data name="F029_HomeWelcomeMessageEn" xml:space="preserve">
+    <value>Home Welcome Message En</value>
+  </data>
+  <data name="F029_HomeWelcomeMessageFr" xml:space="preserve">
+    <value>Home Welcome Message Fr</value>
+  </data>
+  <data name="F029_Offices" xml:space="preserve">
+    <value>Offices</value>
+  </data>
+  <data name="F029_OrgRegDisclaimer" xml:space="preserve">
+    <value>Org Reg Disclaimer</value>
+  </data>
+  <data name="F029_SocialLinks" xml:space="preserve">
+    <value>Social Links</value>
+  </data>
+  <data name="X_Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="X_Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="X_Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="X_Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="X_Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="X_tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="X_Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="F004_AppDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="F004_Hire" xml:space="preserve">
+    <value>Hire</value>
+  </data>
+  <data name="F004_Hired" xml:space="preserve">
+    <value>Hired</value>
+  </data>
+  <data name="F004_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="F004_Viewed" xml:space="preserve">
+    <value>Viewed</value>
+  </data>
+  <data name="X_Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="X_Accepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="X_Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="F005_IsInformal" xml:space="preserve">
+    <value>Informal Opportunity</value>
+  </data>
+  <data name="F006_IsInformal" xml:space="preserve">
+    <value>Informal Event</value>
+  </data>
+  <data name="F005_FormalOpps" xml:space="preserve">
+    <value>Formal Opportunities</value>
+  </data>
+  <data name="F005_InformalOpps" xml:space="preserve">
+    <value>Informal Opportunities</value>
+  </data>
+  <data name="F005_OppDetails" xml:space="preserve">
+    <value>Opportunity Details</value>
+  </data>
+  <data name="X_ViewMore" xml:space="preserve">
+    <value>View More</value>
+  </data>
+  <data name="F029ContactUsMap" xml:space="preserve">
+    <value>ContactUsMap</value>
+  </data>
+  <data name="F029eblog" xml:space="preserve">
+    <value>eblog</value>
+  </data>
+  <data name="F054" xml:space="preserve">
+    <value>Help Full Links</value>
+  </data>
+  <data name="F055" xml:space="preserve">
+    <value>Descriptive Job</value>
+  </data>
+  <data name="F053_Post" xml:space="preserve">
+    <value>Post a New Email</value>
+  </data>
+  <data name="F029_EmailHost" xml:space="preserve">
+    <value>Email Host</value>
+  </data>
+  <data name="F029_NewsLetterSetting" xml:space="preserve">
+    <value>Send News Letter Every Day(s)</value>
+  </data>
+  <data name="F029_Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="F029_UseDefaultCredentials" xml:space="preserve">
+    <value>Use Default Credentials</value>
+  </data>
+  <data name="F054_Post" xml:space="preserve">
+    <value>Post Help Full Link</value>
+  </data>
+  <data name="F056" xml:space="preserve">
+    <value>Qualifications</value>
+  </data>
+  <data name="F056_Post" xml:space="preserve">
+    <value>Post New Qualification</value>
+  </data>
+  <data name="F056_QualificationAr" xml:space="preserve">
+    <value>QualificationAr</value>
+  </data>
+  <data name="F056_QualificationEN" xml:space="preserve">
+    <value>QualificationEN</value>
+  </data>
+  <data name="F056_QualificationFr" xml:space="preserve">
+    <value>QualificationFr</value>
+  </data>
+  <data name="X_ClickHere" xml:space="preserve">
+    <value>Click Here</value>
+  </data>
+  <data name="X_ConfirmPasswordReseted" xml:space="preserve">
+    <value>To reset your password, please click on the following link and follow the instructions:</value>
+  </data>
+  <data name="B001" xml:space="preserve">
+    <value>Work Offices</value>
+  </data>
+  <data name="B001_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="B001_District" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="B001_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="B001_Hotline" xml:space="preserve">
+    <value>Hotline</value>
+  </data>
+  <data name="B001_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="B001_Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="B001_Titles" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="B002" xml:space="preserve">
+    <value>Labor Unions</value>
+  </data>
+  <data name="X_AggrementRead" xml:space="preserve">
+    <value>Please Read and accept Agreement</value>
+  </data>
+  <data name="X_Agreement" xml:space="preserve">
+    <value>I have read and agree to the Privacy Policy</value>
+  </data>
+  <data name="F057" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="F057_Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="F057_Post" xml:space="preserve">
+    <value>Post New FAQ</value>
+  </data>
+  <data name="F057_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Menu_Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="F058" xml:space="preserve">
+    <value>Concepts and Definitions</value>
+  </data>
+  <data name="F058_Post" xml:space="preserve">
+    <value>Post New Concepts or  Definitions</value>
+  </data>
+  <data name="F059" xml:space="preserve">
+    <value>Traning Provider and Employers</value>
+  </data>
+  <data name="F059_Post" xml:space="preserve">
+    <value>Post a New Traning Provider or Employers</value>
+  </data>
+  <data name="F060" xml:space="preserve">
+    <value>Traning Providers</value>
+  </data>
+  <data name="F061" xml:space="preserve">
+    <value>Employers</value>
+  </data>
+  <data name="B002_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="B002_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="B002_Comms" xml:space="preserve">
+    <value>Committees</value>
+  </data>
+  <data name="B002_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="B002_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="B002_Gov" xml:space="preserve">
+    <value>Governorate</value>
+  </data>
+  <data name="B002_Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="B002_Profs" xml:space="preserve">
+    <value>Professions</value>
+  </data>
+  <data name="B002_Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="B002_Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Menu_Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="Menu_RequestsApproval" xml:space="preserve">
+    <value>Requests Approval</value>
+  </data>
+  <data name="Menu_StatisticalDataMigration" xml:space="preserve">
+    <value>Statistical Data Migration</value>
+  </data>
+  <data name="F062" xml:space="preserve">
+    <value>Recruitment Agencies</value>
+  </data>
+  <data name="F062_Description" xml:space="preserve">
+    <value>Recruitment Agency background</value>
+  </data>
+  <data name="F062_Post" xml:space="preserve">
+    <value>Post a new Recruitment Agency</value>
+  </data>
+  <data name="F062_Titles" xml:space="preserve">
+    <value>Recruitment Agency name</value>
+  </data>
+  <data name="B002_Comm" xml:space="preserve">
+    <value>Committee</value>
+  </data>
+  <data name="B002_Prof" xml:space="preserve">
+    <value>Profession</value>
+  </data>
+  <data name="F017_PublishYear" xml:space="preserve">
+    <value>Publish Year</value>
+  </data>
+  <data name="F017_Source" xml:space="preserve">
+    <value>Source En</value>
+  </data>
+  <data name="F017_SourceAr" xml:space="preserve">
+    <value>Source Ar</value>
+  </data>
+  <data name="F017_SourceFr" xml:space="preserve">
+    <value>Source Fr</value>
+  </data>
+  <data name="X_PostDate" xml:space="preserve">
+    <value>Post Date</value>
+  </data>
+  <data name="X_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="X_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="X_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="B001_Post" xml:space="preserve">
+    <value>Post a New Work Office</value>
+  </data>
+  <data name="B002_Post" xml:space="preserve">
+    <value>Post a New Labor Union</value>
+  </data>
+  <data name="B001_OfficeTitle" xml:space="preserve">
+    <value>Office Title</value>
+  </data>
+  <data name="B002_UnionTitle" xml:space="preserve">
+    <value>Union Title</value>
+  </data>
+  <data name="F054_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+</root>

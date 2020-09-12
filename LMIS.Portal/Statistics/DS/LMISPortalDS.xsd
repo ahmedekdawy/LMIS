@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LMISPortalDS" targetNamespace="http://tempuri.org/LMISPortalDS.xsd" xmlns:mstns="http://tempuri.org/LMISPortalDS.xsd" xmlns="http://tempuri.org/LMISPortalDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="LMISPortal8-6ConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="LMISPortal8-6ConnectionString2 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.LMISPortal8-6ConnectionString2.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="LMISPortal8-6ConnectionString2 (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        *
+FROM            dbo.FactStatisticalData INNER JOIN
+                         dbo.Reports ON dbo.FactStatisticalData.ReportID = dbo.Reports.ReportID INNER JOIN
+                         dbo.DimThemes ON dbo.Reports.ThemeID = dbo.DimThemes.CodeNo FULL OUTER JOIN
+                         dbo.SubCode AS subGender ON dbo.FactStatisticalData.GenderID = subGender.SubID AND subGender.GeneralID = '002' FULL OUTER JOIN
+                         dbo.SubCode AS subGov ON dbo.FactStatisticalData.GovID = subGov.SubID AND subGov.GeneralID = '003'
+WHERE        (dbo.FactStatisticalData.ReportID = 20)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FactDataID" DataSetColumn="FactDataID" />
+              <Mapping SourceColumn="ReportID" DataSetColumn="ReportID" />
+              <Mapping SourceColumn="YearID" DataSetColumn="YearID" />
+              <Mapping SourceColumn="GenderID" DataSetColumn="GenderID" />
+              <Mapping SourceColumn="GovID" DataSetColumn="GovID" />
+              <Mapping SourceColumn="MaritalStatusID" DataSetColumn="MaritalStatusID" />
+              <Mapping SourceColumn="EducationLevelID" DataSetColumn="EducationLevelID" />
+              <Mapping SourceColumn="AgeID" DataSetColumn="AgeID" />
+              <Mapping SourceColumn="Value" DataSetColumn="Value" />
+              <Mapping SourceColumn="ReportID1" DataSetColumn="ReportID1" />
+              <Mapping SourceColumn="ReportEnName" DataSetColumn="ReportEnName" />
+              <Mapping SourceColumn="ThemeID" DataSetColumn="ThemeID" />
+              <Mapping SourceColumn="RunningVariableID" DataSetColumn="RunningVariableID" />
+              <Mapping SourceColumn="YearFrom" DataSetColumn="YearFrom" />
+              <Mapping SourceColumn="YearTo" DataSetColumn="YearTo" />
+              <Mapping SourceColumn="GenderID1" DataSetColumn="GenderID1" />
+              <Mapping SourceColumn="GovID1" DataSetColumn="GovID1" />
+              <Mapping SourceColumn="MaritalStatusID1" DataSetColumn="MaritalStatusID1" />
+              <Mapping SourceColumn="EducationLevelID1" DataSetColumn="EducationLevelID1" />
+              <Mapping SourceColumn="AgeID1" DataSetColumn="AgeID1" />
+              <Mapping SourceColumn="SectorID" DataSetColumn="SectorID" />
+              <Mapping SourceColumn="ExtraVariableID" DataSetColumn="ExtraVariableID" />
+              <Mapping SourceColumn="ExtraVariableValue" DataSetColumn="ExtraVariableValue" />
+              <Mapping SourceColumn="ChangingVariableID" DataSetColumn="ChangingVariableID" />
+              <Mapping SourceColumn="CodeNo" DataSetColumn="CodeNo" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="ThemeCat" DataSetColumn="ThemeCat" />
+              <Mapping SourceColumn="ThemeCat1" DataSetColumn="ThemeCat1" />
+              <Mapping SourceColumn="ThemeCat2" DataSetColumn="ThemeCat2" />
+              <Mapping SourceColumn="ThemeType" DataSetColumn="ThemeType" />
+              <Mapping SourceColumn="UnitScale" DataSetColumn="UnitScale" />
+              <Mapping SourceColumn="SubID" DataSetColumn="SubID" />
+              <Mapping SourceColumn="GeneralID" DataSetColumn="GeneralID" />
+              <Mapping SourceColumn="LanguageID" DataSetColumn="LanguageID" />
+              <Mapping SourceColumn="Name1" DataSetColumn="Name1" />
+              <Mapping SourceColumn="ParentSubCodeID" DataSetColumn="ParentSubCodeID" />
+              <Mapping SourceColumn="SubID1" DataSetColumn="SubID1" />
+              <Mapping SourceColumn="GeneralID1" DataSetColumn="GeneralID1" />
+              <Mapping SourceColumn="LanguageID1" DataSetColumn="LanguageID1" />
+              <Mapping SourceColumn="Name2" DataSetColumn="Name2" />
+              <Mapping SourceColumn="ParentSubCodeID1" DataSetColumn="ParentSubCodeID1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LMISPortalDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LMISPortalDS" msprop:Generator_UserDSName="LMISPortalDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FactDataID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnFactDataID" msprop:Generator_ColumnPropNameInRow="FactDataID" msprop:Generator_ColumnPropNameInTable="FactDataIDColumn" msprop:Generator_UserColumnName="FactDataID" type="xs:int" minOccurs="0" />
+              <xs:element name="ReportID" msprop:Generator_ColumnVarNameInTable="columnReportID" msprop:Generator_ColumnPropNameInRow="ReportID" msprop:Generator_ColumnPropNameInTable="ReportIDColumn" msprop:Generator_UserColumnName="ReportID" type="xs:int" minOccurs="0" />
+              <xs:element name="YearID" msprop:Generator_ColumnVarNameInTable="columnYearID" msprop:Generator_ColumnPropNameInRow="YearID" msprop:Generator_ColumnPropNameInTable="YearIDColumn" msprop:Generator_UserColumnName="YearID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GenderID" msprop:Generator_ColumnVarNameInTable="columnGenderID" msprop:Generator_ColumnPropNameInRow="GenderID" msprop:Generator_ColumnPropNameInTable="GenderIDColumn" msprop:Generator_UserColumnName="GenderID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GovID" msprop:Generator_ColumnVarNameInTable="columnGovID" msprop:Generator_ColumnPropNameInRow="GovID" msprop:Generator_ColumnPropNameInTable="GovIDColumn" msprop:Generator_UserColumnName="GovID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaritalStatusID" msprop:Generator_ColumnVarNameInTable="columnMaritalStatusID" msprop:Generator_ColumnPropNameInRow="MaritalStatusID" msprop:Generator_ColumnPropNameInTable="MaritalStatusIDColumn" msprop:Generator_UserColumnName="MaritalStatusID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EducationLevelID" msprop:Generator_ColumnVarNameInTable="columnEducationLevelID" msprop:Generator_ColumnPropNameInRow="EducationLevelID" msprop:Generator_ColumnPropNameInTable="EducationLevelIDColumn" msprop:Generator_UserColumnName="EducationLevelID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgeID" msprop:Generator_ColumnVarNameInTable="columnAgeID" msprop:Generator_ColumnPropNameInRow="AgeID" msprop:Generator_ColumnPropNameInTable="AgeIDColumn" msprop:Generator_UserColumnName="AgeID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_UserColumnName="Value" type="xs:long" minOccurs="0" />
+              <xs:element name="ReportID1" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnReportID1" msprop:Generator_ColumnPropNameInRow="ReportID1" msprop:Generator_ColumnPropNameInTable="ReportID1Column" msprop:Generator_UserColumnName="ReportID1" type="xs:int" minOccurs="0" />
+              <xs:element name="ReportEnName" msprop:Generator_ColumnVarNameInTable="columnReportEnName" msprop:Generator_ColumnPropNameInRow="ReportEnName" msprop:Generator_ColumnPropNameInTable="ReportEnNameColumn" msprop:Generator_UserColumnName="ReportEnName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThemeID" msprop:Generator_ColumnVarNameInTable="columnThemeID" msprop:Generator_ColumnPropNameInRow="ThemeID" msprop:Generator_ColumnPropNameInTable="ThemeIDColumn" msprop:Generator_UserColumnName="ThemeID" type="xs:int" minOccurs="0" />
+              <xs:element name="RunningVariableID" msprop:Generator_ColumnVarNameInTable="columnRunningVariableID" msprop:Generator_ColumnPropNameInRow="RunningVariableID" msprop:Generator_ColumnPropNameInTable="RunningVariableIDColumn" msprop:Generator_UserColumnName="RunningVariableID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YearFrom" msprop:Generator_ColumnVarNameInTable="columnYearFrom" msprop:Generator_ColumnPropNameInRow="YearFrom" msprop:Generator_ColumnPropNameInTable="YearFromColumn" msprop:Generator_UserColumnName="YearFrom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YearTo" msprop:Generator_ColumnVarNameInTable="columnYearTo" msprop:Generator_ColumnPropNameInRow="YearTo" msprop:Generator_ColumnPropNameInTable="YearToColumn" msprop:Generator_UserColumnName="YearTo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GenderID1" msprop:Generator_ColumnVarNameInTable="columnGenderID1" msprop:Generator_ColumnPropNameInRow="GenderID1" msprop:Generator_ColumnPropNameInTable="GenderID1Column" msprop:Generator_UserColumnName="GenderID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GovID1" msprop:Generator_ColumnVarNameInTable="columnGovID1" msprop:Generator_ColumnPropNameInRow="GovID1" msprop:Generator_ColumnPropNameInTable="GovID1Column" msprop:Generator_UserColumnName="GovID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaritalStatusID1" msprop:Generator_ColumnVarNameInTable="columnMaritalStatusID1" msprop:Generator_ColumnPropNameInRow="MaritalStatusID1" msprop:Generator_ColumnPropNameInTable="MaritalStatusID1Column" msprop:Generator_UserColumnName="MaritalStatusID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EducationLevelID1" msprop:Generator_ColumnVarNameInTable="columnEducationLevelID1" msprop:Generator_ColumnPropNameInRow="EducationLevelID1" msprop:Generator_ColumnPropNameInTable="EducationLevelID1Column" msprop:Generator_UserColumnName="EducationLevelID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgeID1" msprop:Generator_ColumnVarNameInTable="columnAgeID1" msprop:Generator_ColumnPropNameInRow="AgeID1" msprop:Generator_ColumnPropNameInTable="AgeID1Column" msprop:Generator_UserColumnName="AgeID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SectorID" msprop:Generator_ColumnVarNameInTable="columnSectorID" msprop:Generator_ColumnPropNameInRow="SectorID" msprop:Generator_ColumnPropNameInTable="SectorIDColumn" msprop:Generator_UserColumnName="SectorID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExtraVariableID" msprop:Generator_ColumnVarNameInTable="columnExtraVariableID" msprop:Generator_ColumnPropNameInRow="ExtraVariableID" msprop:Generator_ColumnPropNameInTable="ExtraVariableIDColumn" msprop:Generator_UserColumnName="ExtraVariableID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExtraVariableValue" msprop:Generator_ColumnVarNameInTable="columnExtraVariableValue" msprop:Generator_ColumnPropNameInRow="ExtraVariableValue" msprop:Generator_ColumnPropNameInTable="ExtraVariableValueColumn" msprop:Generator_UserColumnName="ExtraVariableValue" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChangingVariableID" msprop:Generator_ColumnVarNameInTable="columnChangingVariableID" msprop:Generator_ColumnPropNameInRow="ChangingVariableID" msprop:Generator_ColumnPropNameInTable="ChangingVariableIDColumn" msprop:Generator_UserColumnName="ChangingVariableID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodeNo" msprop:Generator_ColumnVarNameInTable="columnCodeNo" msprop:Generator_ColumnPropNameInRow="CodeNo" msprop:Generator_ColumnPropNameInTable="CodeNoColumn" msprop:Generator_UserColumnName="CodeNo" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThemeCat" msprop:Generator_ColumnVarNameInTable="columnThemeCat" msprop:Generator_ColumnPropNameInRow="ThemeCat" msprop:Generator_ColumnPropNameInTable="ThemeCatColumn" msprop:Generator_UserColumnName="ThemeCat" type="xs:int" minOccurs="0" />
+              <xs:element name="ThemeCat1" msprop:Generator_ColumnVarNameInTable="columnThemeCat1" msprop:Generator_ColumnPropNameInRow="ThemeCat1" msprop:Generator_ColumnPropNameInTable="ThemeCat1Column" msprop:Generator_UserColumnName="ThemeCat1" type="xs:int" minOccurs="0" />
+              <xs:element name="ThemeCat2" msprop:Generator_ColumnVarNameInTable="columnThemeCat2" msprop:Generator_ColumnPropNameInRow="ThemeCat2" msprop:Generator_ColumnPropNameInTable="ThemeCat2Column" msprop:Generator_UserColumnName="ThemeCat2" type="xs:int" minOccurs="0" />
+              <xs:element name="ThemeType" msprop:Generator_ColumnVarNameInTable="columnThemeType" msprop:Generator_ColumnPropNameInRow="ThemeType" msprop:Generator_ColumnPropNameInTable="ThemeTypeColumn" msprop:Generator_UserColumnName="ThemeType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UnitScale" msprop:Generator_ColumnVarNameInTable="columnUnitScale" msprop:Generator_ColumnPropNameInRow="UnitScale" msprop:Generator_ColumnPropNameInTable="UnitScaleColumn" msprop:Generator_UserColumnName="UnitScale" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubID" msprop:Generator_ColumnVarNameInTable="columnSubID" msprop:Generator_ColumnPropNameInRow="SubID" msprop:Generator_ColumnPropNameInTable="SubIDColumn" msprop:Generator_UserColumnName="SubID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GeneralID" msprop:Generator_ColumnVarNameInTable="columnGeneralID" msprop:Generator_ColumnPropNameInRow="GeneralID" msprop:Generator_ColumnPropNameInTable="GeneralIDColumn" msprop:Generator_UserColumnName="GeneralID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LanguageID" msprop:Generator_ColumnVarNameInTable="columnLanguageID" msprop:Generator_ColumnPropNameInRow="LanguageID" msprop:Generator_ColumnPropNameInTable="LanguageIDColumn" msprop:Generator_UserColumnName="LanguageID" type="xs:int" minOccurs="0" />
+              <xs:element name="Name1" msprop:Generator_ColumnVarNameInTable="columnName1" msprop:Generator_ColumnPropNameInRow="Name1" msprop:Generator_ColumnPropNameInTable="Name1Column" msprop:Generator_UserColumnName="Name1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParentSubCodeID" msprop:Generator_ColumnVarNameInTable="columnParentSubCodeID" msprop:Generator_ColumnPropNameInRow="ParentSubCodeID" msprop:Generator_ColumnPropNameInTable="ParentSubCodeIDColumn" msprop:Generator_UserColumnName="ParentSubCodeID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubID1" msprop:Generator_ColumnVarNameInTable="columnSubID1" msprop:Generator_ColumnPropNameInRow="SubID1" msprop:Generator_ColumnPropNameInTable="SubID1Column" msprop:Generator_UserColumnName="SubID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GeneralID1" msprop:Generator_ColumnVarNameInTable="columnGeneralID1" msprop:Generator_ColumnPropNameInRow="GeneralID1" msprop:Generator_ColumnPropNameInTable="GeneralID1Column" msprop:Generator_UserColumnName="GeneralID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LanguageID1" msprop:Generator_ColumnVarNameInTable="columnLanguageID1" msprop:Generator_ColumnPropNameInRow="LanguageID1" msprop:Generator_ColumnPropNameInTable="LanguageID1Column" msprop:Generator_UserColumnName="LanguageID1" type="xs:int" minOccurs="0" />
+              <xs:element name="Name2" msprop:Generator_ColumnVarNameInTable="columnName2" msprop:Generator_ColumnPropNameInRow="Name2" msprop:Generator_ColumnPropNameInTable="Name2Column" msprop:Generator_UserColumnName="Name2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParentSubCodeID1" msprop:Generator_ColumnVarNameInTable="columnParentSubCodeID1" msprop:Generator_ColumnPropNameInRow="ParentSubCodeID1" msprop:Generator_ColumnPropNameInTable="ParentSubCodeID1Column" msprop:Generator_UserColumnName="ParentSubCodeID1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
